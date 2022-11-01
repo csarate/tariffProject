@@ -1,0 +1,18 @@
+
+upython:S1192§"WDefine a constant instead of duplicating this literal 'data_to_post form = {}' 4 times.(‰öƒñıÿÿÿÿ
+kpython:S1192»"MDefine a constant instead of duplicating this literal 'saving files' 4 times.(Ã×¶şÿÿÿÿ
+upython:S1192˜"WDefine a constant instead of duplicating this literal 'Domestica Alto Consumo' 5 times.(ûà’¼ùÿÿÿÿ
+gpython:S1192˜"IDefine a constant instead of duplicating this literal 'Tarifa 1' 4 times.(ûà’¼ùÿÿÿÿ
+rpython:S117"VRename this local variable "l_DAC" to match the regular expression ^[_a-z][a-z0-9_]*$.(æÈÔ€ÿÿÿÿÿ
+rpython:S117"VRename this local variable "l_DBC" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ë€Œ şÿÿÿÿ
+Apython:S1481b")Remove the unused local variable "m_kv1".(Úù¹³
+Fpython:S1481g")Remove the unused local variable "m_kv2".(Ï—ıÃùÿÿÿÿ
+:python:S3457º"Remove this unused argument.(§ÆŞ…üÿÿÿÿ
+5python:S3457æ"Remove this unused argument.(ï¡¢Ş
+5python:S3457è"Remove this unused argument.(´¸Ù½
+Lpython:S1172ú"3Remove the unused function parameter "output_path".(éâÉª
+Opython:S1172ú"6Remove the unused function parameter "time_to_search".(éâÉª
+spython:S117Š"VRename this local variable "l_DAC" to match the regular expression ^[_a-z][a-z0-9_]*$.(ö¿ëÅøÿÿÿÿ
+spython:S117Š"VRename this local variable "l_DBC" to match the regular expression ^[_a-z][a-z0-9_]*$.(ö¿ëÅøÿÿÿÿ
+Ppython:S1481ş"2Remove the unused local variable "beginning_time".(«ò÷Ãüÿÿÿÿ
+mpython:S3776ú"TRefactor this function to reduce its Cognitive Complexity from 42 to the 15 allowed.(éâÉª

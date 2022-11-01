@@ -1,0 +1,48 @@
+,Tarifa 1 - R1,Unnamed: 0,Unnamed: 1,Unnamed: 2
+0,Cargo Fijo,,$/mes,"122,35"
+1,Cargo Variable,,$/kWh,"5,2206"
+2,Tarifa 1 - R2,,,
+3,Cargo Fijo 151-325,,$/mes,"329,76"
+4,Cargo Variable 151-325,,$/kWh,"4,8981"
+5,Cargo Fijo 326-400,,$/mes,"406,31"
+6,Cargo Variable 326-400,,$/kWh,"4,9421"
+7,Cargo Fijo 401-450,,$/mes,"541,26"
+8,Cargo Variable 401-450,,$/kWh,"5,0934"
+9,Cargo Fijo 451-500,,$/mes,"639,48"
+10,Cargo Variable 451-500,,$/kWh,"5,1770"
+11,Cargo Fijo 501-600,,$/mes,"1.046,91"
+12,Cargo Variable 501-600,,$/kWh,"5,5277"
+13,Cargo Fijo 601-700,,$/mes,"1.423,74"
+14,Cargo Variable 601-700,,$/kWh,"5,7912"
+15,Cargo Fijo 701-1400,,$/mes,"2.034,94"
+16,Cargo Variable 701-1400,,$/kWh,"5,9569"
+17,Cargo Fijo +1400,,$/mes,"2.433,68"
+18,Cargo Variable +1400,,$/kWh,"5,9912"
+19,Tarifa 1 - G1,,,
+20,Cargo Fijo,,$/mes,"380,33"
+21,Cargo Variable,,$/kWh,"8,0985"
+22,Tarifa 1 - G2,,,
+23,Cargo Fijo,,$/mes,"2.773,83"
+24,Cargo Variable,,$/kWh,"7,6061"
+25,Tarifa 1 - G3,,,
+26,Cargo Fijo,,$/mes,"7.713,34"
+27,Cargo Variable,,$/kWh,"7,1971"
+28,Tarifa 1 - AP,,,
+29,Cargo Variable,,$/kWh,"6,6060"
+30,Tarifa 2,,,
+31,Cargo por Potencia,,$/kW-mes,"559,19"
+32,Cargo Variable,,$/kWh,"7,3646"
+33,Tarifa 3 - BT  < 300 kW,,,
+34,Cargo Pot. Pico,,$/kW-mes,"563,86"
+35,Cargo Pot. F. Pico,,$/kW-mes,"394,17"
+36,Cargo Variable Pico,,$/kWh,"5,7034"
+37,Cargo Variable Resto,,$/kWh,"5,4679"
+38,Cargo Variable Valle,,$/kWh,"5,2324"
+39,Tarifa 3 - MT < 300 kW,,,
+40,Cargo Pot. Pico,,$/kW-mes,"432,85"
+41,Cargo Pot. F. Pico,,$/kW-mes,"293,13"
+42,Cargo Variable Pico,,$/kWh,"5,1615"
+43,Cargo Variable Resto,,$/kWh,"4,9487"
+44,Cargo Variable Valle,,$/kWh,"4,7360"
+45,Tarifa 3 - AT < 300 kW,,,
+46,Cargo Pot. Pico,,$/kW-mes,"161,26"

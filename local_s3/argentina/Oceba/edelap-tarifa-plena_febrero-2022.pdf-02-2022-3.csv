@@ -1,0 +1,38 @@
+,Cargo Variable Valle,$/MWh,"583,29"
+0,Tarifa 5 - AT  Otros prestadores (No Residencial >= 300 kW),,
+1,Cargo Pot. Pico,$/MW-mes,"69.444,01"
+2,Cargo Pot. F. Pico,$/MW-mes,"55.268,83"
+3,Cargo Variable Pico,$/MWh,"236,43"
+4,Cargo Variable Resto,$/MWh,"236,29"
+5,Cargo Variable Valle,$/MWh,"236,15"
+6,Servicio de rehabilitación,,
+7,Tarifa 1 - R1,$,"138,69"
+8,Tarifa 1 - G y AP,$,"839,70"
+9,Tarifa 2 y Tarifa 3,$,"1.845,66"
+10,Conexiones domiciliarias,,
+11,Comunes,,
+12,Aéreas monofásicas,$,"1.005,01"
+13,Subterráneas,$,"2.250,30"
+14,Aéreas trifásicas,$,"1.370,97"
+15,Subterráneas Trifásicas,$,"3.440,37"
+16,Especiales,,
+17,Aéreas monofásicas,$,"1.267,60"
+18,Subterráneas,$,"4.078,46"
+19,Aéreas trifásicas,$,"2.233,28"
+20,Subterráneas Trifásicas,$,"4.216,53"
+21,CARGOS POR CONTRASTE DE MEDIDORES DE ENERGÍA,,
+22,MONOFÁSICO,,
+23,Pequeñas in situ,$,"151,09"
+24,Pequeñas en Laboratorio,$,"188,86"
+25,TRIFÁSICO,,
+26,Pequeñas in situ,$,"226,62"
+27,Pequeñas en Laboratorio,$,"339,95"
+28,Medianas y grandes demandas in situ,$,"839,36"
+29,Medianas y grandes demandas en Laboratorio,$,"1.133,14"
+30,COSTO DE LA ENERGÍA NO SUMINISTRADA,,
+31,CENS T1,$/kWh,"34,1230"
+32,CENS T2 y T3,$/kWh,"139,4922"
+33,RECARGOS POR BAJO COSENO DE FI,,
+34,SUMINISTROS EN BAJA TENSIÓN,$/kvarh,"0,6774"
+35,SUMINISTROS EN BAJA TENSIÓN,$/kvarh,"0,6774"
+36,SUMINISTROS EN BAJA TENSIÓN,$/kvarh,"0,6774"

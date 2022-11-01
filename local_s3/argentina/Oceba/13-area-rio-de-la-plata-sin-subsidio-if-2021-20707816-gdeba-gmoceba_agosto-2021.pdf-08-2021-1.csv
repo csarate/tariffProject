@@ -1,0 +1,10 @@
+,Cargo Variable +700,$/kWh,"8,7439"
+0,Tarifa 4 - No Residencial,,
+1,Cargo Fijo 0-325,$/mes,"626,44"
+2,Cargo Variable 0-325,$/kWh,"8,3450"
+3,Cargo Fijo 326-500,$/mes,"893,34"
+4,Cargo Variable 326-500,$/kWh,"8,4994"
+5,Cargo Fijo 501-700,$/mes,"1.425,45"
+6,Cargo Variable 501-700,$/kWh,"8,7131"
+7,Cargo Fijo +700,$/mes,"1.906,83"
+8,Cargo Variable +700,$/kWh,"8,7439"

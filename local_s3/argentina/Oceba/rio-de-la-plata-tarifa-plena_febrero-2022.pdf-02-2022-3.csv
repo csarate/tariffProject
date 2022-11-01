@@ -1,0 +1,27 @@
+,Conexiones domiciliarias,Unnamed: 0,Unnamed: 1
+0,Comunes,,
+1,Aéreas monofásicas,$,"1.005,01"
+2,Subterráneas,$,"2.250,30"
+3,Aéreas trifásicas,$,"1.370,97"
+4,Subterráneas Trifásicas,$,"3.440,37"
+5,Especiales,,
+6,Aéreas monofásicas,$,"1.267,60"
+7,Subterráneas,$,"4.078,46"
+8,Aéreas trifásicas,$,"2.233,28"
+9,Subterráneas Trifásicas,$,"4.216,53"
+10,CARGOS POR CONTRASTE DE MEDIDORES DE ENERGÍA,,
+11,MONOFÁSICO,,
+12,Pequeñas in situ,$,"151,09"
+13,Pequeñas en Laboratorio,$,"188,86"
+14,TRIFÁSICO,,
+15,Pequeñas in situ,$,"226,62"
+16,Pequeñas en Laboratorio,$,"339,95"
+17,Medianas y grandes demandas in situ,$,"839,36"
+18,Medianas y grandes demandas en Laboratorio,$,"1.133,14"
+19,COSTO DE LA ENERGÍA NO SUMINISTRADA,,
+20,CENS T1,$/kWh,"34,1230"
+21,CENS T2 y T3,$/kWh,"139,4922"
+22,RECARGOS POR BAJO COSENO DE FI,,
+23,SUMINISTROS EN BAJA TENSIÓN,$/kvarh,"0,6774"
+24,SUMINISTROS EN BAJA TENSIÓN,$/kvarh,"0,6774"
+25,SUMINISTROS EN BAJA TENSIÓN,$/kvarh,"0,6774"

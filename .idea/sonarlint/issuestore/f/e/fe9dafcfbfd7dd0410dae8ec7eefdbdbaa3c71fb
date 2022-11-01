@@ -1,0 +1,9 @@
+
+opython:S1542W"WRename function "save_URL_files_s3" to match the regular expression ^[a-z_][a-z0-9_]*$.(Ûšõ³
+ppython:S1542n"SRename function "DF_from_files" to match the regular expression ^[a-z_][a-z0-9_]*$.(–Œã“ûÿÿÿÿ
+Epython:S1481t"(Remove the unused local variable "lote".(“—Ä¿üÿÿÿÿ
+Hpython:S5806|"+Rename this variable; it shadows a builtin.(Ó¥î´ûÿÿÿÿ
+opython:S117½"WRename this local variable "AllCol" to match the regular expression ^[_a-z][a-z0-9_]*$.(ıùÒÏ
+Fpython:S1481ƒ"-Remove the unused local variable "df_tariff".(»ãüõ
+Ppython:S1481"2Remove the unused local variable "type_of_tariff".(üîúöüÿÿÿÿ
+Ppython:S1481’"2Remove the unused local variable "type_of_tariff".(µ†³ûÿÿÿÿ

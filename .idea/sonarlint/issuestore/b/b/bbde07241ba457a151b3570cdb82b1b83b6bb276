@@ -1,0 +1,14 @@
+
+cpython:S1192‡"JDefine a constant instead of duplicating this literal 'Flat rate' 3 times.(ˆçÎ¨
+hpython:S1192«"ODefine a constant instead of duplicating this literal 'Medium Voltage' 4 times.(ÜÅÎÇ
+epython:S1192…"LDefine a constant instead of duplicating this literal 'Low Voltage' 5 times.(Áæœï
+cpython:S1192u"KDefine a constant instead of duplicating this literal 'Cargo Fijo' 4 times.(»îð„
+=python:S1481)"%Remove the unused local variable "e".(É†­Â
+npython:S117;"WRename this local variable "AllCol" to match the regular expression ^[_a-z][a-z0-9_]*$.(ýùÒÏ
+qpython:S117É"YRename this local variable "DS_Add_1" to match the regular expression ^[_a-z][a-z0-9_]*$.(ç÷€“
+vpython:S117Ë"YRename this local variable "DS_Add_2" to match the regular expression ^[_a-z][a-z0-9_]*$.(çå€Œþÿÿÿÿ
+zpython:S117<"^Rename this local variable "DS_IDB_Result" to match the regular expression ^[_a-z][a-z0-9_]*$.(á•…Ôúÿÿÿÿ
+spython:S117…"[Rename this local variable "dicDayTime" to match the regular expression ^[_a-z][a-z0-9_]*$.(ØËŸ
+spython:S117ù"[Rename this local variable "dicVoltage" to match the regular expression ^[_a-z][a-z0-9_]*$.(¼îø
+Epython:S1481“"'Remove the unused local variable "lst".(ÍÜÀúÿÿÿÿ
+qpython:S3776."TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(éñˆÇøÿÿÿÿ

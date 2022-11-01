@@ -1,0 +1,248 @@
+[20221018_183241] -> Started the scraping of Argentina tariffs 
+[20221018_183309] -> Execution time = 0 sec 
+[20221018_183329] -> Connected to https://www.enre.gov.ar/web/TARIFASD.nsf/                todoscuadros?OpenView&Start=1 
+[20221018_183329] -> Scraping Tariff of period 10-2022 
+[20221018_183330] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/0AC033A95201E95B032588BC004F9B58?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183330] -> Scraping Tariff of period 09-2022 
+[20221018_183331] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/EB3643E64C0963C7032588D8004CB1D9?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183331] -> Scraping Tariff of period 08-2022 
+[20221018_183331] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/6831EEB39C0A5E2F032586CB006834CA?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183331] -> Scraping Tariff of period 07-2022 
+[20221018_183332] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/DA9ACE2067B6D9F70325889100482B86?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183332] -> Scraping Tariff of period 06-2022 
+[20221018_183333] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/498ACB3ED0593512032588780042D316?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183333] -> Scraping Tariff of period 05-2022 
+[20221018_183333] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/C39BA4874DCA1FEF03258854004FBE7D?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183333] -> Scraping Tariff of period 04-2022 
+[20221018_183334] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/7C227DFFA0FE78E50325883E00447666?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183334] -> Scraping Tariff of period 03-2022 
+[20221018_183335] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/48824D6A4004EBF003258817004F77C7?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183335] -> Scraping Tariff of period 02-2022 
+[20221018_183335] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/5D4ED20FA7B6F178032587F900498F9E?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183335] -> Scraping Tariff of period 01-2022 
+[20221018_183336] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/1A23678857CF4F52032587DC00470075?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183336] -> Scraping Tariff of period 12-2021 
+[20221018_183337] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/DDF4353C1DF6BE83032587C2004A585B?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183337] -> Scraping Tariff of period 11-2021 
+[20221018_183337] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/864A1B33089A31DB0325879F0056728F?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183337] -> Scraping Tariff of period 10-2021 
+[20221018_183338] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/4BDE097A91DF45B803258782005FB081?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183338] -> Scraping Tariff of period 09-2021 
+[20221018_183339] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/1114B9B7DA3B591403258782005FB1D3?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183339] -> Scraping Tariff of period 09-2021 
+[20221018_183339] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/83B9F1F2431ED38D03258765006CE725?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183339] -> Scraping Tariff of period 08-2021 
+[20221018_183340] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/3B2764763A9691BF0325874400692B85?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183340] -> Scraping Tariff of period 07-2021 
+[20221018_183341] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/DC78EF599B10BE7903258725005C5160?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183341] -> Scraping Tariff of period 06-2021 
+[20221018_183342] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/F193D9F12D43274703258705006CCE72?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183342] -> Scraping Tariff of period 05-2021 
+[20221018_183342] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/79123FCF710FEC8A032586EA0069857B?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183342] -> Scraping Tariff of period 04-2021 
+[20221018_183343] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/3163BDF9D27173D2032586CB00623F0F?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183343] -> Scraping Tariff of period 03-2021 
+[20221018_183344] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/147313FE0361E06B03258565006E0978?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183344] -> Scraping Tariff of period 02-2021 
+[20221018_183344] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/05E1B317C330ACAF0325869D00469D7D?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183344] -> Scraping Tariff of period 01-2021 
+[20221018_183345] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/9C581938DAD46CAF03258673004A67D2?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183345] -> Scraping Tariff of period 12-2020 
+[20221018_183346] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/ABB10A0B4CE5263303258656005BD2BC?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183346] -> Scraping Tariff of period 11-2020 
+[20221018_183346] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/B701441666FD2ADA03258633004EC56B?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183346] -> Scraping Tariff of period 10-2020 
+[20221018_183347] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/8F70D1DBF34A8B230325861A007847B9?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183347] -> Scraping Tariff of period 09-2020 
+[20221018_183347] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/D7FC309698ECD721032585F400492002?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183347] -> Scraping Tariff of period 08-2020 
+[20221018_183348] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/6B2BEC32A2AC7609032585D600637E14?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183348] -> Scraping Tariff of period 07-2020 
+[20221018_183349] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/1A88FD41AF110100032585BB0069837B?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183349] -> Scraping Tariff of period 06-2020 
+[20221018_183349] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/94B8BA65F067A0A30325859E006B26EA?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183349] -> Execution time = 40 sec 
+[20221018_183350] -> Connected to https://www.enre.gov.ar/web/TARIFASD.nsf/                todoscuadros?OpenView&Start=31 
+[20221018_183350] -> Scraping Tariff of period 05-2020 
+[20221018_183350] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/BF5A48FC55F0A62A0325857B004EB46A?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183350] -> Scraping Tariff of period 04-2020 
+[20221018_183351] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/58B5C36D3B93EF22032585650075ACB9?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183351] -> Scraping Tariff of period 03-2020 
+[20221018_183351] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/2A1019DE2CCBCB7C032583940066DE7F?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183351] -> Scraping Tariff of period 02-2020 
+[20221018_183352] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/13EE2193D92C6D9403258523004AE924?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183352] -> Scraping Tariff of period 01-2020 
+[20221018_183353] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/F0C98543ABD90DC80325850600481B25?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183353] -> Scraping Tariff of period 12-2019 
+[20221018_183353] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/1261EE2257A16481032584E900530B33?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183353] -> Scraping Tariff of period 11-2019 
+[20221018_183354] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/B0FE4368C6C172F8032584CB00649720?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183354] -> Scraping Tariff of period 10-2019 
+[20221018_183354] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/44A37B73E63E1115032584A500542D53?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183354] -> Scraping Tariff of period 09-2019 
+[20221018_183355] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/3B6FC33B0E73C5130325848C004CFA42?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183355] -> Scraping Tariff of period 08-2019 
+[20221018_183356] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/9525DA3A9CD48ED70325846A00470728?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183356] -> Scraping Tariff of period 07-2019 
+[20221018_183356] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/AD1D25671460A0E6032584560053582E?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183356] -> Scraping Tariff of period 06-2019 
+[20221018_183357] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/85F639A05371E6260325842D004C4C1F?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183357] -> Scraping Tariff of period 05-2019 
+[20221018_183358] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/3928A200C6E71527032584160069DB4C?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183358] -> Scraping Tariff of period 04-2019 
+[20221018_183358] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/DB84A982895EEC06032583EF0054B3C7?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183358] -> Scraping Tariff of period 03-2019 
+[20221018_183359] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/BE0CB7B5CD2191FD032583DA0047B36C?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183359] -> Scraping Tariff of period 02-2019 
+[20221018_183400] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/C0F1BC89F80A5F94032583B50066FBB9?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183400] -> Scraping Tariff of period 01-2019 
+[20221018_183400] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/86BEB5538808F8A7032583670049BF64?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183400] -> Scraping Tariff of period 12-2018 
+[20221018_183401] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/45AE7393B899A89F032583930062E254?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183401] -> Scraping Tariff of period 11-2018 
+[20221018_183401] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/B54FE7659BDBB1E4032583670049B786?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183401] -> Scraping Tariff of period 10-2018 
+[20221018_183402] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/3F0E75E6CB310948032582A9005312AF?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183402] -> Scraping Tariff of period 09-2018 
+[20221018_183403] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/3779AB395FFB47CF032583670049C75B?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183403] -> Scraping Tariff of period 08-2018 
+[20221018_183403] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/9AACFC92A1900FA6032582EC00745AA9?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183403] -> Scraping Tariff of period 07-2018 
+[20221018_183404] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/0391BC84DFE8176D032582E800501696?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183404] -> Scraping Tariff of period 06-2018 
+[20221018_183405] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/5F5ED1FC8B1AF22C032582CE004A4A68?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183405] -> Scraping Tariff of period 05-2018 
+[20221018_183405] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/5F38C9C3B1560E2A032582A900530FD8?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183405] -> Scraping Tariff of period 04-2018 
+[20221018_183406] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/40567C3D6B9FAC70032582A900530A5A?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183406] -> Scraping Tariff of period 03-2018 
+[20221018_183407] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/0BCAEE58E935AB080325823B0068CC17?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183407] -> Scraping Tariff of period 02-2018 
+[20221018_183407] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/971D78FC51FE954C032582A900531487?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183407] -> Scraping Tariff of period 01-2018 
+[20221018_183408] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/5C923AF9F888C6640325823B00629CF4?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183408] -> Scraping Tariff of period 12-2017 
+[20221018_183409] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/1F06D954FDA5F6240325823B00683FB6?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183409] -> Execution time = 59 sec 
+[20221018_183409] -> Connected to https://www.enre.gov.ar/web/TARIFASD.nsf/                todoscuadros?OpenView&Start=61 
+[20221018_183409] -> Scraping Tariff of period 11-2017 
+[20221018_183443] -> saved the file argentina_tariff_ENRE_201711_social_tariff.csv from period 11-2017 
+[20221018_183443] -> Scraping Tariff of period 11-2017 
+[20221018_183443] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/EDB58FB48233BF06032581A0006383C5?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183443] -> Scraping Tariff of period 10-2017 
+[20221018_183444] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/59148E4DEEE5AC240325823B005E235D?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183444] -> Scraping Tariff of period 10-2017 
+[20221018_183523] -> saved the file argentina_tariff_ENRE_201710_social_tariff.csv from period 10-2017 
+[20221018_183523] -> Scraping Tariff of period 09-2017 
+[20221018_183524] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/383FBD9920D428F40325823B005E0E5E?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183524] -> Scraping Tariff of period 09-2017 
+[20221018_183525] -> saved the file argentina_tariff_ENRE_201709_social_tariff.csv from period 09-2017 
+[20221018_183525] -> Scraping Tariff of period 08-2017 
+[20221018_183527] -> saved the file argentina_tariff_ENRE_201708_social_tariff.csv from period 08-2017 
+[20221018_183527] -> Scraping Tariff of period 08-2017 
+[20221018_183527] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/6AF8AC5349E1B30C0325823B005E010F?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183527] -> Scraping Tariff of period 07-2017 
+[20221018_183529] -> saved the file argentina_tariff_ENRE_201707_social_tariff.csv from period 07-2017 
+[20221018_183529] -> Scraping Tariff of period 07-2017 
+[20221018_183530] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/376AFD2D2D8BD45E0325823B005DEBE6?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183530] -> Scraping Tariff of period 06-2017 
+[20221018_183530] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/7B1D6DBE45E5B3B40325823B005DDDBD?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183530] -> Scraping Tariff of period 06-2017 
+[20221018_183532] -> saved the file argentina_tariff_ENRE_201706_social_tariff.csv from period 06-2017 
+[20221018_183532] -> Scraping Tariff of period 05-2017 
+[20221018_183534] -> saved the file argentina_tariff_ENRE_201705_social_tariff.csv from period 05-2017 
+[20221018_183534] -> Scraping Tariff of period 05-2017 
+[20221018_183534] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/CA083D66854DE2B70325823B005DCF81?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183534] -> Scraping Tariff of period 04-2017 
+[20221018_183535] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/126AB1BA5E8C38E90325823B005DC11A?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183535] -> Scraping Tariff of period 04-2017 
+[20221018_183537] -> saved the file argentina_tariff_ENRE_201704_social_tariff.csv from period 04-2017 
+[20221018_183537] -> Scraping Tariff of period 03-2017 
+[20221018_183538] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/D54B100C66AB5DBA0325823B005D9C75?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183538] -> Scraping Tariff of period 03-2017 
+[20221018_183539] -> saved the file argentina_tariff_ENRE_201703_social_tariff.csv from period 03-2017 
+[20221018_183539] -> Scraping Tariff of period 02-2017 
+[20221018_183540] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/0AA7F748AD9D441A032581F7007200D2?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183540] -> Scraping Tariff of period 02-2017 
+[20221018_183542] -> saved the file argentina_tariff_ENRE_201702_social_tariff.csv from period 02-2017 
+[20221018_183542] -> Scraping Tariff of period 01-2017 
+[20221018_183543] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/0E295D74D1F6EEF503258100007403D5?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183543] -> Scraping Tariff of period 12-2016 
+[20221018_183544] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/F3445D62ABDACAF50325810000740207?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183544] -> Scraping Tariff of period 11-2016 
+[20221018_183545] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/02AAA1FBEE58DF4D032581000073FF51?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183545] -> Scraping Tariff of period 10-2016 
+[20221018_183546] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/5382B612B48FC07E032581000073FE4C?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183546] -> Scraping Tariff of period 09-2016 
+[20221018_183547] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/3F43DA5BE61ED68B032581000073FD1A?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183547] -> Scraping Tariff of period 08-2016 
+[20221018_183548] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/4FD2174F2E58B221032581000073FB75?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183548] -> Scraping Tariff of period 07-2016 
+[20221018_183549] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/F006DDAA5F3D96EB032581000073FA77?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183549] -> Scraping Tariff of period 06-2016 
+[20221018_183550] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/67C580E66A89F871032581000073F8EB?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183550] -> Scraping Tariff of period 05-2016 
+[20221018_183551] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/C35EF31C18D6D5B1032581000070BB18?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183551] -> Scraping Tariff of period 04-2016 
+[20221018_183552] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/E911AA393583946A032581000074075A?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183552] -> Execution time = 163 sec 
+[20221018_183552] -> Connected to https://www.enre.gov.ar/web/TARIFASD.nsf/                todoscuadros?OpenView&Start=91 
+[20221018_183553] -> Scraping Tariff of period 03-2016 
+[20221018_183554] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/CE4589B52A8D25BC0325810000740622?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183554] -> Scraping Tariff of period 02-2016 
+[20221018_183555] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/025C6EEB3DF658D8032581000074050E?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183555] -> Scraping Tariff of period 02-2016 
+[20221018_183555] -> Scraping Tariff of period 02-2016 
+[20221018_183555] -> Scraping Tariff of period 01-2016 
+[20221018_183557] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/9D387E66E681520003257F640056D41D?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183557] -> Scraping Tariff of period 12-2015 
+[20221018_183558] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/10BA3BDD0C205E8C03257F640056E81A?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183558] -> Scraping Tariff of period 11-2015 
+[20221018_183559] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/3EC4B1D80551042903257F640056D1E9?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183559] -> Scraping Tariff of period 10-2015 
+[20221018_183601] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/07D74FB7FCE8472903257F030067D7DF?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183601] -> Scraping Tariff of period 09-2015 
+[20221018_183602] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/58F95CA2C6962E5703257F030067D4E1?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183602] -> Scraping Tariff of period 08-2015 
+[20221018_183603] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/AE2BCFB3BE59B30D03257F030067D3B8?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183603] -> Scraping Tariff of period 07-2015 
+[20221018_183604] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/F81DD593EC9F6FEF03257F030067CEDB?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183604] -> Scraping Tariff of period 06-2015 
+[20221018_183605] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/B485F275E17D3E1503257F030067D03A?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183605] -> Scraping Tariff of period 05-2015 
+[20221018_183607] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/BF269D21C82C832E03257DD90066C141?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183607] -> Scraping Tariff of period 04-2015 
+[20221018_183608] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/8288E2909C27597E03257F030067CB92?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183608] -> Scraping Tariff of period 03-2015 
+[20221018_183610] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/8A11B2C21DF8B1A903257F030067DD8D?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183610] -> Scraping Tariff of period 02-2015 
+[20221018_183611] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/01F3C4E12E39C3E603257F030067D90A?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183611] -> Scraping Tariff of period 01-2015 
+[20221018_183612] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/21CDB8B721EA7E1803257F030067D264?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183612] -> Scraping Tariff of period 12-2014 
+[20221018_183614] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/C535384CC3E0B2F303257DD90066D624?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183614] -> Scraping Tariff of period 11-2014 
+[20221018_183615] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/C8A020F957DF4B2C03257DD90066BE1D?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183615] -> Scraping Tariff of period 10-2014 
+[20221018_183616] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/6518885242C80C2103257B580063DDD7?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183616] -> Scraping Tariff of period 09-2014 
+[20221018_183618] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/2BC387B8383F5B5903257D80004FBA99?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183618] -> Scraping Tariff of period 08-2014 
+[20221018_183619] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/8E28614654B48F6303257D80004FBBDE?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183619] -> Scraping Tariff of period 07-2014 
+[20221018_183621] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/1BBD9DF9857A616803257D80004FBCD8?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183621] -> Scraping Tariff of period 06-2014 
+[20221018_183623] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/F0944D558A37839D03257D80004FBDFD?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183623] -> Scraping Tariff of period 05-2014 
+[20221018_183625] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/CD91CA303CDFB9A203257D80004FCA2D?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183625] -> Scraping Tariff of period 04-2014 
+[20221018_183627] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/B348626AFFB7EDFD03257D80004FBEF0?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183627] -> Scraping Tariff of period 03-2014 
+[20221018_183628] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/6EF218A51570D45803257D80004FC00F?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183628] -> Scraping Tariff of period 02-2014 
+[20221018_183630] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/C871855DDFECE28903257D80004FC3B6?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183630] -> Scraping Tariff of period 01-2014 
+[20221018_183632] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/DFFF717FA1E97B0E03257D80004FB997?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183632] -> Scraping Tariff of period 12-2013 
+[20221018_183633] -> fail to parse tariff table from link https://www.enre.gov.ar/web/Tarifasd.nsf/todoscuadros/15D845BB5AD5898F03257D80004F9C4D?opendocument,                            with error 'NavigableString' object has no attribute 'text' 
+[20221018_183633] -> #### Argentina Scraping NOT finished #### 

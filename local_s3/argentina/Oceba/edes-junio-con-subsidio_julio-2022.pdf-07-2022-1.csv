@@ -1,0 +1,11 @@
+,CARGO VARIABLE R1(consumo en kWH-Mes ≤ 100),Unnamed: 0,"6,1508",$/kWh
+0,CARGO FIJO R2,,"269,26",$/mes
+1,CARGO VARIABLE R2 ( 100 < consumo en kWH-Mes ≤ 200),,"6,6304",$/kWh
+2,CARGO FIJO R3,,"367,08",$/mes
+3,CARGO VARIABLE R3 ( 200 < consumo en kWH-Mes ≤ 400),,"7,0475",$/kWh
+4,CARGO FIJO R4,,"455,55",$/mes
+5,CARGO VARIABLE R4 ( 400 < consumo en kWH-Mes ≤ 500),,"7,3387",$/kWh
+6,CARGO FIJO R5,,"730,36",$/mes
+7,CARGO VARIABLE R5 ( 500 < consumo en kWH-Mes ≤ 700),,"7,7720",$/kWh
+8,CARGO FIJO R6,,"1.182,13",$/mes
+9,CARGO VARIABLE R6 ( 700 < consumo en kWH-Mes ≤ 1400),,"8,2697",$/kWh

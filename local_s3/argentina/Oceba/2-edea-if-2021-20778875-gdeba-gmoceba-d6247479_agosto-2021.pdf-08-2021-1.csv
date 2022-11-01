@@ -1,0 +1,22 @@
+,CARGO VARIABLE T4NR1 (consumo en kWH-Mes ≤ 500),"4,1059 $/kWh"
+0,CARGO FIJO T4NR2,"520,23 $/mes"
+1,CARGO VARIABLE T4NR2 ( 500 < consumo en kWH-Mes ≤ 700),"4,2966 $/kWh"
+2,CARGO FIJO T4NR3,"649,93 $/mes"
+3,CARGO VARIABLE T4NR3 ( 700 < consumo en kWH-Mes ≤ 1400),"4,4836 $/kWh"
+4,CARGO FIJO T4NR4,"743,04 $/mes"
+5,CARGO VARIABLE T4NR4(consumo en kWH-Mes > 1400),"4,7674 $/kWh"
+6,TABLA DE PERDIDAS DE TRANSFORMACION CLIENTES RURALES,
+7,5 KVA monofásico,27 kWh/mes
+8,10 KVA monofásico,43 kWh/mes
+9,15 KVA monofásico,52 kWh/mes
+10,16 KVA monofásico,57 kWh/mes
+11,10 KVA trifásico,70 kWh/mes
+12,15 KVA trifásico,86 kWh/mes
+13,16 KVA trifásico,91 kWh/mes
+14,20 KVA trifásico,108 kWh/mes
+15,25 KVA trifásico,124 kWh/mes
+16,30 KVA trifásico,136 kWh/mes
+17,40 KVA trifásico,166 kWh/mes
+18,50 KVA trifásico,186 kWh/mes
+19,63 KVA trifásico,216 kWh/mes
+20,100 KVA trifásico,251 kWh/mes

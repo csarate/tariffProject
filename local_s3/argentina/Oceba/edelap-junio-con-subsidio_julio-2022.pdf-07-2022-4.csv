@@ -1,0 +1,54 @@
+,Tarifa 1 - R1,Unnamed: 0,Unnamed: 1,Unnamed: 2
+0,Cargo Fijo,,$/mes,"122,35"
+1,Cargo Variable,,$/kWh,"0,0000"
+2,Tarifa 1 - R2,,,
+3,Cargo Fijo 151-325,,$/mes,"329,76"
+4,Cargo Variable 151-325,,$/kWh,"3,0732"
+5,Cargo Variable 300-325,,$/kWh,"4,8981"
+6,Cargo Fijo 326-400,,$/mes,"406,31"
+7,Cargo Variable 326-400,,$/kWh,"4,9421"
+8,Cargo Fijo 401-450,,$/mes,"541,26"
+9,Cargo Variable 401-450,,$/kWh,"5,0934"
+10,Cargo Fijo 451-500,,$/mes,"639,48"
+11,Cargo Variable 451-500,,$/kWh,"5,1770"
+12,Cargo Fijo 501-600,,$/mes,"1.046,91"
+13,Cargo Variable 501-600,,$/kWh,"5,5277"
+14,Cargo Fijo 601-700,,$/mes,"1.423,74"
+15,Cargo Variable 601-700,,$/kWh,"5,7912"
+16,Cargo Fijo 701-1400,,$/mes,"2.034,94"
+17,Cargo Variable 701-1400,,$/kWh,"5,9569"
+18,Cargo Fijo +1400,,$/mes,"2.433,68"
+19,Cargo Variable +1400,,$/kWh,"5,9912"
+20,Tarifa 4 - Residencial,,,
+21,Cargo Fijo 0-325,,$/mes,"499,83"
+22,Cargo Variable 0-150,,$/kWh,"0,0000"
+23,Cargo Variable 151-300,,$/kWh,"2,3966"
+24,Cargo Variable 300-325,,$/kWh,"4,0452"
+25,Cargo Fijo 326-500,,$/mes,"858,00"
+26,Cargo Variable 326-500,,$/kWh,"4,2524"
+27,Cargo Fijo 501-700,,$/mes,"1.572,10"
+28,Cargo Variable 501-700,,$/kWh,"4,5391"
+29,Cargo Fijo +700,,$/mes,"2.218,11"
+30,Cargo Variable +700,,$/kWh,"4,5805"
+31,TABLA DE PERDIDAS DE TRANSFORMACION CLIENTES RURALES,,,
+32,5 KVA monofásico,,kWh/mes,27
+33,10 KVA monofásico,,kWh/mes,43
+34,15 KVA monofásico,,kWh/mes,52
+35,16 KVA monofásico,,kWh/mes,57
+36,10 KVA trifásico,,kWh/mes,70
+37,15 KVA trifásico,,kWh/mes,86
+38,16 KVA trifásico,,kWh/mes,91
+39,20 KVA trifásico,,kWh/mes,108
+40,25 KVA trifásico,,kWh/mes,124
+41,30 KVA trifásico,,kWh/mes,136
+42,40 KVA trifásico,,kWh/mes,166
+43,50 KVA trifásico,,kWh/mes,186
+44,63 KVA trifásico,,kWh/mes,216
+45,100 KVA trifásico,,kWh/mes,251
+46,Tarifas otros prestadores,,,
+47,Tarifa 3 - BT  Otros prestadores (Residencial <= 150 kWh-mes),,,
+48,Cargo Pot. Pico,,$/kW-mes,"563,86"
+49,Cargo Pot. F. Pico,,$/kW-mes,"394,17"
+50,Cargo Variable Pico,,$/kWh,"0,1894"
+51,Cargo Variable Resto,,$/kWh,"0,1894"
+52,Cargo Variable Valle,,$/kWh,"0,1894"

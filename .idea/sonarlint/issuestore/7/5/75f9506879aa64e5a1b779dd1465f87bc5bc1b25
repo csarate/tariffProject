@@ -1,0 +1,6 @@
+
+]python:S1192"FDefine a constant instead of duplicating this literal '%m-%Y' 5 times.(¶‚—a
+lpython:S3776
+"TRefactor this function to reduce its Cognitive Complexity from 56 to the 15 allowed.(ñÍò
+Tpython:S6353‡";Use concise character class syntax '\d' instead of '[0-9]'.(Óíø¦
+Tpython:S6353‡";Use concise character class syntax '\d' instead of '[0-9]'.(Óíø¦

@@ -1,0 +1,11 @@
+
+apython:S11920"IDefine a constant instead of duplicating this literal 'data.txt' 6 times.(їдыр
+dpython:S1192W"GDefine a constant instead of duplicating this literal '#### ' 12 times.(±Фчещ€€€€
+ypython:S1192f"\Define a constant instead of duplicating this literal ' scraping NOT finished ####' 5 times.(ћё«тэ€€€€
+Бpython:S1192W"dDefine a constant instead of duplicating this literal ' scraping finished succesfully ####' 5 times.(±Фчещ€€€€
+upython:S2737F"XAdd logic to this except clause or eliminate it and rethrow the exception automatically.(ѕхоЋы€€€€
+upython:S2737j"XAdd logic to this except clause or eliminate it and rethrow the exception automatically.(ѕхоЋы€€€€
+vpython:S2737О"XAdd logic to this except clause or eliminate it and rethrow the exception automatically.(ѕхоЋы€€€€
+vpython:S2737≤"XAdd logic to this except clause or eliminate it and rethrow the exception automatically.(ѕхоЋы€€€€
+vpython:S2737÷"XAdd logic to this except clause or eliminate it and rethrow the exception automatically.(ѕхоЋы€€€€
+vpython:S2737ъ"XAdd logic to this except clause or eliminate it and rethrow the exception automatically.(ѕхоЋы€€€€

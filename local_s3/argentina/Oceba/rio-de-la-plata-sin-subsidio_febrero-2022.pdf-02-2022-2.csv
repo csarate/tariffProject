@@ -1,0 +1,11 @@
+,Cargo Variable Pico,$/kWh,"8,6805"
+0,Cargo Variable Resto,$/kWh,"8,6752"
+1,Cargo Variable Valle,$/kWh,"8,6699"
+2,l,,
+3,Cargo Fijo 0-325,$/mes,"611,12"
+4,Cargo Variable 0-325,$/kWh,"9,5305"
+5,Cargo Fijo 326-500,$/mes,"878,01"
+6,Cargo Variable 326-500,$/kWh,"9,6849"
+7,Cargo Fijo 501-700,$/mes,"1.410,12"
+8,Cargo Variable 501-700,$/kWh,"9,8986"
+9,Cargo Fijo +700,$/mes,"1.891,51"

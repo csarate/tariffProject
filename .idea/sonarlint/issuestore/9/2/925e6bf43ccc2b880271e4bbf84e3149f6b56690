@@ -1,0 +1,10 @@
+
+Zpython:S1481*"=Remove the unused local variable "tariff_table_general_link".( ¤ Ùûÿÿÿÿ
+Epython:S1481."-Remove the unused local variable "new_items".(Ÿ‡ÿÃ
+Jpython:S1481-"2Remove the unused local variable "previous_items".(¶ç£
+Epython:S1481)"-Remove the unused local variable "oceba_web".(ÛÍ™Ò
+Npython:S14811"1Remove the unused local variable "list_of_links".(¦ı¼›ÿÿÿÿÿ
+lpython:S3776"TRefactor this function to reduce its Cognitive Complexity from 31 to the 15 allowed.(ªÕ‘Î
+]python:S4830:"@Enable server certificate validation on this SSL/TLS connection.(ü¢ÈÇÿÿÿÿÿ
+Tpython:S5754K"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Tpython:S5754U"<Specify an exception class to catch or reraise the exception(ˆÊÉ·

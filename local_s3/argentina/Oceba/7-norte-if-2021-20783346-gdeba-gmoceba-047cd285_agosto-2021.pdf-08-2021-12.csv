@@ -1,0 +1,5 @@
+,CARGO POR POTENCIA FUERA PICO,"243,80",$/kW-mes
+0,SUMINISTROS >= a 50 kW de demanda (Distribuidores Municipales),,
+1,CARGO FIJO,"208,44",$/mes
+2,CARGO POR POTENCIA EN PICO,"134,55",$/kW-mes
+3,CARGO POR POTENCIA FUERA PICO,"61,69",$/kW-mes

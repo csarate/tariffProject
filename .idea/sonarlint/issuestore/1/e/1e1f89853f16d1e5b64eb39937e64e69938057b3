@@ -1,0 +1,68 @@
+
+npython:S1192Ø"UDefine a constant instead of duplicating this literal 'Tariff Voltage Group' 3 times.(€ÌŠ“
+bpython:S1192å"IDefine a constant instead of duplicating this literal 'Tarifa 1' 3 times.(ÕĞ¦ 
+upython:S1192è"WDefine a constant instead of duplicating this literal 'Domestica Alto Consumo' 3 times.(óğªÊúÿÿÿÿ
+hpython:S1192×"JDefine a constant instead of duplicating this literal '%d-%m-%Y' 18 times.(ãÊøÿÿÿÿ
+ python:S1192ï
+"†Define a constant instead of duplicating this literal 'not properly converted date.\
+                    year: {}, month: {}' 3 times.(¢ŞÆ
+dpython:S1192í
+"FDefine a constant instead of duplicating this literal '%b-%Y' 4 times.(ã™åãùÿÿÿÿ
+qpython:S1192Ä"SDefine a constant instead of duplicating this literal r'\({1}[\S\s]+\){1}' 4 times.(£Öİ·ûÿÿÿÿ
+Hpython:S1066Ì
+"/Merge this if statement with the enclosing one.(Õàú
+?python:S5780"(Change or remove duplicates of this key.(»ÁÚ<
+Xpython:S63539";Use concise character class syntax '\d' instead of '[0-9]'.(üÈ›øÿÿÿÿ
+0python:S1700¯"Rename field "selector"(Ø„í
+Fpython:S1940Ñ"-Use the opposite operator ("not in") instead.(íı†ä
+Kpython:S1940à"-Use the opposite operator ("not in") instead.(Ä˜ ëûÿÿÿÿ
+Upython:S5754ê"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Ypython:S6353ú";Use concise character class syntax '\d' instead of '[0-9]'.(Åı„ÿÿÿÿÿ
+Ypython:S6353ú";Use concise character class syntax '\d' instead of '[0-9]'.(Åı„ÿÿÿÿÿ
+Ypython:S6353û";Use concise character class syntax '\d' instead of '[0-9]'.(àÓÊÍÿÿÿÿÿ
+Gpython:S1940œ")Use the opposite operator ("!=") instead.(ÿ“Üúúÿÿÿÿ
+Ypython:S5361«"@Replace this "re.sub()" call by a "str.replace()" function call.(Ï¯ı¢
+rpython:S3776°"TRefactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.(„¬Êşÿÿÿÿ
+Upython:S112å">Replace this generic exception class with a more specific one.(Œåß%
+mpython:S1854ğ"URemove this assignment to local variable 'original_columns'; the value is never used.(§ù#
+mpython:S3776¢"TRefactor this function to reduce its Cognitive Complexity from 50 to the 15 allowed.(ªé·Ó
+Fpython:S1940Š"-Use the opposite operator ("not in") instead.(À¢Û©
+Apython:S6396Ä"#Remove this unnecessary quantifier.(£Öİ·ûÿÿÿÿ
+Apython:S6396Ä"#Remove this unnecessary quantifier.(£Öİ·ûÿÿÿÿ
+Apython:S6396ò"#Remove this unnecessary quantifier.(£Öİ·ûÿÿÿÿ
+Apython:S6396ò"#Remove this unnecessary quantifier.(£Öİ·ûÿÿÿÿ
+Çpython:S1515ø"¨Add a parameter to the parent lambda function and use variable "pattern_fijo" as its default value; The value of "pattern_fijo" might change at the next loop iteration.(·ãÓ¹ÿÿÿÿÿ
+Çpython:S1515€	"¨Add a parameter to the parent lambda function and use variable "pattern_fijo" as its default value; The value of "pattern_fijo" might change at the next loop iteration.(•Âæÿÿÿÿÿ
+rpython:S3776¼	"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(û­×Ûùÿÿÿÿ
+Apython:S6396Í	"#Remove this unnecessary quantifier.(£Öİ·ûÿÿÿÿ
+Apython:S6396Í	"#Remove this unnecessary quantifier.(£Öİ·ûÿÿÿÿ
+Apython:S6396ô	"#Remove this unnecessary quantifier.(£Öİ·ûÿÿÿÿ
+Apython:S6396ô	"#Remove this unnecessary quantifier.(£Öİ·ûÿÿÿÿ
+mpython:S3776‘
+"TRefactor this function to reduce its Cognitive Complexity from 29 to the 15 allowed.(Íåç°
+Upython:S5754³
+"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Ypython:S6353´
+";Use concise character class syntax '\d' instead of '[0-9]'.(ÔË½°ıÿÿÿÿ
+Ypython:S6353´
+";Use concise character class syntax '\d' instead of '[0-9]'.(ÔË½°ıÿÿÿÿ
+Ypython:S6353»
+";Use concise character class syntax '\d' instead of '[0-9]'.(£Ü¬´üÿÿÿÿ
+Ypython:S6353»
+";Use concise character class syntax '\d' instead of '[0-9]'.(£Ü¬´üÿÿÿÿ
+Upython:S5754î
+"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S112ñ
+">Replace this generic exception class with a more specific one.(Œåß%
+Kpython:S1940ü
+"-Use the opposite operator ("not in") instead.(€±ªüÿÿÿÿ
+Upython:S5754"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S112 ">Replace this generic exception class with a more specific one.(Œåß%
+Tpython:S6353Ç";Use concise character class syntax '\d' instead of '[0-9]'.(Ğ‹Ù
+<python:S6396È"#Remove this unnecessary quantifier.(–§‘Œ
+Upython:S5754ß"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S112ä">Replace this generic exception class with a more specific one.(Œåß%
+Tpython:S6353Ê";Use concise character class syntax '\d' instead of '[0-9]'.(Ğ‹Ù
+<python:S6396Ë"#Remove this unnecessary quantifier.(–§‘Œ
+Upython:S5754Ú"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S112ß">Replace this generic exception class with a more specific one.(Œåß%

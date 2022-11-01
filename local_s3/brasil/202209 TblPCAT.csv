@@ -1,0 +1,872 @@
+,COD,Agente,Categoria do Agente,Tipo de Processo,Data de Aniversario,Status Resultado,link
+0,7019,AME,Concessionária de Distribuição,Reajuste,01/11/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/7019 PCAT AmE 2021 V02.xlsx
+1,7019,AME,Concessionária de Distribuição,Revisão,01/11/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/7019 PCAT AmE 2020 V02.xlsx
+2,7019,AME,Concessionária de Distribuição,Reajuste,01/11/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/7019 PCAT AmE 2019 V02.xlsx
+3,7019,AME,Concessionária de Distribuição,Reajuste,01/11/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_AmE_2018 .xlsx
+4,7019,AME,Concessionária de Distribuição,Reajuste,01/11/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_AmE_2017.xlsx
+5,7019,AME,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/7019 PCAT AmE 2016 V02.xlsx
+6,7019,AME,Concessionária de Distribuição,Reajuste,01/11/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_AmE_2016.xlsx
+7,7019,AME,Concessionária de Distribuição,Reajuste,01/11/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_AmE_2015.xlsx
+8,7019,AME,Concessionária de Distribuição,Reajuste,01/11/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_AME_2014.xlsx
+9,7019,AME,Concessionária de Distribuição,Revisão,01/11/2013,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT _AME_ 2013.xlsx
+10,7019,AME,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+11,370,Boa Vista,Concessionária de Distribuição,Reajuste,01/11/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/370 PCAT Roraima Energia 2021 V02.xlsx
+12,370,Boa Vista,Concessionária de Distribuição,Revisão Extraordinária,01/11/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/370 PCAT Roraima Energia 2020 V02.xlsx
+13,370,Boa Vista,Concessionária de Distribuição,Reajuste,01/11/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/370 PCAT Boa Vista 2019 V02.xlsx
+14,370,Boa Vista,Concessionária de Distribuição,Reajuste,01/11/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Boa_Vista_2018 .xlsx
+15,370,Boa Vista,Concessionária de Distribuição,Reajuste,01/11/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Boa_Vista_2017.xlsx
+16,370,Boa Vista,Concessionária de Distribuição,Reajuste,01/11/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Boa_Vista_2016.xlsx
+17,370,Boa Vista,Concessionária de Distribuição,Reajuste,01/11/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_BoaVista_2015.xlsx
+18,370,Boa Vista,Concessionária de Distribuição,Reajuste,01/11/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_BOA_VISTA_2014.xlsx
+19,370,Boa Vista,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+20,388,CAIUÁ,Concessionária de Distribuição,Reajuste,10/05/2013,Definitivo,
+21,31,CEA,Concessionária de Distribuição,Reajuste,13/12/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/31 PCAT CEA 2021 V02.xlsx
+22,31,CEA,Concessionária de Distribuição,Reajuste,30/11/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/31 PCAT CEA 2020 V02.xlsx
+23,31,CEA,Concessionária de Distribuição,Reajuste,30/11/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/31 PCAT CEA 2019 V02.xlsx
+24,31,CEA,Concessionária de Distribuição,Reajuste,30/11/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEA_2018 .xlsx
+25,31,CEA,Concessionária de Distribuição,Revisão,30/11/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEA_2017.xlsx
+26,31,CEA,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/31 PCAT CEA 2016 V02.xlsx
+27,31,CEA,Concessionária de Distribuição,Reajuste,30/11/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEA_2016.xlsx
+28,31,CEA,Concessionária de Distribuição,Reajuste,30/11/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEA_2015.xlsx
+29,31,CEA,Concessionária de Distribuição,Reajuste,30/11/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEA_ 2014 .xlsx
+30,31,CEA,Concessionária de Distribuição,Reajuste,30/11/2013,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEEE_20131.xlsx
+31,31,CEA,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+32,105,CEB,Concessionária de Distribuição,Revisão,22/10/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/5160 PCAT CEB-DIS 2021 V02.xlsx
+33,5160,CEBDIS,Concessionária de Distribuição,Reajuste,22/10/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/5160 PCAT CEB-DIS 2020 V021.xlsx
+34,5160,CEBDIS,Concessionária de Distribuição,Reajuste,22/10/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/5160_PCAT_CEB-DIS_2019.xlsx
+35,5160,CEBDIS,Concessionária de Distribuição,Reajuste,22/10/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEB-DIS_2018.xlsx
+36,5160,CEBDIS,Concessionária de Distribuição,Revisão Extraordinária,22/06/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEB-DIS_2017 _2018.xlsx
+37,5160,CEBDIS,Concessionária de Distribuição,Reajuste,22/10/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEB-DIS_2017.xlsx
+38,5160,CEBDIS,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/5160 PCAT CEB-DIS 2016 V02.xlsx
+39,5160,CEBDIS,Concessionária de Distribuição,Revisão,22/10/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEB-DIS_2016.xlsx
+40,5160,CEBDIS,Concessionária de Distribuição,Revisão,08/04/2016,Provisório,
+41,5160,CEBDIS,Concessionária de Distribuição,Reajuste,26/08/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEB-DIS_2015.xlsx
+42,5160,CEBDIS,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEB_2014.xlsx
+43,5160,CEBDIS,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEB-DIS_20151.xlsx
+44,5160,CEBDIS,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEB_2014_CAT1.xlsx
+45,5160,CEBDIS,Concessionária de Distribuição,Reajuste,20/08/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEB_2014_CAT.xlsx
+46,5160,CEBDIS,Concessionária de Distribuição,Reajuste,26/08/2013,Definitivo,
+47,5160,CEBDIS,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+48,5160,CEBDIS,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Provisório,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEB-DIS_2013.xlsx
+49,5707,CEEE-D,Concessionária de Distribuição,Revisão,22/11/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/5707 PCAT CEEE-D 2021 V02.xlsx
+50,5707,CEEE-D,Concessionária de Distribuição,Reajuste,22/11/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/5707 PCAT CEEE-D 2020 V02.xlsx
+51,5707,CEEE-D,Concessionária de Distribuição,Reajuste,22/11/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/5707 PCAT CEEE-D 2019 V02.xlsx
+52,5707,CEEE-D,Concessionária de Distribuição,Reajuste,22/11/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/5707 PCAT CEEE-D 2018 V02.xlsx
+53,5707,CEEE-D,Concessionária de Distribuição,Reajuste,22/11/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEEE-D_2017.xlsx
+54,5707,CEEE-D,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/5707 PCAT CEEE-D 2016 V02.xlsx
+55,5707,CEEE-D,Concessionária de Distribuição,Revisão,25/10/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEEE-D_2016.xlsx
+56,5707,CEEE-D,Concessionária de Distribuição,Revisão,08/04/2016,Provisório,
+57,5707,CEEE-D,Concessionária de Distribuição,Reajuste,25/10/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEEE-D_2015.xlsx
+58,5707,CEEE-D,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEEE_2014.xlsx
+59,5707,CEEE-D,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEEE_2014_CAT.xlsx
+60,5707,CEEE-D,Concessionária de Distribuição,Reajuste,25/10/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEEE_2014 .xlsx
+61,5707,CEEE-D,Concessionária de Distribuição,Reajuste,25/10/2013,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEEE_2013.xlsx
+62,5707,CEEE-D,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+63,395,CELESC,Concessionária de Distribuição,Revisão,22/08/2021,Definitivo,
+64,395,CELESC,Concessionária de Distribuição,Revisão,12/07/2021,Definitivo,
+65,5697,CELESC-DIS,Concessionária de Distribuição,Reajuste,22/08/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/5697 PCAT Celesc-DIS 2022 V02.xlsx
+66,5697,CELESC-DIS,Concessionária de Distribuição,Revisão,22/08/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/5697 PCAT Celesc_D  RTP 2021.xlsx
+67,5697,CELESC-DIS,Concessionária de Distribuição,Reajuste,22/08/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/5697 PCAT Celesc-DIS 2020 V02.xlsx
+68,5697,CELESC-DIS,Concessionária de Distribuição,Reajuste,22/08/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/5697 PCAT Celesc-DIS 2019 V02.xlsx
+69,5697,CELESC-DIS,Concessionária de Distribuição,Reajuste,22/08/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Celesc-DIS_2018 .xlsx
+70,5697,CELESC-DIS,Concessionária de Distribuição,Reajuste,22/08/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Celesc-DIS_2017.xlsx
+71,5697,CELESC-DIS,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/5697 PCAT Celesc-DIS 2016 V02.xlsx
+72,5697,CELESC-DIS,Concessionária de Distribuição,Revisão,22/08/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Celesc-DIS_2016.xlsx
+73,5697,CELESC-DIS,Concessionária de Distribuição,Revisão,08/04/2016,Provisório,
+74,5697,CELESC-DIS,Concessionária de Distribuição,Reajuste,07/08/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Celesc-DIS_2015.xlsx
+75,5697,CELESC-DIS,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CELESC_2014.xlsx
+76,5697,CELESC-DIS,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Celesc-DIS_20151.xlsx
+77,5697,CELESC-DIS,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CELESC_2014_V00.xlsx
+78,5697,CELESC-DIS,Concessionária de Distribuição,Reajuste,07/08/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CELESC_20141.xlsx
+79,5697,CELESC-DIS,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+80,6072,CELG-D,Concessionária de Distribuição,Reajuste,22/10/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/6072 PCAT Enel GO 2021 V02.xlsx
+81,6072,CELG-D,Concessionária de Distribuição,Reajuste,22/10/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/6072 PCAT Enel GO 2020 V02.xlsx
+82,6072,CELG-D,Concessionária de Distribuição,Reajuste,22/10/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/6072 PCAT Celg-D 2019 V02.xlsx
+83,6072,CELG-D,Concessionária de Distribuição,Revisão,22/10/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Celg-D_2018.xlsx
+84,6072,CELG-D,Concessionária de Distribuição,Reajuste,22/10/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Celg-D_2017 1.xlsx
+85,6072,CELG-D,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/6072 PCAT Celg-D 2016 V02.xlsx
+86,6072,CELG-D,Concessionária de Distribuição,Reajuste,22/10/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Celg-D_20161.xlsx
+87,6072,CELG-D,Concessionária de Distribuição,Reajuste,08/04/2016,Provisório,
+88,6072,CELG-D,Concessionária de Distribuição,Reajuste,12/09/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Celg-D_2015.xlsx
+89,6072,CELG-D,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CELG_20141.xlsx
+90,6072,CELG-D,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Celg-D_20151.xlsx
+91,6072,CELG-D,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CELG_2014_CAT.xlsx
+92,6072,CELG-D,Concessionária de Distribuição,Reajuste,05/09/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CELG_2014.xlsx
+93,6072,CELG-D,Concessionária de Distribuição,Revisão,12/09/2013,Definitivo,
+94,6072,CELG-D,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+95,43,CELPE,Concessionária de Distribuição,Revisão Extraordinária,13/07/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/43 PCAT Celpe 2022 V021.xlsx
+96,43,CELPE,Concessionária de Distribuição,Reajuste,29/04/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/43 PCAT Celpe 2022 V02.xlsx
+97,43,CELPE,Concessionária de Distribuição,Revisão,29/04/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/43 PCAT Celpe 2021 V02.xlsx
+98,43,CELPE,Concessionária de Distribuição,Reajuste,29/04/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/43_PCAT_CELPE_2020.xlsx
+99,43,CELPE,Concessionária de Distribuição,Reajuste,22/04/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Celpe_2019 .xlsx
+100,43,CELPE,Concessionária de Distribuição,Reajuste,29/04/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Celpe_2018.xlsx
+101,43,CELPE,Concessionária de Distribuição,Revisão,29/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Celpe_2017.xlsx
+102,43,CELPE,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,
+103,43,CELPE,Concessionária de Distribuição,Reajuste,29/04/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Celpe_2016.xlsx
+104,43,CELPE,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CELPE_2015.xlsx
+105,43,CELPE,Concessionária de Distribuição,Reajuste,29/04/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CELPE_2015A_015.xlsx
+106,43,CELPE,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CELPE_2014_V00.xlsx
+107,43,CELPE,Concessionária de Distribuição,Reajuste,29/04/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CELPE_2014.xlsx
+108,43,CELPE,Concessionária de Distribuição,Revisão,29/04/2013,Definitivo,
+109,43,CELPE,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+110,4950,CEMIG-D,Concessionária de Distribuição,Reajuste,22/06/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/4950 PCAT Cemig-D 2022 V02.xlsx
+111,4950,CEMIG-D,Concessionária de Distribuição,Reajuste,29/05/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/4950 PCAT Cemig-D 2021 V02- Atualização_aba_TA_SET2022.xlsx
+112,4950,CEMIG-D,Concessionária de Distribuição,Reajuste,19/08/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/4950 PCAT Cemig-D 2020 V02 - Pós Recurso.xlsx
+113,4950,CEMIG-D,Concessionária de Distribuição,Reajuste,28/05/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/4950 PCAT Cemig-D 2020 V02.xlsx
+114,4950,CEMIG-D,Concessionária de Distribuição,Reajuste,28/05/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/4950 PCAT Cemig-D 2019 V02.xlsx
+115,4950,CEMIG-D,Concessionária de Distribuição,Revisão,28/05/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT _Cemig_2018.xlsx
+116,4950,CEMIG-D,Concessionária de Distribuição,Reajuste,28/05/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Cemig-D_2017.xlsx
+117,4950,CEMIG-D,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/4950 PCAT CEMIG 2016 V02.xlsx
+118,4950,CEMIG-D,Concessionária de Distribuição,Reajuste,28/05/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEMIG_2016.xlsx
+119,4950,CEMIG-D,Concessionária de Distribuição,Reajuste,08/04/2016,Provisório,
+120,4950,CEMIG-D,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEMIG_20151.xlsx
+121,4950,CEMIG-D,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEMIG_2015.xlsx
+122,4950,CEMIG-D,Concessionária de Distribuição,Reajuste,08/04/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEMIG_2015A_015.xls
+123,4950,CEMIG-D,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEMIG_2014_V00.xlsx
+124,4950,CEMIG-D,Concessionária de Distribuição,Reajuste,08/04/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEMIG_2014.xlsx
+125,4950,CEMIG-D,Concessionária de Distribuição,Revisão,08/04/2013,Definitivo,
+126,4950,CEMIG-D,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+127,369,CERON,Concessionária de Distribuição,Reajuste,13/12/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/369 PCAT Ceron 2021 V02.xlsx
+128,369,CERON,Concessionária de Distribuição,Revisão Extraordinária,13/12/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/369 PCAT Ceron 2020 V02.xlsx
+129,369,CERON,Concessionária de Distribuição,Reajuste,13/12/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/369 PCAT Ceron 2019 V02.xlsx
+130,369,CERON,Concessionária de Distribuição,Revisão Extraordinária,01/04/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Ceron_RTE_2019.xlsx
+131,369,CERON,Concessionária de Distribuição,Reajuste,13/12/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Ceron_2018.xlsx
+132,369,CERON,Concessionária de Distribuição,Reajuste,30/11/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Ceron_2017.xlsx
+133,369,CERON,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/369 PCAT Ceron  2016 V02.xlsx
+134,369,CERON,Concessionária de Distribuição,Reajuste,30/11/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Ceron_ 2016.xlsx
+135,369,CERON,Concessionária de Distribuição,Reajuste,30/11/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Ceron_2015.xlsx
+136,369,CERON,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CERON_20141.xlsx
+137,369,CERON,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CERON_2014_CAT.xlsx
+138,369,CERON,Concessionária de Distribuição,Reajuste,30/11/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CERON_2014.xlsx
+139,369,CERON,Concessionária de Distribuição,Revisão,30/11/2013,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/369 PCAT CERON 2013 V00.xlsx
+140,369,CERON,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+141,28,CERR,Concessionária de Distribuição,Reajuste,01/11/2015,Definitivo,
+142,28,CERR,Concessionária de Distribuição,Reajuste,01/11/2014,Definitivo,
+143,28,CERR,Concessionária de Distribuição,Reajuste,01/11/2013,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CERR_2013.xlsx
+144,28,CERR,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+145,84,CFLO,Concessionária de Distribuição,Reajuste,12/07/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_SuperEner_20174.xlsx
+146,84,CFLO,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/84 PCAT CFLO 2016 V02.xlsx
+147,84,CFLO,Concessionária de Distribuição,Revisão,29/06/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CFLO_2016.xlsx
+148,84,CFLO,Concessionária de Distribuição,Reajuste,29/06/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CFLO_2015.xlsx
+149,84,CFLO,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CFLO_2014_V00.xlsx
+150,84,CFLO,Concessionária de Distribuição,Reajuste,24/06/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CFLO_2014.xlsx
+151,84,CFLO,Concessionária de Distribuição,Reajuste,29/06/2013,Definitivo,
+152,84,CFLO,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+153,103,CHESP,Concessionária de Distribuição,Revisão,22/11/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/103 PCAT Chesp 2021 V02.xlsx
+154,103,CHESP,Concessionária de Distribuição,Revisão,22/11/2021,Definitivo,
+155,103,CHESP,Concessionária de Distribuição,Reajuste,22/11/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/103 PCAT Chesp 2020 V02.xlsx
+156,103,CHESP,Concessionária de Distribuição,Reajuste,22/11/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/103 PCAT Chesp 2019 V02.xlsx
+157,103,CHESP,Concessionária de Distribuição,Reajuste,22/11/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/103 PCAT Chesp 2018 V02.xlsx
+158,103,CHESP,Concessionária de Distribuição,Reajuste,22/11/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Chesp_2017.xlsx
+159,103,CHESP,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/103 PCAT Chesp 2016 V02.xlsx
+160,103,CHESP,Concessionária de Distribuição,Revisão,22/11/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Chesp_2016.xlsx
+161,103,CHESP,Concessionária de Distribuição,Revisão,08/04/2016,Provisório,
+162,103,CHESP,Concessionária de Distribuição,Reajuste,12/09/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Chesp_2015.xlsx
+163,103,CHESP,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CHESP_2014_CAT.xlsx
+164,103,CHESP,Concessionária de Distribuição,Reajuste,12/09/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CHESP_2014_CAT1.xlsx
+165,103,CHESP,Concessionária de Distribuição,Reajuste,05/09/2013,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CHESP_2013.xlsx
+166,103,CHESP,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+167,75,CNEE,Concessionária de Distribuição,Reajuste,12/07/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_SuperEner_20171.xlsx
+168,75,CNEE,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/75 PCAT CNEE 2016 V02.xlsx
+169,75,CNEE,Concessionária de Distribuição,Revisão,10/05/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CNEE_ 2016.xlsx
+170,75,CNEE,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CNEE_20151.xlsx
+171,75,CNEE,Concessionária de Distribuição,Reajuste,10/05/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CNEE_2015.xlsx
+172,75,CNEE,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CNEE_2014_V00.xlsx
+173,75,CNEE,Concessionária de Distribuição,Reajuste,06/05/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CNEE_2014.xlsx
+174,75,CNEE,Concessionária de Distribuição,Reajuste,10/05/2013,Definitivo,
+175,75,CNEE,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+176,82,COCEL,Concessionária de Distribuição,Reajuste,29/06/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/82 PCAT Cocel 2022 V02.xlsx
+177,82,COCEL,Concessionária de Distribuição,Revisão,29/06/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/82 PCAT Cocel 2021 V02.xlsx
+178,82,COCEL,Concessionária de Distribuição,Reajuste,29/06/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/82 PCAT Cocel 2020 V02.xlsx
+179,82,COCEL,Concessionária de Distribuição,Reajuste,29/06/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/82 PCAT Cocel 2019 V02.xlsx
+180,82,COCEL,Concessionária de Distribuição,Reajuste,29/06/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Cocel_2018.xlsx
+181,82,COCEL,Concessionária de Distribuição,Reajuste,29/06/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Cocel_2017.xlsx
+182,82,COCEL,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/82 PCAT Cocel 2016 V02.xlsx
+183,82,COCEL,Concessionária de Distribuição,Revisão,29/06/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/82 PCAT Cocel 2016 V021.xlsx
+184,82,COCEL,Concessionária de Distribuição,Revisão,08/04/2016,Provisório,
+185,82,COCEL,Concessionária de Distribuição,Reajuste,24/06/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Cocel_2015.xlsx
+186,82,COCEL,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_COCEL_2014_V00.xlsx
+187,82,COCEL,Concessionária de Distribuição,Reajuste,24/06/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_COCEL_20141.xlsx
+188,82,COCEL,Concessionária de Distribuição,Reajuste,24/06/2013,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_COCEL_2014.xlsx
+189,82,COCEL,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+190,47,COELBA,Concessionária de Distribuição,Revisão Extraordinária,13/07/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/47 PCAT Coelba 2022 V021.xlsx
+191,47,COELBA,Concessionária de Distribuição,Reajuste,22/04/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/47 PCAT Coelba 2022 V02.xlsx
+192,47,COELBA,Concessionária de Distribuição,Reajuste,22/04/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/47 PCAT Coelba 2021 V02.xlsx
+193,47,COELBA,Concessionária de Distribuição,Reajuste,22/04/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/47 PCAT Coelba 2020 V02.xlsx
+194,47,COELBA,Concessionária de Distribuição,Reajuste,22/04/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/47 PCAT Coelba 2019 V021.xlsx
+195,47,COELBA,Concessionária de Distribuição,Revisão,22/04/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Coelba_2018.xlsx
+196,47,COELBA,Concessionária de Distribuição,Reajuste,22/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Coelba_2017.xlsx
+197,47,COELBA,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,
+198,47,COELBA,Concessionária de Distribuição,Reajuste,22/04/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_COELBA_2016.xlsx
+199,47,COELBA,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_COELBA_2015.xlsx
+200,47,COELBA,Concessionária de Distribuição,Reajuste,22/04/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_COELBA_2015A_V01..xlsx
+201,47,COELBA,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_COELBA_2014_V00.xlsx
+202,47,COELBA,Concessionária de Distribuição,Reajuste,22/04/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_COELBA_2014.xlsx
+203,47,COELBA,Concessionária de Distribuição,Revisão,22/04/2013,Definitivo,
+204,47,COELBA,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/47 PCAT Coelba 2019 V02.xlsx
+205,2904,COOPERALIANÇA,Concessionária de Distribuição,Revisão,29/08/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/2904 PCAT Cooperaliança 2022 V02.xlsx
+206,2904,COOPERALIANÇA,Concessionária de Distribuição,Reajuste,29/08/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/2904 PCAT Cooperaliança 2021 V02.xlsx
+207,2904,COOPERALIANÇA,Concessionária de Distribuição,Reajuste,29/08/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/2904 PCAT Cooperaliança 2020 V02.xlsx
+208,2904,COOPERALIANÇA,Concessionária de Distribuição,Reajuste,29/08/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/2904 PCAT Cooperaliança 2019 V02.xlsx
+209,2904,COOPERALIANÇA,Concessionária de Distribuição,Reajuste,29/08/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Cooperaliança_2018 .xlsx
+210,2904,COOPERALIANÇA,Concessionária de Distribuição,Revisão,29/08/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Cooperalinaça_2017.xlsx
+211,2904,COOPERALIANÇA,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/2904 PCAT COOPERALIANÇA 2016 V02.xlsx
+212,2904,COOPERALIANÇA,Concessionária de Distribuição,Reajuste,29/08/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ COOPERALIANÇA_ 2016.xlsx
+213,2904,COOPERALIANÇA,Concessionária de Distribuição,Revisão,08/04/2016,Provisório,
+214,2904,COOPERALIANÇA,Concessionária de Distribuição,Reajuste,14/08/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Cooperaliança_2015.xlsx
+215,2904,COOPERALIANÇA,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_COOPERALIANÇA2014_V00.xlsx
+216,2904,COOPERALIANÇA,Concessionária de Distribuição,Reajuste,12/08/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_COOPERALIANÇA_2014.xlsx
+217,2904,COOPERALIANÇA,Concessionária de Distribuição,Revisão,14/08/2013,Definitivo,
+218,2904,COOPERALIANÇA,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+219,2866,COPEL-DIS,Concessionária de Distribuição,Reajuste,24/06/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/2866 PCAT Copel-DIS 2022 V02.xlsx
+220,2866,COPEL-DIS,Concessionária de Distribuição,Revisão,24/06/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/2866 PCAT Copel-DIS 2021 V02.xlsx
+221,2866,COPEL-DIS,Concessionária de Distribuição,Reajuste,24/06/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/2866 PCAT Copel-DIS 2020 V02.xlsx
+222,2866,COPEL-DIS,Concessionária de Distribuição,Reajuste,24/06/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/2866 PCAT Copel-DIS 2019 V02.xlsx
+223,2866,COPEL-DIS,Concessionária de Distribuição,Reajuste,24/06/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Copel-DIS_2018.xlsx
+224,2866,COPEL-DIS,Concessionária de Distribuição,Reajuste,24/06/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Copel-DIS_20171.xlsx
+225,2866,COPEL-DIS,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/2866 PCAT Copel-DIS 2016 V02.xlsx
+226,2866,COPEL-DIS,Concessionária de Distribuição,Revisão,24/06/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Copel-DIS_20161.xlsx
+227,2866,COPEL-DIS,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Copel-DIS_2015.xlsx
+228,2866,COPEL-DIS,Concessionária de Distribuição,Reajuste,24/06/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Copel-DIS_2016.xlsx
+229,2866,COPEL-DIS,Concessionária de Distribuição,Reajuste,24/06/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Copel-DIS 2015.xlsx
+230,2866,COPEL-DIS,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_COPEL_2014_V00.xlsx
+231,2866,COPEL-DIS,Concessionária de Distribuição,Reajuste,24/06/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_COPEL_2014.xlsx
+232,2866,COPEL-DIS,Concessionária de Distribuição,Reajuste,24/06/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_COPEL_20141.xlsx
+233,2866,COPEL-DIS,Concessionária de Distribuição,Reajuste,29/06/2013,Definitivo,
+234,2866,COPEL-DIS,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+235,40,COSERN,Concessionária de Distribuição,Revisão Extraordinária,13/07/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/40 PCAT Cosern 2022 V021.xlsx
+236,40,COSERN,Concessionária de Distribuição,Reajuste,22/04/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/40 PCAT Cosern 2022 V02.xlsx
+237,40,COSERN,Concessionária de Distribuição,Reajuste,22/04/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/40 PCAT Cosern 2021 V02.xlsx
+238,40,COSERN,Concessionária de Distribuição,Reajuste,22/04/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/40 PCAT Cosern 2020 V02.xlsx
+239,40,COSERN,Concessionária de Distribuição,Reajuste,22/04/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Cosern_2019 .xlsx
+240,40,COSERN,Concessionária de Distribuição,Revisão,22/04/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Cosern_2018 .xlsx
+241,40,COSERN,Concessionária de Distribuição,Reajuste,22/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Cosern_2017.xlsx
+242,40,COSERN,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,
+243,40,COSERN,Concessionária de Distribuição,Reajuste,22/04/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Cosern_2016.xlsx
+244,40,COSERN,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_COSERN_2015.xlsx
+245,40,COSERN,Concessionária de Distribuição,Reajuste,22/04/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_COSERN_2015A_V01..xls
+246,40,COSERN,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_COSERN_2014_V00.xlsx
+247,40,COSERN,Concessionária de Distribuição,Reajuste,22/04/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_COSERN_2014.xlsx
+248,40,COSERN,Concessionária de Distribuição,Revisão,22/04/2013,Definitivo,
+249,40,COSERN,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+250,69,CPFL Jaguari,Concessionária de Distribuição,Reajuste,22/03/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_NSC_2018.xlsx
+251,69,CPFL Jaguari,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,
+252,69,CPFL Jaguari,Concessionária de Distribuição,Reajuste,22/03/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPFL_Jaguari_2017.xlsx
+253,69,CPFL Jaguari,Concessionária de Distribuição,Revisão,22/03/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPFL_Jaguari_2016.xlsx
+254,69,CPFL Jaguari,Concessionária de Distribuição,Revisão,03/02/2016,Provisório,
+255,69,CPFL Jaguari,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CJE_20152.xlsx
+256,69,CPFL Jaguari,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CJE_20151.xlsx
+257,69,CPFL Jaguari,Concessionária de Distribuição,Reajuste,03/02/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CJE_2015.xlsx
+258,69,CPFL Jaguari,Concessionária de Distribuição,Reajuste,03/02/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CJE_2014.xlsx
+259,69,CPFL Jaguari,Concessionária de Distribuição,Reajuste,03/02/2013,Definitivo,
+260,69,CPFL Jaguari,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+261,71,CPFL Leste Paulista,Concessionária de Distribuição,Reajuste,22/03/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_NSC_20181.xlsx
+262,71,CPFL Leste Paulista,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,
+263,71,CPFL Leste Paulista,Concessionária de Distribuição,Reajuste,22/03/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPFL_Leste_Paulista_2017.xlsx
+264,71,CPFL Leste Paulista,Concessionária de Distribuição,Revisão,22/03/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPFL_Leste_Paulista_2016 V02.xlsx
+265,71,CPFL Leste Paulista,Concessionária de Distribuição,Revisão,03/02/2016,Provisório,
+266,71,CPFL Leste Paulista,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPEE_20152.xlsx
+267,71,CPFL Leste Paulista,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPEE_20151.xlsx
+268,71,CPFL Leste Paulista,Concessionária de Distribuição,Reajuste,03/02/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPEE_2015.xlsx
+269,71,CPFL Leste Paulista,Concessionária de Distribuição,Reajuste,02/03/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPEE_ 20141.xlsx
+270,71,CPFL Leste Paulista,Concessionária de Distribuição,Reajuste,03/02/2013,Definitivo,
+271,71,CPFL Leste Paulista,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+272,70,CPFL Mococa,Concessionária de Distribuição,Reajuste,22/03/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_NSC_20182.xlsx
+273,70,CPFL Mococa,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,
+274,70,CPFL Mococa,Concessionária de Distribuição,Reajuste,22/03/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPFL_Mococa_2017.xlsx
+275,70,CPFL Mococa,Concessionária de Distribuição,Revisão,22/03/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPFL_Mococa_2016V02.xlsx
+276,70,CPFL Mococa,Concessionária de Distribuição,Revisão,03/02/2016,Provisório,
+277,70,CPFL Mococa,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CLFM_20151.xlsx
+278,70,CPFL Mococa,Concessionária de Distribuição,Reajuste,03/02/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CLFM_2015.xlsx
+279,70,CPFL Mococa,Concessionária de Distribuição,Reajuste,03/02/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPEE_ 2014.xlsx
+280,70,CPFL Mococa,Concessionária de Distribuição,Reajuste,03/02/2013,Definitivo,
+281,70,CPFL Mococa,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+282,2937,CPFL- PIRATININGA,Concessionária de Distribuição,Reajuste,23/10/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/2937 PCAT CPFL Piratininga 2021 V02.xlsx
+283,2937,CPFL- PIRATININGA,Concessionária de Distribuição,Reajuste,23/10/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/2937 PCAT CPFL Piratininga 2020 V02.xlsx
+284,2937,CPFL- PIRATININGA,Concessionária de Distribuição,Revisão,23/10/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/2937 PCAT CPFL Piratininga 2019 V02.xlsx
+285,2937,CPFL- PIRATININGA,Concessionária de Distribuição,Reajuste,23/10/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPFL_Piratininga_2018 .xlsx
+286,2937,CPFL- PIRATININGA,Concessionária de Distribuição,Reajuste,23/10/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPFL_Piratininga_2017.xlsx
+287,2937,CPFL- PIRATININGA,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/2937 PCAT CPFL Piratininga 2016 V02.xlsx
+288,2937,CPFL- PIRATININGA,Concessionária de Distribuição,Reajuste,23/10/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPFL_Piratininga_2016.xlsx
+289,2937,CPFL- PIRATININGA,Concessionária de Distribuição,Revisão,23/10/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPFL_Piratininga2_2015.xlsx
+290,2937,CPFL- PIRATININGA,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPFL_PIRATININGA_2014.xlsx
+291,2937,CPFL- PIRATININGA,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPFL_PIRATININGA_2014_CAT.xlsx
+292,2937,CPFL- PIRATININGA,Concessionária de Distribuição,Reajuste,23/10/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPFL_PIRATININGA_20141.xlsx
+293,2937,CPFL- PIRATININGA,Concessionária de Distribuição,Reajuste,23/10/2013,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPFL_PIRATININGA_2013.xlsx
+294,2937,CPFL- PIRATININGA,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+295,72,CPFL Santa Cruz,Concessionária de Distribuição,Revisão Extraordinária,13/07/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/1000041 PCAT CPFL Santa Cruz (agrupada) 2022 V02.xlsx
+296,72,CPFL Santa Cruz,Concessionária de Distribuição,Reajuste,22/03/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPFL Santa Cruz_2022.xlsx
+297,72,CPFL Santa Cruz,Concessionária de Distribuição,Revisão,22/03/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/1000041 PCAT CPFL Santa Cruz  2021 V02.xlsx
+298,72,CPFL Santa Cruz,Concessionária de Distribuição,Reajuste,22/03/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/1000041 PCAT CPFL Santa Cruz - nova 2020 V02.xlsx
+299,72,CPFL Santa Cruz,Concessionária de Distribuição,Reajuste,22/03/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPFL_Santa_Cruz_2019 .xlsx
+300,72,CPFL Santa Cruz,Concessionária de Distribuição,Reajuste,22/03/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_NSC_20183.xlsx
+301,72,CPFL Santa Cruz,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,
+302,72,CPFL Santa Cruz,Concessionária de Distribuição,Reajuste,22/03/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPFL_Santa_Cruz_2017.xlsx
+303,72,CPFL Santa Cruz,Concessionária de Distribuição,Revisão,22/03/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Internet_CPFL Santa_Cruz_2016.xlsx
+304,72,CPFL Santa Cruz,Concessionária de Distribuição,Revisão,03/02/2016,Provisório,
+305,72,CPFL Santa Cruz,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CLFSC_20152.xlsx
+306,72,CPFL Santa Cruz,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CLFSC_20151.xlsx
+307,72,CPFL Santa Cruz,Concessionária de Distribuição,Reajuste,03/02/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CLFSC_2015.xlsx
+308,72,CPFL Santa Cruz,Concessionária de Distribuição,Reajuste,03/02/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CLFSC_2014.xlsx
+309,72,CPFL Santa Cruz,Concessionária de Distribuição,Reajuste,03/02/2013,Definitivo,
+310,72,CPFL Santa Cruz,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+311,73,CPFL Sul Paulista,Concessionária de Distribuição,Reajuste,22/03/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_NSC_20184.xlsx
+312,73,CPFL Sul Paulista,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,
+313,73,CPFL Sul Paulista,Concessionária de Distribuição,Reajuste,22/03/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPFL_Sul_Paulista_2017.xlsx
+314,73,CPFL Sul Paulista,Concessionária de Distribuição,Revisão,22/03/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPFL_Sul_Paulista_2016.xlsx
+315,73,CPFL Sul Paulista,Concessionária de Distribuição,Revisão,03/02/2016,Provisório,
+316,73,CPFL Sul Paulista,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CSPE_20151.xlsx
+317,73,CPFL Sul Paulista,Concessionária de Distribuição,Reajuste,03/02/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CSPE_2015.xlsx
+318,73,CPFL Sul Paulista,Concessionária de Distribuição,Reajuste,03/02/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CSPE_2014.xlsx
+319,73,CPFL Sul Paulista,Concessionária de Distribuição,Reajuste,03/02/2013,Definitivo,
+320,73,CPFL Sul Paulista,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+321,63,CPFL-PAULISTA,Concessionária de Distribuição,Revisão Extraordinária,13/07/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/63 PCAT CPFL Paulista 2022 V021.xlsx
+322,63,CPFL-PAULISTA,Concessionária de Distribuição,Reajuste,08/04/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/63 PCAT CPFL Paulista 2022 V02.xlsx
+323,63,CPFL-PAULISTA,Concessionária de Distribuição,Reajuste,22/04/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/63 PCAT CPFL Paulista 2021 V02.xlsx
+324,63,CPFL-PAULISTA,Concessionária de Distribuição,Reajuste,08/04/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/63 PCAT CPFL Paulista 2020 V02.xlsx
+325,63,CPFL-PAULISTA,Concessionária de Distribuição,Reajuste,08/04/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPFL_Paulista_2019.xlsx
+326,63,CPFL-PAULISTA,Concessionária de Distribuição,Revisão,08/04/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPFL_Paulista_2018 .xlsx
+327,63,CPFL-PAULISTA,Concessionária de Distribuição,Reajuste,08/04/2017,Provisório,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPFL_Paulista_2017.xlsx
+328,63,CPFL-PAULISTA,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,
+329,63,CPFL-PAULISTA,Concessionária de Distribuição,Reajuste,08/04/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPFL_Paulista_2016.xlsx
+330,63,CPFL-PAULISTA,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPFL_PAULISTA_2015.xlsx
+331,63,CPFL-PAULISTA,Concessionária de Distribuição,Reajuste,08/04/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPFL_PAULISTA_2015A_15.xls
+332,63,CPFL-PAULISTA,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPFL_PAULISTA_2014_V00.xlsx
+333,63,CPFL-PAULISTA,Concessionária de Distribuição,Reajuste,08/04/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CPFL_PAULISTA_2014.xlsx
+334,63,CPFL-PAULISTA,Concessionária de Distribuição,Revisão,08/04/2013,Definitivo,
+335,63,CPFL-PAULISTA,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+336,87,DCELT,Concessionária de Distribuição,Reajuste,29/08/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/87 PCAT Ienergia 2022 V02.xlsx
+337,87,DCELT,Concessionária de Distribuição,Revisão,29/08/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/87 PCAT Ienergia 2021 V02.xlsx
+338,87,DCELT,Concessionária de Distribuição,Revisão,29/08/2021,Definitivo,
+339,87,DCELT,Concessionária de Distribuição,Revisão,29/08/2021,Definitivo,
+340,87,DCELT,Concessionária de Distribuição,Reajuste,29/08/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/87 PCAT Ienergia 2020 V02.xlsx
+341,87,DCELT,Concessionária de Distribuição,Reajuste,29/08/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/87 PCAT Ienergia 2019 V02.xlsx
+342,87,DCELT,Concessionária de Distribuição,Reajuste,28/08/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Ienergia_2018 .xlsx
+343,87,DCELT,Concessionária de Distribuição,Reajuste,29/08/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Ienergia_2017.xlsx
+344,87,DCELT,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/87 PCAT Ienergia 2016 V02.xlsx
+345,87,DCELT,Concessionária de Distribuição,Revisão,29/08/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Ienergia_2016.xlsx
+346,87,DCELT,Concessionária de Distribuição,Revisão,08/04/2016,Provisório,
+347,87,DCELT,Concessionária de Distribuição,Reajuste,07/08/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Ienergia_2015.xlsx
+348,87,DCELT,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_IGUAÇU_2014_V00.xlsx
+349,87,DCELT,Concessionária de Distribuição,Reajuste,05/08/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_IGUAÇU_2014.xlsx
+350,87,DCELT,Concessionária de Distribuição,Reajuste,24/01/2013,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_IGUAÇU_2013.xlsx
+351,87,DCELT,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+352,95,DEMEI,Concessionária de Distribuição,Revisão,22/07/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/95 PCAT Demei 2022 V02.xlsx
+353,95,DEMEI,Concessionária de Distribuição,Reajuste,22/07/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/95 PCAT Demei 2021 V02.xlsx
+354,95,DEMEI,Concessionária de Distribuição,Reajuste,22/07/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/95 PCAT Demei 2020 V02.xlsx
+355,95,DEMEI,Concessionária de Distribuição,Reajuste,22/07/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/95 PCAT Demei 2019 V02.xlsx
+356,95,DEMEI,Concessionária de Distribuição,Reajuste,22/07/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Demei_2018.xlsx
+357,95,DEMEI,Concessionária de Distribuição,Revisão,22/07/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Demei_2017.xlsx
+358,95,DEMEI,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/95 PCAT Demei 2016 V02.xlsx
+359,95,DEMEI,Concessionária de Distribuição,Reajuste,22/07/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Demei_2016.xlsx
+360,95,DEMEI,Concessionária de Distribuição,Revisão,08/04/2016,Provisório,
+361,95,DEMEI,Concessionária de Distribuição,Reajuste,29/06/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Demei_2015.xlsx
+362,95,DEMEI,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_DEMEI_2014_V00.xlsx
+363,95,DEMEI,Concessionária de Distribuição,Reajuste,24/06/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_DEMEI_2014.xlsx
+364,95,DEMEI,Concessionária de Distribuição,Revisão,29/06/2013,Definitivo,
+365,95,DEMEI,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+366,51,DMED,Concessionária de Distribuição,Reajuste,22/11/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/51 PCAT DMED 2021 V02.xlsx
+367,51,DMED,Concessionária de Distribuição,Revisão,22/11/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/51_PCAT_DMED_20201.xlsx
+368,51,DMED,Concessionária de Distribuição,Reajuste,22/11/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/51 PCAT DMED 2019 V02.xlsx
+369,51,DMED,Concessionária de Distribuição,Reajuste,22/11/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/51 PCAT DMED 2019 V021.xlsx
+370,51,DMED,Concessionária de Distribuição,Reajuste,22/11/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/51 PCAT DMED 2018 V02.xlsx
+371,51,DMED,Concessionária de Distribuição,Reajuste,22/11/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_DMED_2017.xlsx
+372,51,DMED,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/51 PCAT DMED 2016 V02.xlsx
+373,51,DMED,Concessionária de Distribuição,Reajuste,22/11/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_DMED_2016.xlsx
+374,51,DMED,Concessionária de Distribuição,Revisão,08/04/2016,Provisório,
+375,51,DMED,Concessionária de Distribuição,Revisão,30/10/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_DEMED2_2015.xlsx
+376,51,DMED,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_DMEPC_2014_CAT.xlsx
+377,51,DMED,Concessionária de Distribuição,Reajuste,28/10/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_DMEPC_2014.xlsx
+378,51,DMED,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+379,6611,EBO,Concessionária de Distribuição,Revisão Extraordinária,13/07/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/6611 PCAT EBO 2022 V021.xlsx
+380,6611,EBO,Concessionária de Distribuição,Reajuste,04/02/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/6611 PCAT EBO 2022 V02.xlsx
+381,6611,EBO,Concessionária de Distribuição,Revisão,04/02/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/6611 PCAT EBO 2021 V02.xlsx
+382,6611,EBO,Concessionária de Distribuição,Reajuste,04/02/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT EBO 2020 V02.xlsx
+383,6611,EBO,Concessionária de Distribuição,Revisão Extraordinária,01/04/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EBO_2019.xlsx
+384,6611,EBO,Concessionária de Distribuição,Reajuste,04/02/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/6611 PCAT EBO 2019 V02.xlsx
+385,6611,EBO,Concessionária de Distribuição,Reajuste,04/02/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EBO_2018 .xlsx
+386,6611,EBO,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/6611 PCAT EBO 2017 V02.xlsx
+387,6611,EBO,Concessionária de Distribuição,Revisão,04/02/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EBO_2017.xlsx
+388,6611,EBO,Concessionária de Distribuição,Reajuste,02/02/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EBO_2016_V02.xlsx
+389,6611,EBO,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EBO_20152.xlsx
+390,6611,EBO,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EBO_20151.xlsx
+391,6611,EBO,Concessionária de Distribuição,Reajuste,04/02/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EBO_2015.xlsx
+392,6611,EBO,Concessionária de Distribuição,Reajuste,04/02/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EBO_2014.xlsx
+393,6611,EBO,Concessionária de Distribuição,Revisão,04/02/2013,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT Internet - EBO 3CRTP - 2013.xlsx
+394,6611,EBO,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+395,5217,EDEVP,Concessionária de Distribuição,Reajuste,12/07/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_SuperEner_20172.xlsx
+396,5217,EDEVP,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/5217 PCAT EDEVP 2016 V02.xlsx
+397,5217,EDEVP,Concessionária de Distribuição,Revisão,10/05/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EDEVP_2016.xlsx
+398,5217,EDEVP,Concessionária de Distribuição,Reajuste,10/05/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EDEVP_2015A.xlsx
+399,5217,EDEVP,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EDEVP_2014_V00.xlsx
+400,5217,EDEVP,Concessionária de Distribuição,Reajuste,06/05/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EDEVP_2014.xlsx
+401,5217,EDEVP,Concessionária de Distribuição,Reajuste,10/05/2013,Definitivo,
+402,5217,EDEVP,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+403,380,EDP ES,Concessionária de Distribuição,Revisão,07/08/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/380 PCAT EDP ES 2022 V02.xlsx
+404,380,EDP ES,Concessionária de Distribuição,Reajuste,07/08/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/380 PCAT EDP ES 2021 V02.xlsx
+405,380,EDP ES,Concessionária de Distribuição,Reajuste,07/08/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/380 PCAT EDP ES 2020 V02.xlsx
+406,380,EDP ES,Concessionária de Distribuição,Revisão,07/08/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/380 PCAT EDP_ES 2019.xlsx
+407,380,EDP ES,Concessionária de Distribuição,Reajuste,07/08/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_RTA_EDP ES_2018.xlsx
+408,380,EDP ES,Concessionária de Distribuição,Reajuste,07/08/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EDP-ES_2017.xlsx
+409,380,EDP ES,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/380 PCAT Escelsa 2016 V02.xlsx
+410,380,EDP ES,Concessionária de Distribuição,Revisão,07/08/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Escelsa_2016.xlsx
+411,380,EDP ES,Concessionária de Distribuição,Reajuste,07/08/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Escelsa_2015.xlsx
+412,380,EDP ES,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ESCELSA_20141.xlsx
+413,380,EDP ES,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Escelsa_20151.xlsx
+414,380,EDP ES,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ESCELSA_2014_V00.xlsx
+415,380,EDP ES,Concessionária de Distribuição,Reajuste,07/08/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ESCELSA_2014.xlsx
+416,380,EDP ES,Concessionária de Distribuição,Revisão,07/08/2013,Definitivo,
+417,380,EDP ES,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+418,391,EDP SP,Concessionária de Distribuição,Reajuste,23/10/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/391 PCAT EDP SP 2021 V02.xlsx
+419,391,EDP SP,Concessionária de Distribuição,Reajuste,23/10/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/391 PCAT EDP SP 2020 V02.xlsx
+420,391,EDP SP,Concessionária de Distribuição,Revisão,22/10/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/391 PCAT EDP SP 2019 V02.xlsx
+421,391,EDP SP,Concessionária de Distribuição,Reajuste,23/10/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Bandeirante_2018 .xlsx
+422,391,EDP SP,Concessionária de Distribuição,Reajuste,23/10/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Bandeirante_2017.xlsx
+423,391,EDP SP,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/391 PCAT Bandeirante 2016 V02.xlsx
+424,391,EDP SP,Concessionária de Distribuição,Reajuste,23/10/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Bandeirante_2016.xlsx
+425,391,EDP SP,Concessionária de Distribuição,Revisão,23/10/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Bandeirante2_2015.xlsx
+426,391,EDP SP,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_BANDEIRANTE_20141.xlsx
+427,391,EDP SP,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_BANDEIRANTE_2014_CAT.xlsx
+428,391,EDP SP,Concessionária de Distribuição,Reajuste,21/10/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_BANDEIRANTE_2014.xlsx
+429,391,EDP SP,Concessionária de Distribuição,Reajuste,21/10/2013,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_BANDEIRANTE_2013.xlsx
+430,391,EDP SP,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+431,386,EEB,Concessionária de Distribuição,Reajuste,12/07/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_SuperEner_20173.xlsx
+432,386,EEB,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/386 PCAT EEB 2016 V02.xlsx
+433,386,EEB,Concessionária de Distribuição,Revisão,10/05/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EEB_2016.xlsx
+434,386,EEB,Concessionária de Distribuição,Reajuste,10/05/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EEB_2015.xlsx
+435,386,EEB,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EEB_2014_V00.xlsx
+436,386,EEB,Concessionária de Distribuição,Reajuste,06/05/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EEB_2014.xlsx
+437,386,EEB,Concessionária de Distribuição,Reajuste,10/05/2013,Definitivo,
+438,386,EEB,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+439,88,EFLJC,Concessionária de Distribuição,Reajuste,29/08/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/88 PCAT EFLJC 2022 V02.xlsx
+440,88,EFLJC,Concessionária de Distribuição,Revisão,29/08/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/88 PCAT EFLJC 2021 V02.xlsx
+441,88,EFLJC,Concessionária de Distribuição,Revisão,29/08/2021,Definitivo,
+442,88,EFLJC,Concessionária de Distribuição,Revisão,29/08/2021,Definitivo,
+443,88,EFLJC,Concessionária de Distribuição,Reajuste,29/08/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/88 PCAT EFLJC 2020 V02.xlsx
+444,88,EFLJC,Concessionária de Distribuição,Reajuste,29/08/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/88 PCAT EFLJC 2019.xlsx
+445,88,EFLJC,Concessionária de Distribuição,Reajuste,29/08/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EFLJC_2018 .xlsx
+446,88,EFLJC,Concessionária de Distribuição,Reajuste,29/08/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EFLJC_2017 .xlsx
+447,88,EFLJC,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/88 PCAT EFLJC 2016 V02.xlsx
+448,88,EFLJC,Concessionária de Distribuição,Revisão,29/08/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EFLJC_2016.xlsx
+449,88,EFLJC,Concessionária de Distribuição,Revisão,08/04/2016,Provisório,
+450,88,EFLJC,Concessionária de Distribuição,Reajuste,14/08/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EFLJC_2015.xlsx
+451,88,EFLJC,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EFLJC_2014_V00.xlsx
+452,88,EFLJC,Concessionária de Distribuição,Reajuste,12/08/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EFLJC_2014.xlsx
+453,88,EFLJC,Concessionária de Distribuição,Reajuste,24/01/2013,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EFLJC_2013.xlsx
+454,88,EFLJC,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+455,86,EFLUL,Concessionária de Distribuição,Reajuste,29/08/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/86 PCAT Eflul 2022 V02.xlsx
+456,86,EFLUL,Concessionária de Distribuição,Revisão,29/08/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/86 PCAT Eflul 2021 V02.xlsx
+457,86,EFLUL,Concessionária de Distribuição,Reajuste,29/08/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/86 PCAT Eflul 2020 V02.xlsx
+458,86,EFLUL,Concessionária de Distribuição,Reajuste,29/08/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/86 PCAT Eflul 2019 V02.xlsx
+459,86,EFLUL,Concessionária de Distribuição,Reajuste,28/08/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Eflul_2018 .xlsx
+460,86,EFLUL,Concessionária de Distribuição,Reajuste,29/08/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Eflul_2017.xlsx
+461,86,EFLUL,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/86 PCAT Eflul 2016 V02_corrigido_baixa_renda.xlsx
+462,86,EFLUL,Concessionária de Distribuição,Revisão,29/08/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Eflul_2016.xlsx
+463,86,EFLUL,Concessionária de Distribuição,Revisão,08/04/2016,Provisório,
+464,86,EFLUL,Concessionária de Distribuição,Reajuste,14/08/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Eflul_2015.xlsx
+465,86,EFLUL,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EFLUL_2014_V00.xlsx
+466,86,EFLUL,Concessionária de Distribuição,Reajuste,12/08/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EFLUL_2014.xlsx
+467,86,EFLUL,Concessionária de Distribuição,Reajuste,14/08/2013,Definitivo,
+468,86,EFLUL,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+469,385,ELEKTRO,Concessionária de Distribuição,Reajuste,27/08/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/385 PCAT Elektro 2022 V02.xlsx
+470,385,ELEKTRO,Concessionária de Distribuição,Reajuste,27/08/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/385 PCAT Elektro 2021 V02.xlsx
+471,385,ELEKTRO,Concessionária de Distribuição,Reajuste,27/08/2021,Definitivo,
+472,385,ELEKTRO,Concessionária de Distribuição,Reajuste,27/08/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/385 PCAT Elektro 2020 V02.xlsx
+473,385,ELEKTRO,Concessionária de Distribuição,Revisão,27/08/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/385 PCAT Elektro 2019 V02.xlsx
+474,385,ELEKTRO,Concessionária de Distribuição,Reajuste,27/08/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Elektro_2018 .xlsx
+475,385,ELEKTRO,Concessionária de Distribuição,Reajuste,28/08/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Elektro_2017.xlsx
+476,385,ELEKTRO,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/385 PCAT Elektro 2016 V02.xlsx
+477,385,ELEKTRO,Concessionária de Distribuição,Reajuste,27/08/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Elektro_2016.xlsx
+478,385,ELEKTRO,Concessionária de Distribuição,Revisão,27/08/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Elektro_2015.xlsx
+479,385,ELEKTRO,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ELEKTRO_20141.xlsx
+480,385,ELEKTRO,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Elektro_20151.xlsx
+481,385,ELEKTRO,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ELEKTRO_2014_CAT.xlsx
+482,385,ELEKTRO,Concessionária de Distribuição,Reajuste,19/08/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ELEKTRO_2014.xlsx
+483,385,ELEKTRO,Concessionária de Distribuição,Reajuste,27/08/2013,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ELEKTRO_2013.xlsx
+484,385,ELEKTRO,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+485,26,ELETROACRE,Concessionária de Distribuição,Reajuste,13/12/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/26 PCAT Eletroacre 2021 V02.xlsx
+486,26,ELETROACRE,Concessionária de Distribuição,Revisão Extraordinária,13/12/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/26 PCAT Eletroacre 2020 V021.xlsx
+487,26,ELETROACRE,Concessionária de Distribuição,Reajuste,13/12/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/26 PCAT Eletroacre 2019 V02.xlsx
+488,26,ELETROACRE,Concessionária de Distribuição,Revisão Extraordinária,01/04/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Eletroacre_2018 2.xlsx
+489,26,ELETROACRE,Concessionária de Distribuição,Reajuste,13/12/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Eletroacre_2018 .xlsx
+490,26,ELETROACRE,Concessionária de Distribuição,Reajuste,13/12/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Eletroacre_2018 1.xlsx
+491,26,ELETROACRE,Concessionária de Distribuição,Liminar abrace,22/04/2018,Provisório,
+492,26,ELETROACRE,Concessionária de Distribuição,Reajuste,30/11/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Eletroacre_2017.xlsx
+493,26,ELETROACRE,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/26 PCAT Eletroacre 2016 V02.xlsx
+494,26,ELETROACRE,Concessionária de Distribuição,Reajuste,30/11/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Eletroacre_2016.xlsx
+495,26,ELETROACRE,Concessionária de Distribuição,Reajuste,24/11/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Eletroacre_2015.xlsx
+496,26,ELETROACRE,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ELETROACRE_2014_CAT.xlsx
+497,26,ELETROACRE,Concessionária de Distribuição,Reajuste,30/11/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ELETROACRE_2014.xlsx
+498,26,ELETROACRE,Concessionária de Distribuição,Revisão,30/11/2013,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/26 PCAT 2013 V00.xlsx
+499,26,ELETROACRE,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+500,398,ELETROCAR,Concessionária de Distribuição,Revisão,22/07/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/398 PCAT Eletrocar 2022 V02.xlsx
+501,398,ELETROCAR,Concessionária de Distribuição,Reajuste,22/07/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/398 PCAT Eletrocar 2021 V02.xlsx
+502,398,ELETROCAR,Concessionária de Distribuição,Reajuste,22/07/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/398 PCAT Eletrocar 2020 V02.xlsx
+503,398,ELETROCAR,Concessionária de Distribuição,Reajuste,22/07/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/398 PCAT Eletrocar 2019 V17.xlsx
+504,398,ELETROCAR,Concessionária de Distribuição,Reajuste,22/07/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Eletrocar_2018_c.xlsx
+505,398,ELETROCAR,Concessionária de Distribuição,Revisão,22/07/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Eletrocar_2017.xlsx
+506,398,ELETROCAR,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/398 PCAT ELETROCAR 2016 V02.xlsx
+507,398,ELETROCAR,Concessionária de Distribuição,Reajuste,22/07/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ELETROCAR_ 2016.xlsx
+508,398,ELETROCAR,Concessionária de Distribuição,Revisão,08/04/2016,Provisório,
+509,398,ELETROCAR,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Eletrocar_2015.xlsx
+510,398,ELETROCAR,Concessionária de Distribuição,Reajuste,29/06/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT _Eletrocar_ 2015.xlsx
+511,398,ELETROCAR,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ELETROCAR_2014_V00.xlsx
+512,398,ELETROCAR,Concessionária de Distribuição,Reajuste,24/06/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ELETROCAR_2014.xlsx
+513,398,ELETROCAR,Concessionária de Distribuição,Revisão,29/06/2013,Definitivo,
+514,390,ELETROPAULO,Concessionária de Distribuição,Reajuste,04/07/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/390 PCAT Enel SP 2022 V02.xlsx
+515,390,ELETROPAULO,Concessionária de Distribuição,Reajuste,04/07/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/390 PCAT Enel SP 2021 V02.xlsx
+516,390,ELETROPAULO,Concessionária de Distribuição,Reajuste,04/07/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/390 PCAT Enel SP 2020 V02 - com covid.xlsx
+517,390,ELETROPAULO,Concessionária de Distribuição,Revisão,04/07/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/390 PCAT Enel SP 2019 V02.xlsx
+518,390,ELETROPAULO,Concessionária de Distribuição,Reajuste,04/07/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Eletropaulo_2018 .xlsx
+519,390,ELETROPAULO,Concessionária de Distribuição,Reajuste,04/07/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Eletropaulo_2017.xlsx
+520,390,ELETROPAULO,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/390 PCAT Eletropaulo 2016 V02.xlsx
+521,390,ELETROPAULO,Concessionária de Distribuição,Reajuste,04/07/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Eletropaulo_2016.xlsx
+522,390,ELETROPAULO,Concessionária de Distribuição,Revisão,04/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Eletropaulo_2015.xlsx
+523,390,ELETROPAULO,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Eletropaulo_20151.xlsx
+524,390,ELETROPAULO,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ELETROPAULO_2014_V00.xlsx
+525,390,ELETROPAULO,Concessionária de Distribuição,Reajuste,04/07/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ELETROPAULO_2014.xlsx
+526,390,ELETROPAULO,Concessionária de Distribuição,Reajuste,04/07/2013,Definitivo,
+527,390,ELETROPAULO,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+528,381,ELFSM,Concessionária de Distribuição,Reajuste,22/09/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/381 PCAT ELFSM 2022 V02.xlsx
+529,381,ELFSM,Concessionária de Distribuição,Revisão,22/09/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/381 PCAT ELFSM 2021 V02.xlsx
+530,381,ELFSM,Concessionária de Distribuição,Reajuste,22/09/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/381 PCAT ELFSM 2020 V02.xlsx
+531,381,ELFSM,Concessionária de Distribuição,Reajuste,22/08/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/381 PCAT ELFSM 2019.xlsx
+532,381,ELFSM,Concessionária de Distribuição,Reajuste,22/08/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ELFSM_2018 .xlsx
+533,381,ELFSM,Concessionária de Distribuição,Reajuste,23/08/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ELFSM_2017.xlsx
+534,381,ELFSM,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/381 PCAT ELFSM 2016 V02.xlsx
+535,381,ELFSM,Concessionária de Distribuição,Revisão,22/08/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ELFSM_2016.xlsx
+536,381,ELFSM,Concessionária de Distribuição,Revisão,08/04/2016,Provisório,
+537,381,ELFSM,Concessionária de Distribuição,Reajuste,15/08/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ELFSM_2015.xlsx
+538,381,ELFSM,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ELFSM_2014_V00.xlsx
+539,381,ELFSM,Concessionária de Distribuição,Reajuste,12/08/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ELFSM_2014.xlsx
+540,381,ELFSM,Concessionária de Distribuição,Reajuste,15/08/2013,Definitivo,
+541,381,ELFSM,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+542,6585,EMG,Concessionária de Distribuição,Reajuste,22/06/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/6585 PCAT EMG 2022 V02.xlsx
+543,6585,EMG,Concessionária de Distribuição,Revisão,22/06/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/6585 PCAT EMG 2021 V02.xlsx
+544,6585,EMG,Concessionária de Distribuição,Reajuste,22/06/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT EMG 2020 V02.xlsx
+545,6585,EMG,Concessionária de Distribuição,Reajuste,22/06/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/6585 PCAT EMG 2019 V02 ANTIGO.xlsx
+546,6585,EMG,Concessionária de Distribuição,Reajuste,22/06/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EMG_2018.xlsx
+547,6585,EMG,Concessionária de Distribuição,Reajuste,22/06/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EMG_2017.xlsx
+548,6585,EMG,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/6585 PCAT EMG 2016 V02.xlsx
+549,6585,EMG,Concessionária de Distribuição,Revisão,22/06/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EMG_20161.xlsx
+550,6585,EMG,Concessionária de Distribuição,Revisão,08/04/2016,Provisório,
+551,6585,EMG,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EMG_20151.xlsx
+552,6585,EMG,Concessionária de Distribuição,Reajuste,18/06/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EMG_2015.xlsx
+553,6585,EMG,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EMG_2014_V00.xlsx
+554,6585,EMG,Concessionária de Distribuição,Reajuste,18/06/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EMG_2014.xlsx
+555,6585,EMG,Concessionária de Distribuição,Reajuste,18/06/2013,Definitivo,
+556,6585,EMG,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+557,404,EMS,Concessionária de Distribuição,Revisão Extraordinária,27/07/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/404 PCAT EMS  2022 V021.xlsx
+558,404,EMS,Concessionária de Distribuição,Reajuste,16/04/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/404 PCAT EMS  2022 V02.xlsx
+559,404,EMS,Concessionária de Distribuição,Reajuste,22/04/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/404 PCAT EMS  2021 V02.xlsx
+560,404,EMS,Concessionária de Distribuição,Reajuste,08/04/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/404 PCAT EMS  2020 V02.xlsx
+561,404,EMS,Concessionária de Distribuição,Reajuste,08/04/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EMS _2019 .xlsx
+562,404,EMS,Concessionária de Distribuição,Revisão,08/04/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EMS _2018.xlsx
+563,404,EMS,Concessionária de Distribuição,Reajuste,08/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EMS _2017.xlsx
+564,404,EMS,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,
+565,404,EMS,Concessionária de Distribuição,Reajuste,08/04/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EMS _2016_V02.xlsx
+566,404,EMS,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ENERSUL_2015.xlsx
+567,404,EMS,Concessionária de Distribuição,Reajuste,08/04/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EMS_2015A_015.xls.xlsx
+568,404,EMS,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ENERSUL_2014_V00.xlsx
+569,404,EMS,Concessionária de Distribuição,Reajuste,08/04/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ENERSUL_2014.xlsx
+570,404,EMS,Concessionária de Distribuição,Revisão,08/04/2013,Definitivo,
+571,404,EMS,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+572,405,EMT,Concessionária de Distribuição,Revisão Extraordinária,27/07/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/405 PCAT EMT 2022 V021.xlsx
+573,405,EMT,Concessionária de Distribuição,Reajuste,16/04/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/405 PCAT EMT 2022 V02.xlsx
+574,405,EMT,Concessionária de Distribuição,Reajuste,22/04/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/405 PCAT EMT 2021 V02.xlsx
+575,405,EMT,Concessionária de Distribuição,Reajuste,08/04/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/405 PCAT EMT 2020 V02.xlsx
+576,405,EMT,Concessionária de Distribuição,Reajuste,08/04/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EMT_2019 .xlsx
+577,405,EMT,Concessionária de Distribuição,Revisão,08/04/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EMT_2018 .xlsx
+578,405,EMT,Concessionária de Distribuição,Reajuste,08/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EMT_2017.xlsx
+579,405,EMT,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,
+580,405,EMT,Concessionária de Distribuição,Reajuste,08/04/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EMT_2016.xlsx
+581,405,EMT,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEMAT_2015.xlsx
+582,405,EMT,Concessionária de Distribuição,Reajuste,08/04/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EMT_2015A_015.xls.xlsx
+583,405,EMT,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEMAT_2014_V00.xlsx
+584,405,EMT,Concessionária de Distribuição,Reajuste,08/04/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEMAT_2014.xlsx
+585,405,EMT,Concessionária de Distribuição,Revisão,08/04/2013,Definitivo,
+586,405,EMT,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+587,39,ENEL CE,Concessionária de Distribuição,Revisão Extraordinária,13/07/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/39 PCAT Enel CE 2022 V021.xlsx
+588,39,ENEL CE,Concessionária de Distribuição,Reajuste,22/04/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/39 PCAT Enel CE 2022 V02.xlsx
+589,39,ENEL CE,Concessionária de Distribuição,Reajuste,22/04/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/39 PCAT Enel CE 2021 final V02.xlsx
+590,39,ENEL CE,Concessionária de Distribuição,Reajuste,22/04/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/39 PCAT Enel CE 2020 V02.xlsx
+591,39,ENEL CE,Concessionária de Distribuição,Revisão,22/04/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Enel CE_2019.xlsx
+592,39,ENEL CE,Concessionária de Distribuição,Reajuste,22/04/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ENEL-CE_2018.xlsx
+593,39,ENEL CE,Concessionária de Distribuição,Reajuste,22/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Coelce_2017.xlsx
+594,39,ENEL CE,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,
+595,39,ENEL CE,Concessionária de Distribuição,Reajuste,22/04/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Coelce_2016.xlsx
+596,39,ENEL CE,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_COELCE_2015.xlsx
+597,39,ENEL CE,Concessionária de Distribuição,Revisão,22/04/2015,Provisório,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_COELCE_2015_015..xlsx
+598,39,ENEL CE,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_COELCE-2014_V00.xlsx
+599,39,ENEL CE,Concessionária de Distribuição,Reajuste,22/04/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_COELCE_2014.xlsx
+600,39,ENEL CE,Concessionária de Distribuição,Reajuste,22/04/2013,Definitivo,
+601,39,ENEL CE,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+602,383,ENEL RJ,Concessionária de Distribuição,Revisão Extraordinária,13/07/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/383 PCAT Enel RJ 2022 V021.xlsx
+603,383,ENEL RJ,Concessionária de Distribuição,Reajuste,15/03/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/383 PCAT Enel RJ 2022 V02.xlsx
+604,383,ENEL RJ,Concessionária de Distribuição,Reajuste,15/03/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/383 PCAT Enel RJ 2021 V02.xlsx
+605,383,ENEL RJ,Concessionária de Distribuição,Reajuste,15/03/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/383 PCAT Enel RJ 2021 V021.xlsx
+606,383,ENEL RJ,Concessionária de Distribuição,Reajuste,15/03/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Enel_RJ_2020.xlsx
+607,383,ENEL RJ,Concessionária de Distribuição,Revisão Extraordinária,01/04/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Enel RJ_2019 .xlsx
+608,383,ENEL RJ,Concessionária de Distribuição,Reajuste,15/03/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Enel_RJ_2019 .xlsx
+609,383,ENEL RJ,Concessionária de Distribuição,Revisão,15/03/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Enel_RJ 2018.xlsx
+610,383,ENEL RJ,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/383 PCAT Ampla 2017 V02.xlsx
+611,383,ENEL RJ,Concessionária de Distribuição,Reajuste,15/03/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Ampla_2017.xlsx
+612,383,ENEL RJ,Concessionária de Distribuição,Reajuste,15/03/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Ampla_2016_V02.xlsx
+613,383,ENEL RJ,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_AMPLA_20151.xlsx
+614,383,ENEL RJ,Concessionária de Distribuição,Reajuste,15/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_AMPLA_2015.xlsx
+615,383,ENEL RJ,Concessionária de Distribuição,Revisão,15/03/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_AMPLA_2014_certo.xlsx
+616,383,ENEL RJ,Concessionária de Distribuição,Reajuste,15/03/2013,Definitivo,
+617,383,ENEL RJ,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+618,6612,ENF,Concessionária de Distribuição,Reajuste,22/06/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/6612 PCAT ENF 2022 V02.xlsx
+619,6612,ENF,Concessionária de Distribuição,Revisão,22/06/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/6612 PCAT ENF 2021 V02.xlsx
+620,6612,ENF,Concessionária de Distribuição,Reajuste,22/06/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/6612 PCAT ENF 2020 V02.xlsx
+621,6612,ENF,Concessionária de Distribuição,Reajuste,22/06/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/6612 PCAT ENF 2019 V02.xlsx
+622,6612,ENF,Concessionária de Distribuição,Reajuste,22/06/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ENF_2018 .xlsx
+623,6612,ENF,Concessionária de Distribuição,Reajuste,22/06/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ENF_2017.xlsx
+624,6612,ENF,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/6612 PCAT ENF 2016 V02.xlsx
+625,6612,ENF,Concessionária de Distribuição,Revisão,22/06/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ENF_2016.xlsx
+626,6612,ENF,Concessionária de Distribuição,Revisão,08/04/2016,Provisório,
+627,6612,ENF,Concessionária de Distribuição,Reajuste,15/06/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ENF_2015.xlsx
+628,6612,ENF,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ENF_2014_V00.xlsx
+629,6612,ENF,Concessionária de Distribuição,Reajuste,10/06/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ENF_2014.xlsx
+630,6612,ENF,Concessionária de Distribuição,Reajuste,18/06/2013,Definitivo,
+631,6600,EPB,Concessionária de Distribuição,Reajuste,28/08/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/6600 PCAT EPB 2022 V02.xlsx
+632,6600,EPB,Concessionária de Distribuição,Revisão,28/08/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/6600 PCAT EPB 2021 V02.xlsx
+633,6600,EPB,Concessionária de Distribuição,Revisão,28/08/2021,Definitivo,
+634,6600,EPB,Concessionária de Distribuição,Reajuste,28/08/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/6600 PCAT EPB 2020 V02.xlsx
+635,6600,EPB,Concessionária de Distribuição,Reajuste,28/08/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/6600 PCAT EPB 2019.xlsx
+636,6600,EPB,Concessionária de Distribuição,Reajuste,28/08/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EPB_2018 .xlsx
+637,6600,EPB,Concessionária de Distribuição,Revisão,28/08/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Internet_EPB_2017.xlsx
+638,6600,EPB,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/6600 PCAT EPB 2016 V02.xlsx
+639,6600,EPB,Concessionária de Distribuição,Reajuste,28/08/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EPB_2016.xlsx
+640,6600,EPB,Concessionária de Distribuição,Reajuste,28/08/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EPB_2015.xlsx
+641,6600,EPB,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EPB_20141.xlsx
+642,6600,EPB,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EPB_20151.xlsx
+643,6600,EPB,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EPB_2014_CAT.xlsx
+644,6600,EPB,Concessionária de Distribuição,Reajuste,26/08/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_EPB_2014.xlsx
+645,6600,EPB,Concessionária de Distribuição,Revisão,28/08/2013,Definitivo,
+646,6600,EPB,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+647,44,Equatorial AL,Concessionária de Distribuição,Reajuste,03/05/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/44 PCAT Ceal 2022 V02.xlsx
+648,44,Equatorial AL,Concessionária de Distribuição,Reajuste,03/05/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/44 PCAT Ceal 2021 V02.xlsx
+649,44,Equatorial AL,Concessionária de Distribuição,Revisão Extraordinária,03/05/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Ceal 2020 V02.xlsx
+650,44,Equatorial AL,Concessionária de Distribuição,Reajuste,03/04/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEAL_2019.xlsx
+651,44,Equatorial AL,Concessionária de Distribuição,Reajuste,28/09/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Ceal_2018 .xlsx
+652,44,Equatorial AL,Concessionária de Distribuição,Reajuste,28/09/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT Ceal 2017 V02.xlsx
+653,44,Equatorial AL,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/44 PCAT Ceal 2016 V02.xlsx
+654,44,Equatorial AL,Concessionária de Distribuição,Revisão,28/09/2016,Definitivo,
+655,44,Equatorial AL,Concessionária de Distribuição,Reajuste,28/09/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Ceal_2016.xlsx
+656,44,Equatorial AL,Concessionária de Distribuição,Reajuste,28/08/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Ceal_20151.xlsx
+657,44,Equatorial AL,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEAL_20141.xlsx
+658,44,Equatorial AL,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Ceal_2015.xlsx
+659,44,Equatorial AL,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEAL_2014_CAT.xlsx
+660,44,Equatorial AL,Concessionária de Distribuição,Reajuste,26/08/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEAL_2014.xlsx
+661,44,Equatorial AL,Concessionária de Distribuição,Revisão,28/08/2013,Definitivo,
+662,44,Equatorial AL,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+663,37,Equatorial MA,Concessionária de Distribuição,Reajuste,28/08/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/37 PCAT Cemar 2022 V02.xlsx
+664,37,Equatorial MA,Concessionária de Distribuição,Revisão,28/08/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/37 PCAT Cemar 2021 V02.xlsx
+665,37,Equatorial MA,Concessionária de Distribuição,Revisão,28/08/2021,Definitivo,
+666,37,Equatorial MA,Concessionária de Distribuição,Revisão,28/08/2021,Definitivo,
+667,37,Equatorial MA,Concessionária de Distribuição,Reajuste,28/08/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/37 PCAT Cemar 2020 V02.xlsx
+668,37,Equatorial MA,Concessionária de Distribuição,Reajuste,28/08/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/37_PCAT_CEMAR_2019.xlsx
+669,37,Equatorial MA,Concessionária de Distribuição,Reajuste,28/08/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Cemar_2018 .xlsx
+670,37,Equatorial MA,Concessionária de Distribuição,Reajuste,28/08/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Cemar_2017.xlsx
+671,37,Equatorial MA,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/37 PCAT Cemar 2016 V02.xlsx
+672,37,Equatorial MA,Concessionária de Distribuição,Reajuste,28/08/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Cemar_2016.xlsx
+673,37,Equatorial MA,Concessionária de Distribuição,Reajuste,28/08/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Cemar_2015.xlsx
+674,37,Equatorial MA,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEMAR_20141.xlsx
+675,37,Equatorial MA,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Cemar_20151.xlsx
+676,37,Equatorial MA,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEMAR_2014_CAT.xlsx
+677,37,Equatorial MA,Concessionária de Distribuição,Reajuste,26/08/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEMAR_2014.xlsx
+678,37,Equatorial MA,Concessionária de Distribuição,Revisão,28/08/2013,Definitivo,
+679,37,Equatorial MA,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+680,371,Equatorial PA,Concessionária de Distribuição,Reajuste,07/08/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/371 PCAT Celpa 2022 V02.xlsx
+681,371,Equatorial PA,Concessionária de Distribuição,Reajuste,07/08/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/371 PCAT Celpa 2021 V02.xlsx
+682,371,Equatorial PA,Concessionária de Distribuição,Reajuste,07/08/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/371 PCAT Celpa 2020 V02-30jul.xlsx
+683,371,Equatorial PA,Concessionária de Distribuição,Revisão,07/08/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/371 PCAT Celpa 2019.xlsx
+684,371,Equatorial PA,Concessionária de Distribuição,Reajuste,29/08/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Celpa_2018 .xlsx
+685,371,Equatorial PA,Concessionária de Distribuição,Reajuste,07/08/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CELPA_2017.xlsx
+686,371,Equatorial PA,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/371 PCAT Celpa 2016 V02.xlsx
+687,371,Equatorial PA,Concessionária de Distribuição,Reajuste,07/08/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Celpa_2016.xlsx
+688,371,Equatorial PA,Concessionária de Distribuição,Revisão,07/08/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Celpa_2015.xlsx
+689,371,Equatorial PA,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CELPA_20141.xlsx
+690,371,Equatorial PA,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Celpa_20151.xlsx
+691,371,Equatorial PA,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CELPA_2014_V00.xlsx
+692,371,Equatorial PA,Concessionária de Distribuição,Reajuste,07/08/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CELPA_2014.xlsx
+693,371,Equatorial PA,Concessionária de Distribuição,Reajuste,07/08/2013,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CELPA_2013.xlsx
+694,371,Equatorial PA,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+695,38,Equatorial PI,Concessionária de Distribuição,Reajuste,02/12/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/38 PCAT Cepisa 2021 V02.xlsx
+696,38,Equatorial PI,Concessionária de Distribuição,Revisão Extraordinária,02/12/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/38 PCAT Cepisa 2020 V021.xlsx
+697,38,Equatorial PI,Concessionária de Distribuição,Reajuste,30/11/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/38 PCAT Cepisa 2019 V02.xlsx
+698,38,Equatorial PI,Concessionária de Distribuição,Revisão Extraordinária,01/04/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Cepisa_20181.xlsx
+699,38,Equatorial PI,Concessionária de Distribuição,Reajuste,02/12/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Cepisa_2018.xlsx
+700,38,Equatorial PI,Concessionária de Distribuição,Reajuste,28/09/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Cepisa_2017.xlsx
+701,38,Equatorial PI,Concessionária de Distribuição,Revisão,28/09/2016,Definitivo,
+702,38,Equatorial PI,Concessionária de Distribuição,Reajuste,28/09/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Cepisa_2016.xlsx
+703,38,Equatorial PI,Concessionária de Distribuição,Revisão,26/08/2016,Definitivo,
+704,38,Equatorial PI,Concessionária de Distribuição,Reajuste,28/08/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Cepisa_2015.xlsx
+705,38,Equatorial PI,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEPISA_20141.xlsx
+706,38,Equatorial PI,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Cepisa_20151.xlsx
+707,38,Equatorial PI,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEPISA_2014_CAT.xlsx
+708,38,Equatorial PI,Concessionária de Distribuição,Reajuste,26/08/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CEPISA_2014.xlsx
+709,38,Equatorial PI,Concessionária de Distribuição,Revisão,28/08/2013,Definitivo,
+710,38,Equatorial PI,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+711,6587,ESE,Concessionária de Distribuição,Revisão Extraordinária,13/07/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/6587 PCAT ESE 2022 V021.xlsx
+712,6587,ESE,Concessionária de Distribuição,Reajuste,22/04/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/6587 PCAT ESE 2022 V02.xlsx
+713,6587,ESE,Concessionária de Distribuição,Reajuste,22/04/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/6587 PCAT ESE 2021 V02.xlsx
+714,6587,ESE,Concessionária de Distribuição,Reajuste,22/04/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/6587 PCAT ESE 2020 V02.xlsx
+715,6587,ESE,Concessionária de Distribuição,Reajuste,22/04/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ESE_2019.xlsx
+716,6587,ESE,Concessionária de Distribuição,Revisão,22/04/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ESE_2018 .xlsx
+717,6587,ESE,Concessionária de Distribuição,Reajuste,22/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ESE_2017.xlsx
+718,6587,ESE,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,
+719,6587,ESE,Concessionária de Distribuição,Reajuste,22/04/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ESE_2016.xlsx
+720,6587,ESE,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ESE_2015.xlsx
+721,6587,ESE,Concessionária de Distribuição,Reajuste,22/04/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ESE_2015A_V01..xlsx
+722,6587,ESE,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ESE_2014_V00.xlsx
+723,6587,ESE,Concessionária de Distribuição,Reajuste,22/04/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ESE_2014.xlsx
+724,6587,ESE,Concessionária de Distribuição,Revisão,22/04/2013,Definitivo,
+725,6587,ESE,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+726,5216,ESS,Concessionária de Distribuição,Reajuste,12/07/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/1000040 PCAT ESS (agrupada) 2022 V02.xlsx
+727,5216,ESS,Concessionária de Distribuição,Revisão,12/07/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/1000040 PCAT ESS (agrupada) 2021 V02.xlsx
+728,5216,ESS,Concessionária de Distribuição,Reajuste,12/07/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT ESS (agrupada) 2020 V02.xlsx
+729,5216,ESS,Concessionária de Distribuição,Reajuste,12/07/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/1000040 PCAT Sul Sudeste 2019 V02.xlsx
+730,5216,ESS,Concessionária de Distribuição,Reajuste,12/07/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Sul_Sudeste_2018 .xlsx
+731,5216,ESS,Concessionária de Distribuição,Reajuste,12/07/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_SuperEner_2017.xlsx
+732,5216,ESS,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/5216 PCAT Caiuá 2016 V02.xlsx
+733,5216,ESS,Concessionária de Distribuição,Revisão,10/05/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CAIUA_2016.xlsx
+734,5216,ESS,Concessionária de Distribuição,Reajuste,10/05/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CAIUÁ_2015.xlsx
+735,5216,ESS,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CAIUÁ_2014_V00.xlsx
+736,5216,ESS,Concessionária de Distribuição,Reajuste,06/05/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CAIUÁ_2014.xlsx
+737,5216,ESS,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+738,32,ETO,Concessionária de Distribuição,Reajuste,04/07/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/32 PCAT ETO 2022 V02.xlsx
+739,32,ETO,Concessionária de Distribuição,Reajuste,04/07/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/32 PCAT ETO 2021 V02.xlsx
+740,32,ETO,Concessionária de Distribuição,Revisão,04/07/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/32 PCAT ETO 2020 V02.xlsx
+741,32,ETO,Concessionária de Distribuição,Reajuste,04/07/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/32 PCAT ETO 2019 V02.xlsx
+742,32,ETO,Concessionária de Distribuição,Reajuste,04/07/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ETO_2018.xlsx
+743,32,ETO,Concessionária de Distribuição,Reajuste,04/07/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ETO_2017.xlsx
+744,32,ETO,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/32 PCAT ETO 2016 V02.xlsx
+745,32,ETO,Concessionária de Distribuição,Revisão,04/07/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ETO_2016.xlsx
+746,32,ETO,Concessionária de Distribuição,Reajuste,04/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ETO_2015.xlsx
+747,32,ETO,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Celtins_2015.xlsx
+748,32,ETO,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CELTINS_2014_V00.xlsx
+749,32,ETO,Concessionária de Distribuição,Reajuste,03/07/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_CELTINS_2014.xlsx
+750,32,ETO,Concessionária de Distribuição,Reajuste,04/07/2013,Definitivo,
+751,32,ETO,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+752,83,FORCEL,Concessionária de Distribuição,Reajuste,26/08/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/83 PCAT Forcel 2022 V02.xlsx
+753,83,FORCEL,Concessionária de Distribuição,Revisão,26/08/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/83 PCAT Forcel 2021 V02.xlsx
+754,83,FORCEL,Concessionária de Distribuição,Revisão,26/08/2021,Definitivo,
+755,83,FORCEL,Concessionária de Distribuição,Revisão,26/08/2021,Definitivo,
+756,83,FORCEL,Concessionária de Distribuição,Reajuste,26/08/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/83 PCAT Forcel 2020 V02.xlsx
+757,83,FORCEL,Concessionária de Distribuição,Reajuste,26/08/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/83 PCAT Forcel 2019.xlsx
+758,83,FORCEL,Concessionária de Distribuição,Reajuste,26/08/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Forcel_2018.xlsx
+759,83,FORCEL,Concessionária de Distribuição,Reajuste,26/08/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Forcel_2017.xlsx
+760,83,FORCEL,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/83 PCAT Forcel 2016 V02.xlsx
+761,83,FORCEL,Concessionária de Distribuição,Revisão,26/08/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Forcel_2016.xlsx
+762,83,FORCEL,Concessionária de Distribuição,Reajuste,26/08/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Forcel_2015.xlsx
+763,83,FORCEL,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_FORCEL_2014_V00.xlsx
+764,83,FORCEL,Concessionária de Distribuição,Reajuste,19/08/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_FORCEL_2014.xlsx
+765,83,FORCEL,Concessionária de Distribuição,Reajuste,20/08/2013,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_FORCEL_2013.xlsx
+766,83,FORCEL,Concessionária de Distribuição,Reajuste,24/01/2013,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_FORCEL_20131.xlsx
+767,83,FORCEL,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+768,399,HIDROPAN,Concessionária de Distribuição,Revisão,22/07/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/399 PCAT Hidropan 2022 V02.xlsx
+769,399,HIDROPAN,Concessionária de Distribuição,Reajuste,22/07/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/399 PCAT Hidropan 2021 V02.xlsx
+770,399,HIDROPAN,Concessionária de Distribuição,Reajuste,22/07/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/399 PCAT Hidropan 2020 V02.xlsx
+771,399,HIDROPAN,Concessionária de Distribuição,Reajuste,22/07/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/399 PCAT Hidropan 2019 V02.xlsx
+772,399,HIDROPAN,Concessionária de Distribuição,Reajuste,22/07/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Hidropan_2018.xlsx
+773,399,HIDROPAN,Concessionária de Distribuição,Revisão,22/07/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Hidropan_2017.xlsx
+774,399,HIDROPAN,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/399 PCAT Hidropan 2016 V02.xlsx
+775,399,HIDROPAN,Concessionária de Distribuição,Reajuste,22/07/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Hidropan_2016.xlsx
+776,399,HIDROPAN,Concessionária de Distribuição,Revisão,08/04/2016,Provisório,
+777,399,HIDROPAN,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Hidropan_20152.xlsx
+778,399,HIDROPAN,Concessionária de Distribuição,Reajuste,29/06/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Hidropan_2015.xlsx
+779,399,HIDROPAN,Concessionária de Distribuição,Reajuste,29/06/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Hidropan_20151.xlsx
+780,399,HIDROPAN,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_HIDROPAN_2014_V00.xlsx
+781,399,HIDROPAN,Concessionária de Distribuição,Reajuste,24/06/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_HIDROPAN_2014.xlsx
+782,399,HIDROPAN,Concessionária de Distribuição,Revisão,29/06/2013,Definitivo,
+783,399,HIDROPAN,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+784,382,LIGHT,Concessionária de Distribuição,Revisão,15/03/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/382 PCAT Light 2022 V02.xlsx
+785,382,LIGHT,Concessionária de Distribuição,Reajuste,15/03/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/382_PCAT_Light_2021.xlsx
+786,382,LIGHT,Concessionária de Distribuição,Reajuste,15/03/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Light_2020.xlsx
+787,382,LIGHT,Concessionária de Distribuição,Revisão Extraordinária,01/04/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Light_2019 .xlsx
+788,382,LIGHT,Concessionária de Distribuição,Reajuste,15/03/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/382 PCAT Light 2019 V02.xlsx
+789,382,LIGHT,Concessionária de Distribuição,Reajuste,15/03/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Light_2018.xlsx
+790,382,LIGHT,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/382 PCAT Light 2017 V02.xlsx
+791,382,LIGHT,Concessionária de Distribuição,Revisão,15/03/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Light_2017.xlsx
+792,382,LIGHT,Concessionária de Distribuição,Reajuste,07/11/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Light_2016.xlsx
+793,382,LIGHT,Concessionária de Distribuição,Reajuste,07/11/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Light_2015.xlsx
+794,382,LIGHT,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_LIGHT_20141.xlsx
+795,382,LIGHT,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_LIGHT_2014_CAT.xlsx
+796,382,LIGHT,Concessionária de Distribuição,Reajuste,07/11/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_LIGHT_2014.xlsx
+797,382,LIGHT,Concessionária de Distribuição,Revisão,07/11/2013,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_LIGHT_2013.xlsx
+798,382,LIGHT,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+799,401,MUXENERGIA,Concessionária de Distribuição,Revisão,22/07/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/401 PCAT MuxEnergia 2022 V02.xlsx
+800,401,MUXENERGIA,Concessionária de Distribuição,Reajuste,22/07/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/401 PCAT MuxEnergia 2021 V02.xlsx
+801,401,MUXENERGIA,Concessionária de Distribuição,Reajuste,22/07/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/401 PCAT MuxEnergia 2020 V02.xlsx
+802,401,MUXENERGIA,Concessionária de Distribuição,Reajuste,22/07/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/401_PCAT_MuxEnergia_2019.xlsx
+803,401,MUXENERGIA,Concessionária de Distribuição,Reajuste,22/07/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_MuxEnergia_2018 .xlsx
+804,401,MUXENERGIA,Concessionária de Distribuição,Revisão,22/07/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_MuxEnergia_2017.xlsx
+805,401,MUXENERGIA,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/401 PCAT MUX 2016 V02.xlsx
+806,401,MUXENERGIA,Concessionária de Distribuição,Reajuste,22/07/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_MuxEnergia_2016.xlsx
+807,401,MUXENERGIA,Concessionária de Distribuição,Revisão,08/04/2016,Provisório,
+808,401,MUXENERGIA,Concessionária de Distribuição,Reajuste,26/06/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_MuxEnergia_2015.xlsx
+809,401,MUXENERGIA,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_MUXFELDT_2014_V00.xlsx
+810,401,MUXENERGIA,Concessionária de Distribuição,Reajuste,24/06/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_MUXFELDT_2014.xlsx
+811,401,MUXENERGIA,Concessionária de Distribuição,Revisão,29/06/2013,Definitivo,
+812,401,MUXENERGIA,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+813,397,RGE,Concessionária de Distribuição,Reajuste,19/06/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/396 PCAT RGE SUL 2019 V021.xlsx
+814,397,RGE,Concessionária de Distribuição,Reajuste,19/06/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/397 PCAT RGE 2019 V021.xlsx
+815,397,RGE,Concessionária de Distribuição,Reajuste,19/06/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/1000042 PCAT RGE Agrupada 2019 V021.xlsx
+816,397,RGE,Concessionária de Distribuição,Revisão,19/06/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_RGE_2018 .xlsx
+817,397,RGE,Concessionária de Distribuição,Reajuste,19/06/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_RGE_2017.xlsx
+818,397,RGE,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/397 PCAT RGE 2016 V02.xlsx
+819,397,RGE,Concessionária de Distribuição,Reajuste,14/06/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_RGE_2016.xlsx
+820,397,RGE,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_RGE_20152.xlsx
+821,397,RGE,Concessionária de Distribuição,Reajuste,16/06/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_RGE_2015.xlsx
+822,397,RGE,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_RGE_2014_V00.xlsx
+823,397,RGE,Concessionária de Distribuição,Reajuste,17/06/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_RGE_2014.xlsx
+824,397,RGE,Concessionária de Distribuição,Revisão,19/06/2013,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT RGE 2013A V00.xlsx
+825,397,RGE,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+826,396,RGE SUL,Concessionária de Distribuição,Reajuste,22/06/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/1000042 PCAT RGE (agrupada) 2022 V02.xlsx
+827,396,RGE SUL,Concessionária de Distribuição,Reajuste,19/06/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/1000042 PCAT RGE (agrupada) 2021 V02.xlsx
+828,396,RGE SUL,Concessionária de Distribuição,Reajuste,19/06/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_RGE_AGRU_2020 V02.xlsx
+829,396,RGE SUL,Concessionária de Distribuição,Reajuste,19/06/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/1000042 PCAT RGE Agrupada 2019 V02.xlsx
+830,396,RGE SUL,Concessionária de Distribuição,Reajuste,19/06/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/396 PCAT RGE SUL 2019 V02.xlsx
+831,396,RGE SUL,Concessionária de Distribuição,Reajuste,19/06/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/397 PCAT RGE 2019 V02.xlsx
+832,396,RGE SUL,Concessionária de Distribuição,Reajuste,17/04/2019,Provisório,
+833,396,RGE SUL,Concessionária de Distribuição,Revisão,19/04/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_RGE-SUL_2018 .xlsx
+834,396,RGE SUL,Concessionária de Distribuição,Reajuste,19/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_AES_Sul_2017.xlsx
+835,396,RGE SUL,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,
+836,396,RGE SUL,Concessionária de Distribuição,Reajuste,12/04/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_AES_Sul_2016.xlsx
+837,396,RGE SUL,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_AES_SUL_2015.xlsx
+838,396,RGE SUL,Concessionária de Distribuição,Reajuste,19/04/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ AES SUL_ 2015A_15..xlsx
+839,396,RGE SUL,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_AESSUL_2014_V00.xlsx
+840,396,RGE SUL,Concessionária de Distribuição,Reajuste,19/04/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_AES SUL_2014.xlsx
+841,396,RGE SUL,Concessionária de Distribuição,Revisão,19/04/2013,Definitivo,
+842,396,RGE SUL,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+843,46,SULGIPE,Concessionária de Distribuição,Revisão Extraordinária,13/07/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/46 PCAT Sulgipe 2022 V021.xlsx
+844,46,SULGIPE,Concessionária de Distribuição,Revisão,22/05/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/46 PCAT Sulgipe 2022 V02.xlsx
+845,46,SULGIPE,Concessionária de Distribuição,Reajuste,22/05/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/46 PCAT Sulgipe 2021 V02.xlsx
+846,46,SULGIPE,Concessionária de Distribuição,Reajuste,22/05/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/46 PCAT 2020 V02.xlsx
+847,46,SULGIPE,Concessionária de Distribuição,Reajuste,22/05/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/46 PCAT Sulgipe 2019 V02.xlsx
+848,46,SULGIPE,Concessionária de Distribuição,Reajuste,22/05/2018,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT Sulgipe 2018 V02.xlsx
+849,46,SULGIPE,Concessionária de Distribuição,Revisão,22/05/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Sulgipe_2017.xlsx
+850,46,SULGIPE,Concessionária de Distribuição,Revisão,08/04/2016,Provisório,
+851,46,SULGIPE,Concessionária de Distribuição,Reajuste,14/12/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Sulgipe_2015.xlsx
+852,46,SULGIPE,Concessionária de Distribuição,Liminar abrace,03/07/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_SULGIPE_2014.xlsx
+853,46,SULGIPE,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_SULGIPE_2014_CAT.xlsx
+854,46,SULGIPE,Concessionária de Distribuição,Reajuste,14/12/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_SULGIPE_2014_CAT1.xlsx
+855,46,SULGIPE,Concessionária de Distribuição,Reajuste,14/12/2013,Definitivo,
+856,46,SULGIPE,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,
+857,400,UHENPAL,Concessionária de Distribuição,Revisão,22/07/2022,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/400 PCAT Uhenpal 2022 V02.xlsx
+858,400,UHENPAL,Concessionária de Distribuição,Reajuste,22/07/2021,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/400 PCAT NOVA PALMA 2021 V02.xlsx
+859,400,UHENPAL,Concessionária de Distribuição,Reajuste,22/05/2020,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/400 PCAT_Uhenpal_V02.xlsx
+860,400,UHENPAL,Concessionária de Distribuição,Reajuste,22/05/2019,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/400 PCAT Uhenpal 2019 V02.xlsx
+861,400,UHENPAL,Concessionária de Distribuição,Reajuste,22/05/2018,Definitivo,
+862,400,UHENPAL,Concessionária de Distribuição,Revisão,22/05/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_Uhenpal_2017.xlsx
+863,400,UHENPAL,Concessionária de Distribuição,Ajuste EER ANGRA III,01/04/2017,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/400 PCAT UHENPAL 2016 V02 gerou REH.xlsx
+864,400,UHENPAL,Concessionária de Distribuição,Reajuste,22/05/2016,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_ UHENPAL_ 2016.xlsx
+865,400,UHENPAL,Concessionária de Distribuição,Revisão,08/04/2016,Provisório,
+866,400,UHENPAL,Concessionária de Distribuição,Reajuste,19/04/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_UHENPAL_2015A 015..xlsx
+867,400,UHENPAL,Concessionária de Distribuição,Revisão Extraordinária,02/03/2015,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_UHENPAL_2014_V00.xlsx
+868,400,UHENPAL,Concessionária de Distribuição,Reajuste,19/04/2014,Definitivo,https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/PCAT_UHENPAL_2014.xlsx
+869,400,UHENPAL,Concessionária de Distribuição,Revisão,19/04/2013,Definitivo,
+870,400,UHENPAL,Concessionária de Distribuição,Revisão Extraordinária,24/01/2013,Definitivo,

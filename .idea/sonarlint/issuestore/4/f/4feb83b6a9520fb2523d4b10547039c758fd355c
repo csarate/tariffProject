@@ -1,0 +1,13 @@
+
+®python:S1192—"”Define a constant instead of duplicating this literal 'Not able to save tariff_service: {},\
+                    tariff_name: {}, year: {}' 4 times.(³à¥Ó
+opython:S1192"WDefine a constant instead of duplicating this literal 'Domestica Bajo Consumo' 4 times.(äÝ÷é
+fpython:S1192S"NDefine a constant instead of duplicating this literal 'saved file {}' 3 times.(Ý®Ò®
+opython:S1192 "WDefine a constant instead of duplicating this literal 'Domestica Alto Consumo' 4 times.(Òþ­ò
+Tpython:S5754_"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754–"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+:python:S3457§"Remove this unused argument.(§ÆÞ…üÿÿÿÿ
+Upython:S5754Ó"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Opython:S1172ß"6Remove the unused function parameter "time_to_search".(œÚó‚
+Ppython:S1481ä"2Remove the unused local variable "beginning_time".(«ò÷Ãüÿÿÿÿ
+mpython:S3776ß"TRefactor this function to reduce its Cognitive Complexity from 57 to the 15 allowed.(œÚó‚

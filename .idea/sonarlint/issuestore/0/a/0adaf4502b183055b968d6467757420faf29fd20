@@ -1,0 +1,18 @@
+
+‹python:S1192}"nDefine a constant instead of duplicating this literal 'Downloading erro = {} trying to connect to {}' 4 times.(‹éØüÿÿÿÿ
+xpython:S1192ª"ZDefine a constant instead of duplicating this literal ' table already downloaded' 3 times.(è¢àşÿÿÿÿ
+=python:S1481$"%Remove the unused local variable "e".(É†­Â
+@python:S14811"(Remove the unused local variable "date".(Ê¼™±
+Ipython:S1751d"1Refactor this loop to do more than one iteration.(ÚÍÓÁ
+Ipython:S5806¥"+Rename this variable; it shadows a builtin.(ô¢×åıÿÿÿÿ
+qpython:S117ö"YRename this local variable "DictInfo" to match the regular expression ^[_a-z][a-z0-9_]*$.(ó‡ò
+upython:S117Ê"XRename this local variable "TblPCAT" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ñ§Íšşÿÿÿÿ
+wpython:S117É"ZRename this local variable "TblSparta" to match the regular expression ^[_a-z][a-z0-9_]*$.(‘îÁ·øÿÿÿÿ
+npython:S117Œ"VRename this local variable "ePCAT" to match the regular expression ^[_a-z][a-z0-9_]*$.(ĞÙáØ
+ppython:S117‹"XRename this local variable "eSparta" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ú²©á
+ppython:S117î"XRename this local variable "lstPCAT" to match the regular expression ^[_a-z][a-z0-9_]*$.(“İãˆ
+wpython:S117í"ZRename this local variable "lstSparta" to match the regular expression ^[_a-z][a-z0-9_]*$.(±Ç±äüÿÿÿÿ
+ppython:S117š"XRename this local variable "rowPCAT" to match the regular expression ^[_a-z][a-z0-9_]*$.(„†Ê…
+rpython:S117™"ZRename this local variable "rowSparta" to match the regular expression ^[_a-z][a-z0-9_]*$.(›Î”
+rpython:S3776È"TRefactor this function to reduce its Cognitive Complexity from 68 to the 15 allowed.(İƒ‡øÿÿÿÿ
+Upython:S5754º"<Specify an exception class to catch or reraise the exception(ˆÊÉ·

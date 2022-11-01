@@ -1,0 +1,13 @@
+,CARGO VARIABLE R7(consumo en kWH-Mes > 1400),Unnamed: 0,"22,4831",$/kWh
+0,E - RESIDENCIAL ESTACIONAL,,,
+1,CARGO FIJO RE1,,"706,92",$/mes
+2,CARGO VARIABLE RE1 (consumo en kWH-Mes ≤ 500),,"21,7827",$/kWh
+3,CARGO FIJO RE2,,"800,07",$/mes
+4,CARGO VARIABLE RE2 ( 500 < consumo en kWH-Mes ≤ 700),,"22,2863",$/kWh
+5,CARGO FIJO RE3,,"897,90",$/mes
+6,CARGO VARIABLE RE3 ( 700 < consumo en kWH-Mes ≤ 1400),,"22,6385",$/kWh
+7,CARGO FIJO RE4,,"986,38",$/mes
+8,CARGO VARIABLE RE4 (consumo en kWH-Mes > 1400),,"23,3335",$/kWh
+9,- SERVICIO GENERAL BAJOS CONSUMOS,,,
+10,CARGO FIJO GBC,,"684,33",$/mes
+11,CARGO VARIABLE GBC (consumo en kWH-Mes ≤ 1000),,"23,1937",$/kWh

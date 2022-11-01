@@ -1,0 +1,20 @@
+
+epython:S11927"FDefine a constant instead of duplicating this literal '%m-%Y' 8 times.(¬÷Œæ8»‚Í½0
+kpython:S1192d"GDefine a constant instead of duplicating this literal '$local' 6 times.(€ä«·ûÿÿÿÿ8¼‚Í½0
+Ipython:S1481_"%Remove the unused local variable "x".(âàö·øÿÿÿÿ8¼‚Í½0
+Ipython:S1481c"%Remove the unused local variable "x".(©÷»’ùÿÿÿÿ8½‚Í½0
+Ipython:S1481f"%Remove the unused local variable "x".(µé×œüÿÿÿÿ8½‚Í½0
+Dpython:S1481i"%Remove the unused local variable "x".(•Àøå8½‚Í½0
+Dpython:S1481m"%Remove the unused local variable "x".(¦Ç8¾‚Í½0
+Dpython:S1481y"%Remove the unused local variable "x".(øèˆâ8¾‚Í½0
+Dpython:S1481{"%Remove the unused local variable "x".(çæ÷Œ8¿‚Í½0
+Ipython:S1481"%Remove the unused local variable "x".(ÿËıóúÿÿÿÿ8Â‚Í½0
+Jpython:S1481"%Remove the unused local variable "x".(Øû˜şÿÿÿÿ8Ã‚Í½0
+Jpython:S1481¨"%Remove the unused local variable "x".(ıŠäØÿÿÿÿÿ8Ä‚Í½0
+Jpython:S1481«"%Remove the unused local variable "x".(²Ï†½ıÿÿÿÿ8Å‚Í½0
+Jpython:S1481®"%Remove the unused local variable "x".(§…½îùÿÿÿÿ8Æ‚Í½0
+Epython:S1481²"%Remove the unused local variable "x".(üçÈ8Ç‚Í½0
+Dpython:S1481¾"%Remove the unused local variable "x".(ƒ›®8Ê‚Í½0
+Jpython:S1481È"%Remove the unused local variable "x".(ûıĞüùÿÿÿÿ8Ë‚Í½0
+Jpython:S1481É"%Remove the unused local variable "x".(ÿËıóúÿÿÿÿ8Ï‚Í½0
+Fpython:S1110ü"!Remove those useless parentheses.(‹ÙÒøıÿÿÿÿ8Ğ‚Í½0

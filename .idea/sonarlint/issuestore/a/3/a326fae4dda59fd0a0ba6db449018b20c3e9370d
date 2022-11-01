@@ -1,0 +1,22 @@
+
+gpython:S1192$"ODefine a constant instead of duplicating this literal '{}_date_{}.csv' 3 times.(¨´ Ø
+^python:S1192#"FDefine a constant instead of duplicating this literal '%m-%Y' 9 times.(ÆÝè¬
+cpython:S1192Þ"JDefine a constant instead of duplicating this literal 'year : {}' 3 times.(Ñ°£¼
+fpython:S1192:"NDefine a constant instead of duplicating this literal 'saved file {}' 3 times.(Ý®Ò®
+—python:S1192F"Define a constant instead of duplicating this literal 'Not able to save tariff: {},\
+            date: {}, season: {}' 4 times.(¤Ã»­
+Tpython:S5754"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Tpython:S112">Replace this generic exception class with a more specific one.(Œåß%
+Tpython:S5754E"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Bpython:S2275F"*Provide a value for field(s) with index 2.(¤Ã»­
+Bpython:S2275J"*Provide a value for field(s) with index 2.(¬˜·Ú
+Upython:S5754Ž"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754É"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+lpython:S3776Ö"TRefactor this function to reduce its Cognitive Complexity from 30 to the 15 allowed.(Æ«ô:
+Upython:S5754ƒ"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+rpython:S3776Ã"TRefactor this function to reduce its Cognitive Complexity from 31 to the 15 allowed.(£•áëþÿÿÿÿ
+lpython:S3776»"TRefactor this function to reduce its Cognitive Complexity from 53 to the 15 allowed.(¸¡“s
+Opython:S1172Ò"6Remove the unused function parameter "time_to_search".(Í¤ðó
+Ppython:S1481×"2Remove the unused local variable "beginning_time".(«ò÷Ãüÿÿÿÿ
+mpython:S3776Ò"TRefactor this function to reduce its Cognitive Complexity from 29 to the 15 allowed.(Í¤ðó
+5python:S2772Â"Remove this unneeded "pass".(ã‘Û¾

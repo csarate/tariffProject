@@ -1,0 +1,6 @@
+,Cargo Variable +700,$/kWh,"2,9821"
+0,ncial,,
+1,Cargo Fijo 0-325,$/mes,"389,84"
+2,Cargo Variable 0-325,$/kWh,"2,8716"
+3,Cargo Fijo 326-500,$/mes,"656,74"
+4,Cargo Variable 326-500,$/kWh,"3,0259"

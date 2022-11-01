@@ -1,0 +1,16 @@
+
+tpython:S1192“"VDefine a constant instead of duplicating this literal 'badly format month {}' 4 times.(ƒÑ‹‚ùÿÿÿÿ
+spython:S1192¢"UDefine a constant instead of duplicating this literal 'badly format date {}' 4 times.(¶—§Àùÿÿÿÿ
+8python:S3626§"Remove this redundant continue.(À–¬ˆ
+>python:S1481’"%Remove the unused local variable "e".(¨šý®
+Apython:S6396‹"#Remove this unnecessary quantifier.(ãëÄòøÿÿÿÿ
+Ypython:S6353‹";Use concise character class syntax '\d' instead of '[0-9]'.(ãëÄòøÿÿÿÿ
+Ypython:S6353‹";Use concise character class syntax '\d' instead of '[0-9]'.(ãëÄòøÿÿÿÿ
+8python:S3626Ë"Remove this redundant continue.(À–¬ˆ
+>python:S1481¶"%Remove the unused local variable "e".(¨šý®
+Apython:S6396¯"#Remove this unnecessary quantifier.(ãëÄòøÿÿÿÿ
+Ypython:S6353¯";Use concise character class syntax '\d' instead of '[0-9]'.(ãëÄòøÿÿÿÿ
+Ypython:S6353¯";Use concise character class syntax '\d' instead of '[0-9]'.(ãëÄòøÿÿÿÿ
+>python:S1481ï"%Remove the unused local variable "e".(É†­Â
+mpython:S3776Î"TRefactor this function to reduce its Cognitive Complexity from 64 to the 15 allowed.(‘êšä
+Upython:S5754Í"<Specify an exception class to catch or reraise the exception(ˆÊÉ·

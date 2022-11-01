@@ -1,0 +1,7 @@
+
+xpython:S3776"TRefactor this function to reduce its Cognitive Complexity from 63 to the 15 allowed.(›ÙĞûÿÿÿÿ8×¬áÜ¾0
+}python:S2737ò"XAdd logic to this except clause or eliminate it and rethrow the exception automatically.(ÏõîËûÿÿÿÿ8Ø¬áÜ¾0
+}python:S2737ë"XAdd logic to this except clause or eliminate it and rethrow the exception automatically.(ÏõîËûÿÿÿÿ8Ø¬áÜ¾0
+[python:S6353";Use concise character class syntax '\d' instead of '[0-9]'.(Óíø¦8ğ¬ôæ½0
+[python:S6353";Use concise character class syntax '\d' instead of '[0-9]'.(Óíø¦8ğ¬ôæ½0
+Ypython:S5857›"9Replace this use of a reluctant quantifier with "[^\)]*".(¿Ş€…8Ù¬áÜ¾0

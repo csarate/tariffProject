@@ -1,0 +1,19 @@
+
+hpython:S1192»"JDefine a constant instead of duplicating this literal 'Flat rate' 3 times.(Üì½®úÿÿÿÿ
+|python:S1192Ê"^Define a constant instead of duplicating this literal 'Cargo por Potencia Contratada' 3 times.(Ñß©ûÿÿÿÿ
+epython:S1192º"LDefine a constant instead of duplicating this literal 'Low Voltage' 4 times.(Áæœï
+hpython:S1192«"ODefine a constant instead of duplicating this literal 'Cargo Variable' 3 times.(—ÂûÆ
+{python:S1192Ë"]Define a constant instead of duplicating this literal 'Cargo por Potencia Adquirida' 3 times.(ò°×Šıÿÿÿÿ
+kpython:S1192‰"MDefine a constant instead of duplicating this literal 'High Voltage' 3 times.(ÊÜû¦üÿÿÿÿ
+hpython:S1192Ú"ODefine a constant instead of duplicating this literal 'Medium Voltage' 4 times.(‡áŸ
+cpython:S1192É"KDefine a constant instead of duplicating this literal 'Cargo Fijo' 3 times.(ˆÒÆD
+ppython:S117"YRename this local variable "espRange" to match the regular expression ^[_a-z][a-z0-9_]*$.(½ŞÌ§
+=python:S1481V"%Remove the unused local variable "e".(É†­Â
+npython:S117l"WRename this local variable "AllCol" to match the regular expression ^[_a-z][a-z0-9_]*$.(ıùÒÏ
+ppython:S117ê"YRename this local variable "DS_Add_1" to match the regular expression ^[_a-z][a-z0-9_]*$.(÷§…e
+vpython:S117ë"YRename this local variable "DS_Add_2" to match the regular expression ^[_a-z][a-z0-9_]*$.(çå€Œşÿÿÿÿ
+zpython:S117m"^Rename this local variable "DS_IDB_Result" to match the regular expression ^[_a-z][a-z0-9_]*$.(á•…Ôúÿÿÿÿ
+spython:S117£"[Rename this local variable "dicDayTime" to match the regular expression ^[_a-z][a-z0-9_]*$.(ØËŸ
+spython:S117—"[Rename this local variable "dicVoltage" to match the regular expression ^[_a-z][a-z0-9_]*$.(¼îø
+Epython:S1481²"'Remove the unused local variable "lst".(ÍÜÀúÿÿÿÿ
+kpython:S3776^"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(ìÚŒ
