@@ -8,14 +8,17 @@ import app
 if __name__ == '__main__':
     str_execution_mode = "Local"
     # str_execution_mode = "S3"
-    
-    pais = "nicaragua"
-    
+    lst_countries = ['chile']
+
     event_data = {"S3Bucket": "s3-calden-scraping",
-                  "ExecutionMode": str_execution_mode}
-    
-    return_value = app.handler(event_data, "", pais)
+                "ExecutionMode": str_execution_mode,
+                "ExecutionTimeMax": "10000",
+                "Countries": lst_countries
+                }
+
+    return_value = app.handler(event_data, "")
     print(return_value)
+    
     
     
     

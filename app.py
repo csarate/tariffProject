@@ -1,13 +1,11 @@
 import json
-import requests
 import main_scraping
 import boto3
-import scrapers.utils_test.util as util
+import datetime
 
-
-def handler(event, context, pais):
-    bln_continuar = False
-    str_message = ""
+def handler(event, context):
+    bln_continuar: bool = False
+    str_message: str = ""
     if "ExecutionMode" not in event:
         event["ExecutionMode"] = "S3"
 
@@ -20,17 +18,33 @@ def handler(event, context, pais):
     if "ContinueLambdaName" not in event:
         event["ContinueLambdaName"] = "lambda-calden-scraper"
 
+    # Max execution time in seconds
+    if "ExecutionTimeMax" not in event:
+        event["ExecutionTimeMax"] = 600
+    else:
+        event["ExecutionTimeMax"] = int(event["ExecutionTimeMax"])
+
+    # Countries List
+    if "Countries" not in event:
+        event["Countries"] = ["argentina", "el_salvador", "nicaragua", "mexico", "panama", "españa"]
+
+    event["StartDateTime"] = datetime.datetime.now()
+
     # Ejecutar scraping si los parametros son correctos
     try:
-        str_message, bln_continuar = main_scraping.ejecutar_scraping(event, pais)
+        str_message, bln_continuar = main_scraping.ejecutar_scraping(event)
     except Exception as e:
         raise e
 
-    if bln_continuar:
+    del event["StartDateTime"]
+    event["ExecutionTimeMax"] = str(event["ExecutionTimeMax"])
+
+    if bln_continuar and event["ExecutionMode"] == "S3":
         lambda_client = boto3.client('lambda')
         lambda_client.invoke(FunctionName=event["ContinueLambdaName"],
                              InvocationType='Event',
                              Payload=bytes(json.dumps(event), encoding='utf8'))
+
     return {
         'headers': {'Content-Type': 'application/json'},
         'statusCode': 200,
@@ -38,5 +52,3 @@ def handler(event, context, pais):
                             "raise_new_lambda": bln_continuar,
                             "event": event})
     }
-
-

@@ -1,29 +1,62 @@
-import pandas as pd
 import datetime
-# import  glob
 import os
-import time
 import sys
-import numpy as np
-import xlsxwriter
-from scrapers.utils_test import util
+import time
 import warnings
+
+import numpy as np
+import pandas as pd
+
+from scrapers.utils_test import util
 
 sys.path.append('./scrapers')
 warnings.filterwarnings("ignore")
 
+
+def tarifas_power():
+    dict_t = {
+        'BTS 1':                                                                '0 - 600 0 - 15',
+        'BTS 2':                                                                '0 - 600 0 - 15',
+        'BTS 3':                                                                '0 - 600 0 - 15',
+        'Prepago':                                                              '0 - 600 0 - 15',
+        'BTD':                                                             '0 - 600 15 - 999999',
+        'BTH':                                                             '0 - 600 15 - 999999',
+        'MTD':                                                         '601 - 115000 0 - 999999',
+        'MTH':                                                         '601 - 115000 0 - 999999',
+        'ATD':                                                      '115000 - 999999 0 - 999999',
+        'ATH':                                                      '115000 - 999999 0 - 999999',
+        }
+    return dict_t
+
+
+# #### Funtion definition
+# ### Voltage ranges
+# #### Funtion definition
+# ### Voltage ranges
+def dicTarVol(df):
+    #### Power ranges
+    power_range = tarifas_power()
+    pd.set_option('float_format', '{:.2f}'.format)
+    power = pd.Series(power_range)
+
+    ds = power.astype('str').str.extractall(pat='([-+]?\d*\.\d+|\d+)').unstack().fillna(999999).astype('f')
+
+    ds.columns = ["emin", "emax", "pmin", "pmax"]
+
+    ds.round(decimals=2)
+
+    return ds.to_dict()
+
+
 # #### Funtion definition
 # ### Energy ranges
 def dicTarEn(df):
-    #### Power ranges
     lstcomponent = df.drop_duplicates().sort_values().reset_index(drop=True)
     lstcomponent.index = lstcomponent
 
-    ds = lstcomponent.astype('str').str.extractall('(\d+)').unstack().fillna(999999).astype('int')
-    ds.columns = ["pmin", "pmax", "aux", "emin", "emax"]
-    ds['emax'] = np.where((lstcomponent.str.contains("Bloque 1")), ds['emin'], ds['emax'])
-    ds['emin'] = np.where((lstcomponent.str.contains("Bloque 1")), 0, ds['emin'])
-    ds['emin'] = np.where((lstcomponent.str.contains("Bloque")), ds['emin'], 0)
+    ds = lstcomponent.astype('str').str.extractall('(\d+)').astype('int').unstack().fillna(999999).astype('int')
+    ds.columns = ["min", "max"]
+
     return ds.to_dict()
 
 
@@ -43,7 +76,7 @@ def ini_consolidate(status_file, local):
     return data, past_links
 
 
-def consolidate_tariff(time_to_search, status_file, event: dict, local):
+def consolidate_tariff(status_file, event: dict, local):
     util.set_event(event)
 
     msg = '####### Cosolidate Tariff #######'
@@ -74,14 +107,17 @@ def consolidate_tariff(time_to_search, status_file, event: dict, local):
             arq_tobeprocess.append(file)
 
     if len(arq_tobeprocess) == 0:
-        msg = 'Consolidation of argentina tariff tables does not add files '
+        msg = 'Consolidation of Panamá tariff tables does not add files '
         util.log(local, msg)
         return True
 
-    arq_chunk = list(util.split_list(arq_tobeprocess, 36))
+    arq_chunk = list(util.split_list(arq_tobeprocess, 110))
+
+    dicDayTime = {'start': {'Peak': '9:01', 'OffPeak': '17:01'},
+                'end': {'Peak': '17:00', 'OffPeak': '9:00'}}
 
     chunk = 0
-    while time.time() - beginning_time < time_to_search:
+    while not util.execution_time_out():
 
         # ### Tariff table download
         arq = arq_chunk[chunk]
@@ -89,197 +125,589 @@ def consolidate_tariff(time_to_search, status_file, event: dict, local):
         # Create a dataframe from multiple files
 
         try:
+            TariffCode = ['BTS 1', 'BTS 2', 'BTS 3', 'Prepago']
             DS = pd.DataFrame()
             for f in arq:
                 nombre = os.path.basename(f)
                 df = util.get_df_from_csv(**{"str_csv_file": f, "sep": ',', "decimal": ".", "encoding": 'utf-8 ',
-                                             "parse_dates": ['Date_start', 'Date_end'], "dayfirst": False})
+                                            "parse_dates": ['Date_start', 'Date_end'], "dayfirst": False})
                 df['Document_name'] = nombre
-                DS = DS.append(df, ignore_index=True)
+                DS = DS.append(df, ignore_index=False)
 
             DS = DS.rename(columns={'$local': 'CURRENCY', 'Utility': 'UTILITY', 'Country': 'COUNTRY'})
+            DS[DS.Tariff_code.str.contains('|'.join(TariffCode)).fillna(False)]
+
+            # Active Tariff
+            DS_T1 = DS[(DS.Tariff_code.str.contains('|'.join(TariffCode)))]
+            DS_T1 = DS_T1.reset_index(drop=True)
 
             # ### Creating columns IDB table format
-            df = DS['Tariff_code']
-            DS['Volumetric_trench_start'] = df.map(dicTarEn(df)['emin']).fillna(0).astype('int')
-            DS['Volumetric_trench_end'] = df.map(dicTarEn(df)['emax']).fillna(999999).astype('int')
-            
-            DS['Power_trench_start'] = df.map(dicTarEn(df)['pmin']).fillna(0).astype('int')
-            DS['Power_trench_end'] = df.map(dicTarEn(df)['pmax']).fillna(999999).astype('int')
+            # df = DS_T1.Tariff_code.str.cat(DS_T1.Charge_type, sep='-')
 
-            # ## Table formating acording to de IDB table
-            # ### Working by tariff
-            # #### T1
+            df = DS_T1['Tariff_code']
+            DS_T1['Voltage_trench_start'] = df.map(dicTarVol(df)['emin']).fillna(0).astype('float')
+            DS_T1['Voltage_trench_end'] = df.map(dicTarVol(df)['emax']).fillna(9999.99).astype('float')
 
-            DS_T1 = DS[(DS.Tariff_code.str.contains('PEQUE'))]
-            DS_T1 = DS_T1.reset_index(drop=True)
-            DS_T1['Componente_IDB'] = np.where(DS_T1.Component.str.contains('Energ'), 'Volumetric_energy_component',
-                                               np.where(DS_T1.Component.str.contains('Cargo Fijo'),
-                                                       'Charges_component_fixed', 'Volumetric_distribution_component'))
-            DS_T1['Billing_frequency'] = 'monthly'       # ##### pivot table by IDB component (from file concept table to columns concept)
+            DS_T1['Power_trench_start'] = df.map(dicTarVol(df)['pmin']).fillna(0).astype('float')
+            DS_T1['Power_trench_end'] = df.map(dicTarVol(df)['pmax']).fillna(9999.99).astype('float')
 
-            DS_T1_IDB = DS_T1.pivot_table(
+            df = DS_T1['Component']
+            DS_T1['Volumetric_trench_start'] = df.map(dicTarEn(df)['min']).fillna(0).astype('int')
+            DS_T1['Volumetric_trench_end'] = df.map(dicTarEn(df)['max']).fillna(9999.99).astype('int')
+
+            DS_T1['Componente_IDB'] = \
+                np.where((DS_T1.Tariff_type.str.upper().str.contains('FACTURA') &
+                DS_T1.Charge_type.str.upper().str.contains('FIJO')),
+                    'Charges_component_fixed',
+                    np.where((DS_T1.Tariff_type.str.upper().str.contains('FACTURA') &
+                    DS_T1.Charge_type.str.upper().str.contains('ENERG')),
+                        'Volumetric_total',
+                        np.where((DS_T1.Tariff_type.str.upper().str.contains('FACTURA') &
+                        DS_T1.Charge_type.str.upper().str.contains('DEMANDA')),
+                            'Realized_power_rate',
+                            np.where((DS_T1.Tariff_type.str.upper().str.contains('COMERCIALIZA') &
+                            DS_T1.Charge_type.str.upper().str.contains('FIJO')),
+                                    'Charges_component_commercialization',
+                                np.where((DS_T1.Tariff_type.str.upper().str.contains('COMERCIALIZA') &
+                                DS_T1.Charge_type.str.upper().str.contains('ENERG')),
+                                        'Volumetric_energy_commercialization',
+                                    np.where((DS_T1.Tariff_type.str.upper().str.contains('DISTRIBUC') &
+                                    DS_T1.Charge_type.str.upper().str.contains('POR ENERG')),
+                                            'Volumetric_distribution_component',
+                                        np.where((DS_T1.Tariff_type.str.upper().str.contains('DISTRIBUC') &
+                                        DS_T1.Charge_type.str.upper().str.contains('POR DEMANDA')),
+                                                'Power_distribution_component',
+                                            np.where((DS_T1.Tariff_type.str.upper().str.contains('DISTRIBUC') &
+                                            DS_T1.Charge_type.str.upper().str.contains('DE ENERG')),
+                                                    'Volumetric_losses_component',
+                                                np.where((DS_T1.Tariff_type.str.upper().str.contains('DISTRIBUC') &
+                                                DS_T1.Charge_type.str.upper().str.contains('DE DEMANDA')),
+                                                        'Power_losses_component',
+                                                    np.where(DS_T1.Tariff_type.str.upper().str.contains('ALUMBRADO'),
+                                                            'Street_lighting_component_variable',
+                                                        np.where((DS_T1.Tariff_type.str.upper().str.contains('TRANSMIS') &
+                                                        DS_T1.Charge_type.str.upper().str.contains('POR ENERG')),
+                                                                'Volumetric_transmission_component',
+                                                            np.where((DS_T1.Tariff_type.str.upper().str.contains('TRANSMIS') &
+                                                            DS_T1.Charge_type.str.upper().str.contains('DE ENERG')),
+                                                                    'Volumetric_losses_component',
+                                                                np.where((DS_T1.Tariff_type.str.upper().str.contains('TRANSMIS') &
+                                                                DS_T1.Charge_type.str.upper().str.contains('POR DEMANDA')),
+                                                                        'Power_transmission_component',
+                                                                    np.where((DS_T1.Tariff_type.str.upper().str.contains('GENERAC') &
+                                                                    DS_T1.Charge_type.str.upper().str.contains('DEMANDA')),
+                                                                            'Power_energy_component', 'Volumetric_energy_component'
+                                                                                ))))))))))))))
+
+            DS_T1['Billing_frequency'] = 'six-monthly'
+
+            DS_T1['Voltage_group'] = np.where(DS_T1.Tariff_code.str.contains('MT'), 'Medium Voltage',
+                                        np.where(DS_T1.Tariff_code.str.contains('AT'),
+                                            'High Voltage', 'Low Voltage'))
+
+            try:
+                DS_T1['Charge'] = pd.to_numeric(DS_T1['Charge'], errors='coerce')
+            except Exception as e:
+                print("Error de Conversion del Charge")
+                print(DS_T1.iloc[DS_T1[DS_T1.isna()].index].Charge)
+                return False
+
+            # Group by duplicates variables
+            col_id = ['COUNTRY', 'Document_link', 'PDF_Name', 'Tariff_code', 'UTILITY',
+                        'Date_start', 'Date_end', 'CURRENCY', 'Document_name',
+                        'Voltage_trench_start', 'Voltage_trench_end', 'Power_trench_start', 'Power_trench_end',
+                        'Volumetric_trench_start', 'Volumetric_trench_end', 'Billing_frequency', 'Voltage_group',
+                        'Componente_IDB']
+
+            DS_T1 = DS_T1.groupby(col_id).agg(Charge=('Charge', 'sum')).reset_index()
+
+            # ##### pivot table by IDB component (from file concept table to columns concept)
+            DS_T1_PIV = DS_T1.pivot_table(
                 values='Charge',
-                index=['COUNTRY', 'UTILITY', 'Document_link', 'Document_name', 'Date_start', 'Date_end', 'CURRENCY',
-                       'Tariff_code', 'Billing_frequency', 'Volumetric_trench_start', 'Volumetric_trench_end',
-                       'Power_trench_start', 'Power_trench_end'],
-                columns='Componente_IDB'
-            )
+                index=['COUNTRY', 'Document_link', 'PDF_Name', 'Tariff_code', 'UTILITY',
+                        'Date_start', 'Date_end', 'CURRENCY', 'Document_name',
+                        'Voltage_trench_start', 'Voltage_trench_end', 'Power_trench_start', 'Power_trench_end',
+                        'Volumetric_trench_start', 'Volumetric_trench_end',
+                        'Billing_frequency', 'Voltage_group'],
+                columns='Componente_IDB')
+
+            DS_T1_PIV = DS_T1_PIV.reset_index()
+
+            #### Final Group by necesary variables
+            col_id = ['COUNTRY', 'Document_link', 'PDF_Name', 'Tariff_code', 'UTILITY',
+                        'Date_start', 'Date_end', 'CURRENCY', 'Document_name',
+                        'Voltage_trench_start', 'Voltage_trench_end', 'Power_trench_start', 'Power_trench_end',
+                        'Volumetric_trench_start', 'Volumetric_trench_end',
+                        'Billing_frequency', 'Voltage_group']
+
+            DS_T1_IDB = DS_T1_PIV.groupby(col_id).agg(
+                Charges_component_fixed=('Charges_component_fixed', 'sum'),
+                Volumetric_total=('Volumetric_total', 'sum'),
+                Charges_component_commercialization=('Charges_component_commercialization', 'sum'),
+                Volumetric_energy_commercialization=('Volumetric_energy_commercialization', 'sum'),
+                Volumetric_distribution_component=('Volumetric_distribution_component', 'sum'),
+                Volumetric_losses_component = ('Volumetric_losses_component', 'sum'),
+                Street_lighting_component_variable=('Street_lighting_component_variable', 'sum'),
+                Volumetric_transmission_component=('Volumetric_transmission_component', 'sum'),
+                Volumetric_energy_component=('Volumetric_energy_component', 'sum')).reset_index()
+
             DS_T1_IDB = DS_T1_IDB.reset_index()
-            
-            DS_T1_IDB['Volumetric_total'] = DS_T1_IDB['Volumetric_energy_component'] + DS_T1_IDB['Volumetric_distribution_component']
 
-            # ##### Aditional info columns
-            DS_T1_IDB['Voltage_group'] = 'Low Voltage'
             DS_T1_IDB['Structure_subtype'] = np.where((DS_T1_IDB['Volumetric_trench_start'] == 0) &
-                                                      (DS_T1_IDB['Volumetric_trench_end'] == 999999), 'Flat rate',
-                                                      'Block Increasing rate')
-            DS_T1_IDB['Special_category'] = np.where(DS_T1_IDB.Tariff_code.str.upper().str.contains('ALUMBRADO P'), 'Street Lighting', '')
-            DS_T1_IDB['Sector'] = np.where(DS_T1_IDB.Tariff_code.str.upper().str.contains('ALUMBRADO P'), 'Street Lighting',
-                                           np.where(DS_T1_IDB.Tariff_code.str.contains('Bloque'), 'Residential',
-                                                    np.where(DS_T1_IDB.Tariff_code.str.contains('GENERAL'),'General', '')))
+                                                        (DS_T1_IDB['Volumetric_trench_end'] == 999999), 'Flat rate',
+                                                        'Block Increasing rate')
+            DS_T1_IDB['Sector'] = 'General'
+            DS_T1_IDB['Existence_fixed_charge'] = np.where(DS_T1_IDB['Charges_component_commercialization'].notna(), 1, 0)
 
-            # ### Working by tariff
-            # #### T2
-
-            DS_T2 = DS[(DS.Tariff_code.str.contains('POTENCIA'))]
-            DS_T2 = DS_T2.reset_index(drop=True)
-            DS_T2['Billing_frequency'] = 'monthly'
-            
-            
-            DS_T2['Componente_IDB'] =  np.where(DS_T2.Component.str.contains('Cargo Fijo'), 'Charges_component_fixed',
-                                                         np.where(DS_T2.Component.str.contains('Potencia'),
-                                                            'Contracted_Power_Rate', 'Volumetric_energy_component'))
-
-            # ##### pivot table by IDB component (from file concept table to columns concept)
-
-            DS_T2_IDB = DS_T2.pivot_table(
-                values='Charge',
-                index=['COUNTRY', 'UTILITY', 'Document_link', 'Document_name', 'Date_start', 'Date_end', 'CURRENCY',
-                       'Tariff_code', 'Billing_frequency', 'Volumetric_trench_start', 'Volumetric_trench_end',
-                       'Power_trench_start', 'Power_trench_end'],
-                columns='Componente_IDB'
-            )
-            DS_T2_IDB = DS_T2_IDB.reset_index()
-            DS_T2_IDB['Volumetric_total'] = DS_T2_IDB['Volumetric_energy_component']
-
-
-            # ##### Aditional info columns
-
-            DS_T2_IDB['Structure_subtype'] = 'Flat rate'
-            DS_T2_IDB['Voltage_group'] = np.where(DS_T2_IDB.Tariff_code.str.contains('MEDIA '),
-                                                'Medium Voltage',
-                                                'Low Voltage')
-            #DS_T2_IDB['Differentiation_type'] = 'Time-differentiated rate'
-
-            # ### Working by tariff
-            # #### T3
-
-            DS_T3 = DS[(DS.Tariff_code.str.contains('HORARIO'))]
-            DS_T3 = DS_T3.reset_index(drop=True)
-            DS_T3['Billing_frequency'] = 'monthly'
-
-            DS_T3['Daytime_group'] = np.where(DS_T3.Component.str.contains('Resto'),
-                                        'Intermediate',
-                                            np.where(DS_T3.Component.str.contains('Valle'),
-                                                'OffPeak',
-                                                    np.where(DS_T3.Component.str.contains('Punta'),
-                                                        'Peak',
-                                                        'OffPeak')))
-
-            DS_T3['Componente_IDB'] = np.where(DS_T3.Component.str.contains('Energ'),
-                                               'Volumetric_energy_component',
-                                               np.where((DS_T3.Component.str.contains(
-                                                   'Cargo Fijo') | DS_T3.Component.str.contains('Cliente')),
-                                                        'Charges_component_fixed',
-                                                        np.where(DS_T3.Component.str.contains('Potencia'),
-                                                                 'Contracted_Power_Rate', np.nan)))
-
-            # #### copy extra file to have value in all daytime options for each component.
-            
-
-            DS_Add_1 = DS_T3[DS_T3.Component.str.contains("|".join(['Cargo Fijo', 'Potencia', 'Cliente']))]\
-                                                                    .reset_index(drop=True).copy(deep=True)
-            DS_Add_2 = DS_Add_1.copy(deep=True)
-            DS_Add_1['Daytime_group'] = 'Peak'
-            DS_Add_2['Daytime_group'] = 'Intermediate'
-
-            # DS_CPFP_1 = T3[DS_T3.Component == 'Cargo Pot. F. Pico'].reset_index(drop=True).copy(deep=True)
-            #
-            # DS_CPFP_1['Daytime_group'] = 'Intermediate'
-
-            # DS_T3 = pd.concat([DS_T3, DS_Add_1, DS_Add_2, DS_CPFP_1])
-            DS_T3 = pd.concat([DS_T3, DS_Add_1, DS_Add_2])
-
-            # ##### pivot table by IDB component (from file concept table to columns concept)
-
-            pvtcol = ['COUNTRY', 'UTILITY', 'Document_link', 'Document_name', 'Date_start', 'Date_end', 'CURRENCY',
-                      'Tariff_code', 'Billing_frequency', 'Volumetric_trench_start', 'Volumetric_trench_end',
-                      'Power_trench_start', 'Power_trench_end', 'Daytime_group']
-            DS_T3_IDB = DS_T3.pivot_table(
-                values='Charge',
-                index=pvtcol,
-                columns='Componente_IDB'
-            )
-            DS_T3_IDB = DS_T3_IDB.reset_index()
-
-            # ##### Aditional info columns
-            DS_T3_IDB['Volumetric_total'] = DS_T3_IDB['Volumetric_energy_component']
-            DS_T3_IDB['Voltage_group'] = np.where(DS_T3_IDB.Tariff_code.str.contains('MEDIA TENSION'),
-                                                           'Medium Voltage',
-                                                           'Low Voltage')
-            DS_T3_IDB['Structure_subtype'] = 'Flat rate'
-            DS_T3_IDB['Differentiation_type'] = 'Time-differentiated rate'
 
             #### Consolidation of the Dataset
 
-            DS_IDB = pd.concat([DS_T1_IDB, DS_T2_IDB, DS_T3_IDB]).reset_index(drop=True)
+            DS_IDB = pd.concat([DS_T1_IDB]).reset_index(drop=True)
 
             ##### Aditional info columns
 
             DS_IDB['Taxes_link'] = 'https://ciatorg.sharepoint.com/:x:/r/sites/cds/_layouts/15/guestaccess.aspx?docid' \
-                                   '=08814180f3de44115bee96760999fb11f&authkey=Ac9cc1KJHzZyZOTz1SCEE-w&e' \
-                                   '=e2fb160be70847908c740d7f25d702c7 '
-            DS_IDB['Taxes_component_percentual'] = 0.13
-            DS_IDB['Existence_volumetric_rate_w_minimum'] = 0
-            DS_IDB['Existence_fixed_charge'] = 1
+                                    '=08814180f3de44115bee96760999fb11f&authkey=Ac9cc1KJHzZyZOTz1SCEE-w&e' \
+                                    '=e2fb160be70847908c740d7f25d702c7 '
+            DS_IDB['Taxes_component_percentual'] = 0.07
             DS_IDB['Tax_included'] = 0
-            DS_IDB['Existence_power_rate'] = np.where(DS_IDB['Contracted_Power_Rate'].notna(), 1, 0)
-  
-            dicVoltage = {'start':
-                              {'Low Voltage': 0,
-                               'Medium Voltage': 601,
-                               'High Voltage': 115001},
-                          'end':
-                              {'Low Voltage': 600,
-                               'Medium Voltage': 115000,
-                               'High Voltage': 150000}}
-
-            DS_IDB['Voltage_trench_start'] = DS_IDB['Voltage_group'].map(dicVoltage['start'])
-            DS_IDB['Voltage_trench_end'] = DS_IDB['Voltage_group'].map(dicVoltage['end'])
-
-            dicDayTime = {'start':
-                              {'Peak': '18:00',
-                               'Intermediate': '5:00',
-                               'OffPeak': '23:00'},
-                          'end':
-                              {'Peak': '22:59',
-                               'Intermediate': '17:59',
-                               'OffPeak': '4:59'}}
-
-            DS_IDB['Daytime_group_time_differentiation_start'] = DS_IDB['Daytime_group'].map(dicDayTime['start'])
-            DS_IDB['Daytime_group_time_differentiation_end'] = DS_IDB['Daytime_group'].map(dicDayTime['end'])
 
             # #### Adding columns with nan to complete the dataset
-
             lst = [x.upper() for x in AllCol]
-            DS_IDB.rename(columns={'Tariff_code': 'Tariff_Name_in_document'
-                                   }, inplace=True)
+            DS_IDB.rename(columns={'Tariff_code': 'Tariff_Name_in_document'}, inplace=True)
             columnadd = list(set(AllCol).difference(DS_IDB.columns))
 
             DS_IDB[columnadd] = np.nan
-
             DS_IDB_Result = pd.concat([DS_IDB_Result, DS_IDB])
+
+            # #######################################################
+            # ### Working by tariff T2
+            # #######################################################
+
+            TariffCode = ['BTD', 'MTD', 'ATD']
+
+            DS_T2 = DS[(DS.Tariff_code.str.contains('|'.join(TariffCode)))]
+
+            df = DS_T2['Tariff_code']
+            DS_T2['Voltage_trench_start'] = df.map(dicTarVol(df)['emin']).fillna(0).astype('float')
+            DS_T2['Voltage_trench_end'] = df.map(dicTarVol(df)['emax']).fillna(9999.99).astype('float')
+
+            DS_T2['Power_trench_start'] = df.map(dicTarVol(df)['pmin']).fillna(0).astype('float')
+            DS_T2['Power_trench_end'] = df.map(dicTarVol(df)['pmax']).fillna(9999.99).astype('float')
+
+            df = DS_T2['Component']
+            DS_T2['Volumetric_trench_start'] = df.map(dicTarEn(df)['min']).fillna(0).astype('int')
+            DS_T2['Volumetric_trench_end'] = df.map(dicTarEn(df)['max']).fillna(9999.99).astype('int')
+
+            DS_T2['Componente_IDB'] = \
+                np.where((DS_T2.Tariff_type.str.upper().str.contains('FACTURA') &
+                DS_T2.Charge_type.str.upper().str.contains('FIJO')),
+                        'Charges_component_fixed',
+                    np.where((DS_T2.Tariff_type.str.upper().str.contains('FACTURA') &
+                    DS_T2.Charge_type.str.upper().str.contains('ENERG')),
+                            'Volumetric_total',
+                        np.where((DS_T2.Tariff_type.str.upper().str.contains('FACTURA') &
+                        DS_T2.Charge_type.str.upper().str.contains('DEMANDA')),
+                                'Realized_power_rate',
+                            np.where((DS_T2.Tariff_type.str.upper().str.contains('COMERCIALIZA') &
+                            DS_T2.Charge_type.str.upper().str.contains('FIJO')),
+                                    'Charges_component_commercialization',
+                                np.where((DS_T2.Tariff_type.str.upper().str.contains('COMERCIALIZA') &
+                                DS_T2.Charge_type.str.upper().str.contains('ENERG')),
+                                        'Volumetric_energy_commercialization',
+                                    np.where((DS_T2.Tariff_type.str.upper().str.contains('DISTRIBUC') &
+                                    DS_T2.Charge_type.str.upper().str.contains('POR ENERG')),
+                                            'Volumetric_distribution_component',
+                                        np.where((DS_T2.Tariff_type.str.upper().str.contains('DISTRIBUC') &
+                                        DS_T2.Charge_type.str.upper().str.contains('POR DEMANDA')),
+                                                'Power_distribution_component',
+                                            np.where((DS_T2.Tariff_type.str.upper().str.contains('DISTRIBUC') &
+                                            DS_T2.Charge_type.str.upper().str.contains('DE ENERG')),
+                                                    'Volumetric_losses_component',
+                                                np.where((DS_T2.Tariff_type.str.upper().str.contains('DISTRIBUC') &
+                                                DS_T2.Charge_type.str.upper().str.contains('DE DEMANDA')),
+                                                        'Power_losses_component',
+                                                    np.where(DS_T2.Tariff_type.str.upper().str.contains('ALUMBRADO'),
+                                                        'Street_lighting_component_variable',
+                                                    np.where((DS_T2.Tariff_type.str.upper().str.contains('TRANSMIS') &
+                                                    DS_T2.Charge_type.str.upper().str.contains('POR ENERG')),
+                                                            'Volumetric_transmission_component',
+                                                        np.where((DS_T2.Tariff_type.str.upper().str.contains('TRANSMIS') &
+                                                        DS_T2.Charge_type.str.upper().str.contains('DE ENERG')),
+                                                                'Volumetric_losses_component',
+                                                            np.where((DS_T2.Tariff_type.str.upper().str.contains('TRANSMIS') &
+                                                            DS_T2.Charge_type.str.upper().str.contains('POR DEMANDA')),
+                                                                'Power_transmission_component',
+                                                                np.where((DS_T2.Tariff_type.str.upper().str.contains('GENERAC') &
+                                                                DS_T2.Charge_type.str.upper().str.contains('DEMANDA')),
+                                                                    'Power_energy_component', 'Volumetric_energy_component'
+                                                                        ))))))))))))))
+
+            DS_T2['Billing_frequency'] = 'six-monthly'
+
+            DS_T2['Voltage_group'] = np.where(DS_T2.Tariff_code.str.contains('MT'), 'Medium Voltage',
+                                        np.where(DS_T2.Tariff_code.str.contains('AT'), 'High Voltage', 'Low Voltage'))
+
+            try:
+                DS_T2['Charge'] = pd.to_numeric(DS_T2['Charge'], errors='coerce')
+            except Exception as e:
+                print("Error de Conversion del Charge")
+                print(DS_T2.iloc[DS_T2[DS_T2.isna()].index].Charge)
+                return False
+
+            # Group by duplicates variables
+            col_id = ['COUNTRY', 'Document_link', 'PDF_Name', 'Tariff_code', 'UTILITY',
+                        'Date_start', 'Date_end', 'CURRENCY', 'Document_name',
+                        'Voltage_trench_start', 'Voltage_trench_end', 'Power_trench_start', 'Power_trench_end',
+                        'Volumetric_trench_start', 'Volumetric_trench_end', 'Billing_frequency', 'Voltage_group',
+                        'Componente_IDB']
+
+            DS_T2 = DS_T2.groupby(col_id).agg(Charge=('Charge', 'sum')).reset_index()
+
+            # ##### pivot table by IDB component (from file concept table to columns concept)
+            DS_T2_PIV = DS_T2.pivot_table(
+                values='Charge',
+                index=['COUNTRY', 'Document_link', 'PDF_Name', 'Tariff_code', 'UTILITY',
+                        'Date_start', 'Date_end', 'CURRENCY', 'Document_name',
+                        'Voltage_trench_start', 'Voltage_trench_end', 'Power_trench_start', 'Power_trench_end',
+                        'Volumetric_trench_start', 'Volumetric_trench_end',
+                        'Billing_frequency', 'Voltage_group'],
+                columns='Componente_IDB')
+
+            #### Final Group by necesary variables
+            col_id = ['COUNTRY', 'Document_link', 'PDF_Name', 'Tariff_code', 'UTILITY',
+                        'Date_start', 'Date_end', 'CURRENCY', 'Document_name',
+                        'Voltage_trench_start', 'Voltage_trench_end', 'Power_trench_start', 'Power_trench_end',
+                        'Volumetric_trench_start', 'Volumetric_trench_end',
+                        'Billing_frequency', 'Voltage_group']
+            DS_T2_IDB = DS_T2_PIV.groupby(col_id).agg(
+                Charges_component_fixed=('Charges_component_fixed', 'sum'),
+                Volumetric_total=('Volumetric_total', 'sum'),
+                Realized_power_rate=('Realized_power_rate', 'sum'),
+                Charges_component_commercialization=('Charges_component_commercialization', 'sum'),
+                Volumetric_energy_commercialization=('Volumetric_energy_commercialization', 'sum'),
+                Volumetric_distribution_component=('Volumetric_distribution_component', 'sum'),
+                Power_distribution_component=('Power_distribution_component', 'sum'),
+                Volumetric_losses_component=('Volumetric_losses_component', 'sum'),
+                Power_losses_component=('Power_losses_component', 'sum'),
+                Street_lighting_component_variable=('Street_lighting_component_variable', 'sum'),
+                Volumetric_transmission_component=('Volumetric_transmission_component', 'sum'),
+                Power_transmission_component=('Power_transmission_component', 'sum'),
+                Power_energy_component=('Power_energy_component', 'sum'),
+                Volumetric_energy_component=('Volumetric_energy_component', 'sum')).reset_index()
+
+            DS_T2_IDB = DS_T2_IDB.reset_index()
+
+            DS_T2_IDB['Structure_subtype'] = np.where((DS_T2_IDB['Volumetric_trench_start'] == 0) &
+                                                        (DS_T2_IDB['Volumetric_trench_end'] == 999999),
+                                                        'Flat rate', 'Block Increasing rate')
+            DS_T2_IDB['Sector'] = 'General'
+            DS_T2_IDB['Existence_power_rate'] = np.where(DS_T2_IDB['Realized_power_rate'].notna(), 1, 0)
+            DS_T2_IDB['Existence_fixed_charge'] = np.where(DS_T2_IDB['Charges_component_commercialization'].notna(), 1, 0)
+
+
+            #### Consolidation of the Dataset
+
+            DS_IDB = pd.concat([DS_T2_IDB]).reset_index(drop=True)
+
+            ##### Aditional info columns
+
+            DS_IDB['Taxes_link'] = 'https://ciatorg.sharepoint.com/:x:/r/sites/cds/_layouts/15/guestaccess.aspx?docid' \
+                                '=08814180f3de44115bee96760999fb11f&authkey=Ac9cc1KJHzZyZOTz1SCEE-w&e' \
+                                '=e2fb160be70847908c740d7f25d702c7 '
+            DS_IDB['Taxes_component_percentual'] = 0.07
+            DS_IDB['Tax_included'] = 0
+
+            # #### Adding columns with nan to complete the dataset
+            lst = [x.upper() for x in AllCol]
+            DS_IDB.rename(columns={'Tariff_code': 'Tariff_Name_in_document'}, inplace=True)
+            columnadd = list(set(AllCol).difference(DS_IDB.columns))
+
+            DS_IDB[columnadd] = np.nan
+            DS_IDB_Result = pd.concat([DS_IDB_Result, DS_IDB])
+
+            # #######################################################
+            # ### Working by tariff T3
+            # #######################################################
+
+            TariffCode = ['BTH', 'MTH', 'ATH']
+            DS_T3 = DS[(DS.Tariff_code.str.contains('|'.join(TariffCode)))]
+
+            df = DS_T3['Tariff_code']
+            DS_T3['Voltage_trench_start'] = df.map(dicTarVol(df)['emin']).fillna(0).astype('float')
+            DS_T3['Voltage_trench_end'] = df.map(dicTarVol(df)['emax']).fillna(9999.99).astype('float')
+
+            DS_T3['Power_trench_start'] = df.map(dicTarVol(df)['pmin']).fillna(0).astype('float')
+            DS_T3['Power_trench_end'] = df.map(dicTarVol(df)['pmax']).fillna(9999.99).astype('float')
+
+            df = DS_T3['Component']
+            DS_T3['Volumetric_trench_start'] = df.map(dicTarEn(df)['min']).fillna(0).astype('int')
+            DS_T3['Volumetric_trench_end'] = df.map(dicTarEn(df)['max']).fillna(9999.99).astype('int')
+
+            DS_T3['Componente_IDB'] = \
+                np.where((DS_T3.Tariff_type.str.upper().str.contains('FACTURA') &
+                DS_T3.Charge_type.str.upper().str.contains('FIJO') &
+                DS_T3.Charge_type.str.upper().str.contains('PUNTA')),
+                        'Charges_component_fixed',
+                    np.where((DS_T3.Tariff_type.str.upper().str.contains('FACTURA') &
+                    DS_T3.Charge_type.str.upper().str.contains('ENERG') &
+                    DS_T3.Charge_type.str.upper().str.contains('PUNTA')),
+                            'Volumetric_total',
+                        np.where((DS_T3.Tariff_type.str.upper().str.contains('FACTURA') &
+                        DS_T3.Charge_type.str.upper().str.contains('DEMANDA') &
+                        DS_T3.Charge_type.str.upper().str.contains('PUNTA')),
+                                'Realized_power_rate',
+                            np.where((DS_T3.Tariff_type.str.upper().str.contains('COMERCIALIZA') &
+                            DS_T3.Charge_type.str.upper().str.contains('FIJO') &
+                            DS_T3.Charge_type.str.upper().str.contains('PUNTA')),
+                                    'Charges_component_commercialization',
+                                np.where((DS_T3.Tariff_type.str.upper().str.contains('COMERCIALIZA') &
+                                DS_T3.Charge_type.str.upper().str.contains('ENERG') &
+                                DS_T3.Charge_type.str.upper().str.contains('PUNTA')),
+                                        'Volumetric_energy_commercialization',
+                                    np.where((DS_T3.Tariff_type.str.upper().str.contains('DISTRIBUC') &
+                                    DS_T3.Charge_type.str.upper().str.contains('POR DEMANDA') &
+                                    DS_T3.Charge_type.str.upper().str.contains('PUNTA')),
+                                            'Power_distribution_component',
+                                        np.where((DS_T3.Tariff_type.str.upper().str.contains('DISTRIBUC') &
+                                        DS_T3.Charge_type.str.upper().str.contains('DE DEMANDA') &
+                                        DS_T3.Charge_type.str.upper().str.contains('PUNTA')),
+                                                'Power_losses_component',
+                                            np.where((DS_T3.Tariff_type.str.upper().str.contains('DISTRIBUC') &
+                                            DS_T3.Charge_type.str.upper().str.contains('ENERG') &
+                                            DS_T3.Charge_type.str.upper().str.contains('PUNTA')),
+                                                    'Volumetric_losses_component',
+                                                np.where((DS_T3.Tariff_type.str.upper().str.contains('ALUMBRADO') &
+                                                DS_T3.Charge_type.str.upper().str.contains('PUNTA')),
+                                                        'Street_lighting_component_variable',
+                                                    np.where((DS_T3.Tariff_type.str.upper().str.contains('TRANSMIS') &
+                                                    DS_T3.Charge_type.str.upper().str.contains('POR DEMANDA') &
+                                                    DS_T3.Charge_type.str.upper().str.contains('PUNTA')),
+                                                            'Power_transmission_component',
+                                                        np.where((DS_T3.Tariff_type.str.upper().str.contains('TRANSMIS') &
+                                                        DS_T3.Charge_type.str.upper().str.contains('POR ENERG') &
+                                                        DS_T3.Charge_type.str.upper().str.contains('PUNTA')),
+                                                                'Volumetric_transmission_component',
+                                                            np.where((DS_T3.Tariff_type.str.upper().str.contains('TRANSMIS') &
+                                                            DS_T3.Charge_type.str.upper().str.contains('PÉRDIDA') &
+                                                            DS_T3.Charge_type.str.upper().str.contains('PUNTA')),
+                                                                    'Volumetric_losses_component',
+                                                                np.where((DS_T3.Tariff_type.str.upper().str.contains('GENERAC') &
+                                                                DS_T3.Charge_type.str.upper().str.contains('DEMANDA') &
+                                                                DS_T3.Charge_type.str.upper().str.contains('PUNTA')),
+                                                                        'Power_energy_component', 'Volumetric_energy_component'
+                                                                            )))))))))))))
+
+            DS_T3['Billing_frequency'] = 'six-monthly'
+
+            DS_T3['Voltage_group'] = np.where(DS_T3.Tariff_code.str.contains('MT'), 'Medium Voltage',
+                                        np.where(DS_T3.Tariff_code.str.contains('AT'), 'High Voltage', 'Low Voltage'))
+
+            DS_T3['Daytime_group'] = np.where(DS_T3.Charge_type.str.upper().str.contains('EN PUNTA'), 'Peak',
+                                        np.where(DS_T3.Charge_type.str.upper().str.contains('DE PUNTA'), 'OffPeak', ''))
+
+            try:
+                DS_T3['Charge'] = pd.to_numeric(DS_T3['Charge'], errors='coerce')
+            except Exception as e:
+                print("Error de Conversion del Charge")
+                print(DS_T3.iloc[DS_T3[DS_T3.isna()].index].Charge)
+                return False
+
+            # Group by duplicates variables
+            col_id = ['COUNTRY', 'Document_link', 'PDF_Name', 'Tariff_code', 'UTILITY',
+                        'Date_start', 'Date_end', 'CURRENCY', 'Document_name',
+                        'Voltage_trench_start', 'Voltage_trench_end', 'Power_trench_start', 'Power_trench_end',
+                        'Volumetric_trench_start', 'Volumetric_trench_end', 'Billing_frequency',
+                        'Voltage_group', 'Charge_type', 'Daytime_group', 'Componente_IDB']
+
+            DS_T3 = DS_T3.groupby(col_id).agg(Charge=('Charge', 'sum')).reset_index()
+
+            # ##### pivot table by IDB component (from file concept table to columns concept)
+            DS_T3_PIV = DS_T3.pivot_table(
+                values='Charge',
+                index=['COUNTRY', 'Document_link', 'PDF_Name', 'Tariff_code', 'UTILITY',
+                        'Date_start', 'Date_end', 'CURRENCY', 'Document_name',
+                        'Voltage_trench_start', 'Voltage_trench_end', 'Power_trench_start', 'Power_trench_end',
+                        'Volumetric_trench_start', 'Volumetric_trench_end',
+                        'Billing_frequency', 'Voltage_group', 'Daytime_group'],
+                columns='Componente_IDB')
+
+            DS_T3_PIV = DS_T3_PIV.reset_index()
+
+            #### Final Group by necesary variables
+            col_id = ['COUNTRY', 'Document_link', 'PDF_Name', 'Tariff_code', 'UTILITY',
+                        'Date_start', 'Date_end', 'CURRENCY', 'Document_name',
+                        'Voltage_trench_start', 'Voltage_trench_end', 'Power_trench_start', 'Power_trench_end',
+                        'Volumetric_trench_start', 'Volumetric_trench_end',
+                        'Billing_frequency', 'Voltage_group', 'Daytime_group']
+
+            DS_T3_IDB = DS_T3_PIV.groupby(col_id).agg(
+                Charges_component_fixed=('Charges_component_fixed', 'sum'),
+                Volumetric_total=('Volumetric_total', 'sum'),
+                Realized_power_rate=('Realized_power_rate', 'sum'),
+                Charges_component_commercialization=('Charges_component_commercialization', 'sum'),
+                Volumetric_energy_commercialization=('Volumetric_energy_commercialization', 'sum'),
+                Power_distribution_component=('Power_distribution_component', 'sum'),
+                Power_losses_component=('Power_losses_component', 'sum'),
+                Volumetric_losses_component=('Volumetric_losses_component', 'sum'),
+                Street_lighting_component_variable=('Street_lighting_component_variable', 'sum'),
+                Volumetric_transmission_component=('Volumetric_transmission_component', 'sum'),
+                Power_transmission_component = ('Power_transmission_component', 'sum'),
+                Power_energy_component=('Power_energy_component', 'sum'),
+                Volumetric_energy_component=('Volumetric_energy_component', 'sum')).reset_index()
+
+            DS_T3_IDB = DS_T3_IDB.reset_index()
+
+            DS_T3_IDB['Structure_subtype'] = np.where((DS_T3_IDB['Volumetric_trench_start'] == 0) &
+                                                        (DS_T3_IDB['Volumetric_trench_end'] == 999999),
+                                                        'Flat rate', 'Block Increasing rate')
+            DS_T3_IDB['Sector'] = 'General'
+            DS_T3_IDB['Existence_power_rate'] = np.where(DS_T3_IDB['Realized_power_rate'].notna(), 1, 0)
+            DS_T3_IDB['Existence_fixed_charge'] = np.where(DS_T3_IDB['Charges_component_commercialization'].notna(), 1, 0)
+
+            #### Consolidation of the Dataset
+
+            DS_IDB = pd.concat([DS_T3_IDB]).reset_index(drop=True)
+
+            ##### Aditional info columns
+
+            DS_IDB['Taxes_link'] = 'https://ciatorg.sharepoint.com/:x:/r/sites/cds/_layouts/15/guestaccess.aspx?docid' \
+                                '=08814180f3de44115bee96760999fb11f&authkey=Ac9cc1KJHzZyZOTz1SCEE-w&e' \
+                                '=e2fb160be70847908c740d7f25d702c7 '
+            DS_IDB['Taxes_component_percentual'] = 0.07
+            DS_IDB['Existence_volumetric_rate_w_minimum'] = 0
+            DS_IDB['Tax_included'] = 0
+            DS_IDB['Daytime_group_time_differentiation_start'] = DS_IDB['Daytime_group'].map(dicDayTime['start'])
+            DS_IDB['Daytime_group_time_differentiation_end'] = DS_IDB['Daytime_group'].map(dicDayTime['end'])
+            DS_IDB['Existence_power_rate'] = np.where(DS_IDB['Realized_power_rate'].notna(), 1, 0)
+            DS_IDB['Existence_fixed_charge'] = np.where(DS_IDB['Charges_component_commercialization'].notna(), 1, 0)
+
+            # #### Adding columns with nan to complete the dataset
+            lst = [x.upper() for x in AllCol]
+            DS_IDB.rename(columns={'Tariff_code': 'Tariff_Name_in_document'}, inplace=True)
+            columnadd = list(set(AllCol).difference(DS_IDB.columns))
+
+            DS_IDB[columnadd] = np.nan
+            DS_IDB_Result = pd.concat([DS_IDB_Result, DS_IDB])
+
+            # ************************************************************************************************
+            # Harcode de Volumetric Total para los pdfs de 2013 y 2014 con el promedio de energía para el
+            # caso de las horas de uso con rango 255
+            # ************************************************************************************************
+
+            DS_IDB_Result['Volumetric_energy_component'] = \
+                np.where((DS_IDB_Result.PDF_Name.str.contains('comp_tarifa_I_2013.pdf') &
+                DS_IDB_Result.Tariff_Name_in_document.str.contains('MTD')),
+                        (DS_IDB_Result['Volumetric_energy_component'] / 2),
+                    np.where((DS_IDB_Result.PDF_Name.str.contains('comp_tarifa_II_2013.pdf') &
+                    DS_IDB_Result.Tariff_Name_in_document.str.contains('MTD')),
+                            (DS_IDB_Result['Volumetric_energy_component'] / 2),
+                    np.where((DS_IDB_Result.PDF_Name.str.contains('comp_tarifa_I_2014.pdf') &
+                    DS_IDB_Result.Tariff_Name_in_document.str.contains('MTD')),
+                                (DS_IDB_Result['Volumetric_energy_component'] / 2),
+                        np.where((DS_IDB_Result.PDF_Name.str.contains('comp_tarifa_II_2014.pdf') &
+                        DS_IDB_Result.Tariff_Name_in_document.str.contains('MTD')),
+                                    (DS_IDB_Result['Volumetric_energy_component'] / 2),
+                            np.where((DS_IDB_Result.PDF_Name.str.contains('comp_tarifa_I_2013.pdf') &
+                            DS_IDB_Result.Tariff_Name_in_document.str.contains('ATD')),
+                                        (DS_IDB_Result['Volumetric_energy_component'] / 2),
+                                np.where((DS_IDB_Result.PDF_Name.str.contains('comp_tarifa_II_2013.pdf') &
+                                DS_IDB_Result.Tariff_Name_in_document.str.contains('ATD')),
+                                            (DS_IDB_Result['Volumetric_energy_component'] / 2),
+                                    np.where((DS_IDB_Result.PDF_Name.str.contains('comp_tarifa_I_2014.pdf') &
+                                    DS_IDB_Result.Tariff_Name_in_document.str.contains('ATD')),
+                                                (DS_IDB_Result['Volumetric_energy_component'] / 2),
+                                        np.where((DS_IDB_Result.PDF_Name.str.contains('comp_tarifa_II_2014.pdf') &
+                                        DS_IDB_Result.Tariff_Name_in_document.str.contains('ATD')),
+                                                    (DS_IDB_Result['Volumetric_energy_component'] / 2),
+                                                    DS_IDB_Result['Volumetric_energy_component']))))))))
+
+            DS_IDB_Result['Volumetric_total'] = \
+                np.where((DS_IDB_Result.PDF_Name.str.contains('comp_tarifa_I_2013.pdf') &
+                DS_IDB_Result.Tariff_Name_in_document.str.contains('MTD')),
+                        (DS_IDB_Result['Volumetric_energy_component'] +
+                        DS_IDB_Result['Volumetric_energy_commercialization'] +
+                        DS_IDB_Result['Volumetric_distribution_component'] +
+                        DS_IDB_Result['Volumetric_transmission_component'] +
+                        DS_IDB_Result['Volumetric_losses_component'] +
+                        DS_IDB_Result['Street_lighting_component_variable']),
+                    np.where((DS_IDB_Result.PDF_Name.str.contains('comp_tarifa_II_2013.pdf') &
+                    DS_IDB_Result.Tariff_Name_in_document.str.contains('MTD')),
+                            (DS_IDB_Result['Volumetric_energy_component'] +
+                            DS_IDB_Result['Volumetric_energy_commercialization'] +
+                            DS_IDB_Result['Volumetric_distribution_component'] +
+                            DS_IDB_Result['Volumetric_transmission_component'] +
+                            DS_IDB_Result['Volumetric_losses_component'] +
+                            DS_IDB_Result['Street_lighting_component_variable']),
+                        np.where((DS_IDB_Result.PDF_Name.str.contains('comp_tarifa_I_2014.pdf') &
+                        DS_IDB_Result.Tariff_Name_in_document.str.contains('MTD')),
+                                (DS_IDB_Result['Volumetric_energy_component'] +
+                                DS_IDB_Result['Volumetric_energy_commercialization'] +
+                                DS_IDB_Result['Volumetric_distribution_component'] +
+                                DS_IDB_Result['Volumetric_transmission_component'] +
+                                DS_IDB_Result['Volumetric_losses_component'] +
+                                DS_IDB_Result['Street_lighting_component_variable']),
+                            np.where((DS_IDB_Result.PDF_Name.str.contains('comp_tarifa_II_2014.pdf') &
+                            DS_IDB_Result.Tariff_Name_in_document.str.contains('MTD')),
+                                    (DS_IDB_Result['Volumetric_energy_component'] +
+                                    DS_IDB_Result['Volumetric_energy_commercialization'] +
+                                    DS_IDB_Result['Volumetric_distribution_component'] +
+                                    DS_IDB_Result['Volumetric_transmission_component'] +
+                                    DS_IDB_Result['Volumetric_losses_component'] +
+                                    DS_IDB_Result['Street_lighting_component_variable']),
+                                np.where((DS_IDB_Result.PDF_Name.str.contains('comp_tarifa_I_2013.pdf') &
+                                DS_IDB_Result.Tariff_Name_in_document.str.contains('ATD')),
+                                        (DS_IDB_Result['Volumetric_energy_component'] +
+                                        DS_IDB_Result['Volumetric_energy_commercialization'] +
+                                        DS_IDB_Result['Volumetric_distribution_component'] +
+                                        DS_IDB_Result['Volumetric_transmission_component'] +
+                                        DS_IDB_Result['Volumetric_losses_component'] +
+                                        DS_IDB_Result['Street_lighting_component_variable']),
+                                    np.where((DS_IDB_Result.PDF_Name.str.contains('comp_tarifa_II_2013.pdf') &
+                                    DS_IDB_Result.Tariff_Name_in_document.str.contains('ATD')),
+                                            (DS_IDB_Result['Volumetric_energy_component'] +
+                                            DS_IDB_Result['Volumetric_energy_commercialization'] +
+                                            DS_IDB_Result['Volumetric_distribution_component'] +
+                                            DS_IDB_Result['Volumetric_transmission_component'] +
+                                            DS_IDB_Result['Volumetric_losses_component'] +
+                                            DS_IDB_Result['Street_lighting_component_variable']),
+                                        np.where((DS_IDB_Result.PDF_Name.str.contains('comp_tarifa_I_2014.pdf') &
+                                        DS_IDB_Result.Tariff_Name_in_document.str.contains('ATD')),
+                                                (DS_IDB_Result['Volumetric_energy_component'] +
+                                                DS_IDB_Result['Volumetric_energy_commercialization'] +
+                                                DS_IDB_Result['Volumetric_distribution_component'] +
+                                                DS_IDB_Result['Volumetric_transmission_component'] +
+                                                DS_IDB_Result['Volumetric_losses_component'] +
+                                                DS_IDB_Result['Street_lighting_component_variable']),
+                                            np.where((DS_IDB_Result.PDF_Name.str.contains('comp_tarifa_II_2014.pdf') &
+                                            DS_IDB_Result.Tariff_Name_in_document.str.contains('ATD')),
+                                                    (DS_IDB_Result['Volumetric_energy_component'] +
+                                                    DS_IDB_Result['Volumetric_energy_commercialization'] +
+                                                    DS_IDB_Result['Volumetric_distribution_component'] +
+                                                    DS_IDB_Result['Volumetric_transmission_component'] +
+                                                    DS_IDB_Result['Volumetric_losses_component'] +
+                                                    DS_IDB_Result['Street_lighting_component_variable']),
+                                                    DS_IDB_Result['Volumetric_total']))))))))
+
+
+            observ = 'Volumetric_total promediado por caso especial de ELEKTRA en MTD y ATD para 2013 y 2014 por desglose en horas de consumo'
+            DS_IDB_Result['Observation'] = \
+                np.where((DS_IDB_Result.PDF_Name.str.contains('comp_tarifa_I_2013.pdf') &
+                DS_IDB_Result.Tariff_Name_in_document.str.contains('MTD')), observ,
+                    np.where((DS_IDB_Result.PDF_Name.str.contains('comp_tarifa_II_2013.pdf') &
+                    DS_IDB_Result.Tariff_Name_in_document.str.contains('MTD')), observ,
+                        np.where((DS_IDB_Result.PDF_Name.str.contains('comp_tarifa_I_2014.pdf') &
+                        DS_IDB_Result.Tariff_Name_in_document.str.contains('MTD')), observ,
+                            np.where((DS_IDB_Result.PDF_Name.str.contains('comp_tarifa_II_2014.pdf') &
+                            DS_IDB_Result.Tariff_Name_in_document.str.contains('MTD')), observ,
+                                np.where((DS_IDB_Result.PDF_Name.str.contains('comp_tarifa_I_2013.pdf') &
+                                DS_IDB_Result.Tariff_Name_in_document.str.contains('ATD')), observ,
+                                    np.where((DS_IDB_Result.PDF_Name.str.contains('comp_tarifa_II_2013.pdf') &
+                                    DS_IDB_Result.Tariff_Name_in_document.str.contains('ATD')), observ,
+                                        np.where((DS_IDB_Result.PDF_Name.str.contains('comp_tarifa_I_2014.pdf') &
+                                        DS_IDB_Result.Tariff_Name_in_document.str.contains('ATD')), observ,
+                                            np.where((DS_IDB_Result.PDF_Name.str.contains('comp_tarifa_II_2014.pdf') &
+                                            DS_IDB_Result.Tariff_Name_in_document.str.contains('ATD')), observ, ''))))))))
 
             # #### Export to Excel Partial
             now = datetime.datetime.now()
